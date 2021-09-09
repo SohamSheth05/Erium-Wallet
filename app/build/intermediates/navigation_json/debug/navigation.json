@@ -1,0 +1,24 @@
+[
+  {
+    "name": "authentication_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "lock_screen_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "main_graph",
+    "navigationXmlIds": [
+      "privacy_settings_graph"
+    ],
+    "deepLinks": []
+  },
+  {
+    "name": "privacy_settings_graph",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  }
+]

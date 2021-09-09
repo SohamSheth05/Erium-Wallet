@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.horizontalsystems:tor-kit-android:2f1bdeb@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.horizontalsystems/tor-kit-android/2f1bdeb/c2aa692c24ce5655bcbda68a71fc42b7a5a65ea6/tor-kit-android-2f1bdeb-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

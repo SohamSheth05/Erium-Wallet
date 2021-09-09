@@ -1,0 +1,48 @@
+io/horizontalsystems/bankwallet/core/storage/RestoreSettingDao_Impl.java
+ io.horizontalsystems.bankwallet.core.storage.RestoreSettingDao_Impl
+ io.horizontalsystems.bankwallet.core.storage.RestoreSettingDao_Impl$1
+ io.horizontalsystems.bankwallet.core.storage.RestoreSettingDao_Impl$2
+io/horizontalsystems/bankwallet/core/storage/AppDatabase_Impl.java
+ io.horizontalsystems.bankwallet.core.storage.AppDatabase_Impl
+ io.horizontalsystems.bankwallet.core.storage.AppDatabase_Impl$1
+io/horizontalsystems/bankwallet/core/storage/WalletConnectSessionDao_Impl.java
+ io.horizontalsystems.bankwallet.core.storage.WalletConnectSessionDao_Impl
+ io.horizontalsystems.bankwallet.core.storage.WalletConnectSessionDao_Impl$1
+ io.horizontalsystems.bankwallet.core.storage.WalletConnectSessionDao_Impl$2
+io/horizontalsystems/bankwallet/core/storage/BlockchainSettingDao_Impl.java
+ io.horizontalsystems.bankwallet.core.storage.BlockchainSettingDao_Impl
+ io.horizontalsystems.bankwallet.core.storage.BlockchainSettingDao_Impl$1
+ io.horizontalsystems.bankwallet.core.storage.BlockchainSettingDao_Impl$2
+io/horizontalsystems/bankwallet/core/storage/EnabledWalletsDao_Impl.java
+ io.horizontalsystems.bankwallet.core.storage.EnabledWalletsDao_Impl
+ io.horizontalsystems.bankwallet.core.storage.EnabledWalletsDao_Impl$1
+ io.horizontalsystems.bankwallet.core.storage.EnabledWalletsDao_Impl$2
+ io.horizontalsystems.bankwallet.core.storage.EnabledWalletsDao_Impl$3
+io/horizontalsystems/bankwallet/core/storage/PriceAlertsDao_Impl.java
+ io.horizontalsystems.bankwallet.core.storage.PriceAlertsDao_Impl
+ io.horizontalsystems.bankwallet.core.storage.PriceAlertsDao_Impl$1
+ io.horizontalsystems.bankwallet.core.storage.PriceAlertsDao_Impl$2
+ io.horizontalsystems.bankwallet.core.storage.PriceAlertsDao_Impl$3
+io/horizontalsystems/bankwallet/core/storage/LogsDao_Impl.java
+ io.horizontalsystems.bankwallet.core.storage.LogsDao_Impl
+ io.horizontalsystems.bankwallet.core.storage.LogsDao_Impl$1
+io/horizontalsystems/bankwallet/BuildConfig.java
+ io.horizontalsystems.bankwallet.BuildConfig
+io/horizontalsystems/bankwallet/core/storage/AccountsDao_Impl.java
+ io.horizontalsystems.bankwallet.core.storage.AccountsDao_Impl
+ io.horizontalsystems.bankwallet.core.storage.AccountsDao_Impl$1
+ io.horizontalsystems.bankwallet.core.storage.AccountsDao_Impl$2
+ io.horizontalsystems.bankwallet.core.storage.AccountsDao_Impl$3
+ io.horizontalsystems.bankwallet.core.storage.AccountsDao_Impl$4
+ io.horizontalsystems.bankwallet.core.storage.AccountsDao_Impl$5
+ io.horizontalsystems.bankwallet.core.storage.AccountsDao_Impl$6
+ io.horizontalsystems.bankwallet.core.storage.AccountsDao_Impl$7
+ io.horizontalsystems.bankwallet.core.storage.AccountsDao_Impl$8
+io/horizontalsystems/bankwallet/core/storage/MarketFavoritesDao_Impl.java
+ io.horizontalsystems.bankwallet.core.storage.MarketFavoritesDao_Impl
+ io.horizontalsystems.bankwallet.core.storage.MarketFavoritesDao_Impl$1
+ io.horizontalsystems.bankwallet.core.storage.MarketFavoritesDao_Impl$2
+io/horizontalsystems/bankwallet/core/storage/SubscriptionJobDao_Impl.java
+ io.horizontalsystems.bankwallet.core.storage.SubscriptionJobDao_Impl
+ io.horizontalsystems.bankwallet.core.storage.SubscriptionJobDao_Impl$1
+ io.horizontalsystems.bankwallet.core.storage.SubscriptionJobDao_Impl$2
