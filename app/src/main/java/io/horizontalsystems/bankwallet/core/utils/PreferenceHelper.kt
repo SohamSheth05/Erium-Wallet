@@ -3,10 +3,11 @@ package io.horizontalsystems.bankwallet.core.utils
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.preference.PreferenceManager
+import com.google.gson.Gson
 import io.horizontalsystems.bankwallet.core.App
+import io.horizontalsystems.bankwallet.entities.response.UserData
 
 object PreferenceHelper {
-    val APP_PREF = "APP_PREF"
     val TOKEN_PREF = "TOKEN_PREF"
     fun defaultPrefs(context: Context): SharedPreferences =
         PreferenceManager.getDefaultSharedPreferences(context)
@@ -63,6 +64,17 @@ object PreferenceHelper {
         defaultPrefs(App.getInstance()).edit().clear().apply()
     }
 
+    fun setUserDetails(request: UserData) {
+        defaultPrefs(App.getInstance())["userDetails"] = Gson().toJson(request)
+    }
+
+    fun getUserDetails(): UserData? {
+        val jsonString: String = defaultPrefs(App.getInstance())["userDetails"] ?: ""
+        if (jsonString.isBlank()) {
+            return null
+        }
+        return Gson().fromJson(jsonString, UserData::class.java)
+    }
     /* fun setUserDetails(request: UserData) {
          defaultPrefs(App.getInstance())["userDetails"] = Gson().toJson(request)
      }
@@ -87,11 +99,11 @@ object PreferenceHelper {
           return customPrefs(App.getInstance(), APP_PREF)["isFirstTime"] ?: false
       }*/
 
-    fun setDeviceToken(token: String?) {
+    fun accessToken(token: String?) {
         customPrefs(App.getInstance(), TOKEN_PREF)["tokendetail"] = token
     }
 
-    fun getDeviceToken(): String? {
+    fun getAccessToken(): String? {
         return customPrefs(App.getInstance(), TOKEN_PREF)["tokendetail"]
     }
 }

@@ -1,6 +1,5 @@
 package io.horizontalsystems.bankwallet.core.retrofit
 
-import com.app.fitquid.retrofit.OnResponseListener
 import io.horizontalsystems.bankwallet.entities.request.RegisterRequest
 import io.reactivex.disposables.Disposable
 
@@ -18,6 +17,9 @@ class APITask : BaseAPITask() {
         return getRequest(apiCall.register(params), listener, 1)
     }
 
+    fun login(listener: OnResponseListener, params: HashMap<String, String>): Disposable? {
+        return getRequest(apiCall.login(params), listener, 1)
+    }
     /* fun forgotPassword(listener: OnResponseListener, params: LoginModel): Disposable? {
          return getRequest(apiCall.forgotPassword(params), listener, 1)
      }

@@ -932,7 +932,8 @@
     <string name="password" translatable="false">Password</string>
     <string name="confirm_password" translatable="false">Confirm password</string>
     <string name="hello" translatable="false">Hello!</string>
+    <string name="Button_Login" translatable="false">Login</string>
     <string name="create_new_account" translatable="false">Create a new account</string>
-
+    <string name="forgot_password" translatable="false">Forgot Password?</string>
 
 </resources>

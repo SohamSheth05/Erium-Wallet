@@ -1,6 +1,5 @@
 package io.horizontalsystems.bankwallet.core.retrofit
 
-import com.app.fitquid.retrofit.OnResponseListener
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.observers.DisposableObserver

@@ -1,4 +1,4 @@
-package com.app.fitquid.retrofit
+package io.horizontalsystems.bankwallet.core.retrofit
 
 
 interface OnResponseListener {

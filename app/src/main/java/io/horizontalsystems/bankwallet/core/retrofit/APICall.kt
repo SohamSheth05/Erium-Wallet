@@ -2,6 +2,8 @@ package io.horizontalsystems.bankwallet.core.retrofit
 
 import io.horizontalsystems.bankwallet.entities.request.RegisterRequest
 import io.horizontalsystems.bankwallet.entities.response.RegisterResponse
+import io.horizontalsystems.bankwallet.entities.response.ResponseData
+import io.horizontalsystems.bankwallet.entities.response.UserData
 import io.reactivex.Observable
 import retrofit2.Response
 import retrofit2.http.Body
@@ -15,6 +17,8 @@ interface APICall {
         @Body param: RegisterRequest,
     ): Observable<Response<RegisterResponse>>
 
+    @POST(API.LOGIN)
+    fun login(@Body param: HashMap<String, String>): Observable<Response<ResponseData<UserData>>>
     /*  @GET(API.CHALLENGE_DETAIL_MOBILE)
       fun getChallengeDetailById(
           @Query("id") id: Int,
