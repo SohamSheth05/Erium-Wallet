@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.horizontalsystems:xrates-kit-android:c065886@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b519880388d1a69256cc37ac90cbc21a/jetified-xrates-kit-android-c065886/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b519880388d1a69256cc37ac90cbc21a/jetified-xrates-kit-android-c065886/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b519880388d1a69256cc37ac90cbc21a/jetified-xrates-kit-android-c065886/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.horizontalsystems/xrates-kit-android/c065886/4d32209f78004e5399f89ef0d893b75964d0cd52/xrates-kit-android-c065886-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

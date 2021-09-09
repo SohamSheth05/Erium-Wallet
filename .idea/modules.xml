@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Erium-wallet-source_copy.iml" filepath="$PROJECT_DIR$/.idea/modules/Erium-wallet-source_copy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Erium-wallet-source_copy.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Erium-wallet-source_copy.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coinkit2/Erium-wallet-source_copy.coinkit2.iml" filepath="$PROJECT_DIR$/.idea/modules/coinkit2/Erium-wallet-source_copy.coinkit2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coinkitt/Erium-wallet-source_copy.coinkitt.iml" filepath="$PROJECT_DIR$/.idea/modules/coinkitt/Erium-wallet-source_copy.coinkitt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/Erium-wallet-source_copy.components.iml" filepath="$PROJECT_DIR$/.idea/modules/components/Erium-wallet-source_copy.components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/chartview/Erium-wallet-source_copy.components.chartview.iml" filepath="$PROJECT_DIR$/.idea/modules/components/chartview/Erium-wallet-source_copy.components.chartview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/icons/Erium-wallet-source_copy.components.icons.iml" filepath="$PROJECT_DIR$/.idea/modules/components/icons/Erium-wallet-source_copy.components.icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/keystore/Erium-wallet-source_copy.components.keystore.iml" filepath="$PROJECT_DIR$/.idea/modules/components/keystore/Erium-wallet-source_copy.components.keystore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/languageswitcher/Erium-wallet-source_copy.components.languageswitcher.iml" filepath="$PROJECT_DIR$/.idea/modules/components/languageswitcher/Erium-wallet-source_copy.components.languageswitcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/pin/Erium-wallet-source_copy.components.pin.iml" filepath="$PROJECT_DIR$/.idea/modules/components/pin/Erium-wallet-source_copy.components.pin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/seekbar/Erium-wallet-source_copy.components.seekbar.iml" filepath="$PROJECT_DIR$/.idea/modules/components/seekbar/Erium-wallet-source_copy.components.seekbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/snackbar/Erium-wallet-source_copy.components.snackbar.iml" filepath="$PROJECT_DIR$/.idea/modules/components/snackbar/Erium-wallet-source_copy.components.snackbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/views/Erium-wallet-source_copy.components.views.iml" filepath="$PROJECT_DIR$/.idea/modules/components/views/Erium-wallet-source_copy.components.views.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/Erium-wallet-source_copy.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/Erium-wallet-source_copy.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ui/Erium-wallet-source_copy.ui.iml" filepath="$PROJECT_DIR$/.idea/modules/ui/Erium-wallet-source_copy.ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xrateskit2/Erium-wallet-source_copy.xrateskit2.iml" filepath="$PROJECT_DIR$/.idea/modules/xrateskit2/Erium-wallet-source_copy.xrateskit2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xrateskitt/Erium-wallet-source_copy.xrateskitt.iml" filepath="$PROJECT_DIR$/.idea/modules/xrateskitt/Erium-wallet-source_copy.xrateskitt.iml" />
+    </modules>
+  </component>
+</project>

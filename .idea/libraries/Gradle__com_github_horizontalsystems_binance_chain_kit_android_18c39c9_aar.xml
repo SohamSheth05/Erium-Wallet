@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.horizontalsystems:binance-chain-kit-android:18c39c9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b6bed1693edfafadb70998e1614a640/jetified-binance-chain-kit-android-18c39c9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b6bed1693edfafadb70998e1614a640/jetified-binance-chain-kit-android-18c39c9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b6bed1693edfafadb70998e1614a640/jetified-binance-chain-kit-android-18c39c9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.horizontalsystems/binance-chain-kit-android/18c39c9/9bcec28d13fc919e0581b870d58f11a912403f2a/binance-chain-kit-android-18c39c9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

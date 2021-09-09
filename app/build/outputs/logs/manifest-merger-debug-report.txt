@@ -1,0 +1,1009 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:2:1-73:12
+MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:17:1-56:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/46bd3ad12a8df3472d9749fc7ef420a3/jetified-leakcanary-android-2.5/AndroidManifest.xml:17:1-28:12
+MERGED from [cash.z.ecc.android:zcash-android-sdk-mainnet:1.2.1-beta04] /Users/mehul/.gradle/caches/transforms-2/files-2.1/e6a7016cbe4904e7f4be26d381d192fb/jetified-zcash-android-sdk-mainnet-1.2.1-beta04/AndroidManifest.xml:2:1-14:12
+MERGED from [:xrateskit2] /Users/mehul/Downloads/Arwa/Erium-wallet-source/xrateskit2/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:coinkit2] /Users/mehul/Downloads/Arwa/Erium-wallet-source/coinkit2/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:components:languageswitcher] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/languageswitcher/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:components:keystore] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/keystore/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:components:pin] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/pin/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:core] /Users/mehul/Downloads/Arwa/Erium-wallet-source/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:components:snackbar] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/snackbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:components:chartview] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/chartview/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:components:seekbar] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/seekbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:components:views] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/views/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:components:icons] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/icons/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems:xrates-kit-android:c065886] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b519880388d1a69256cc37ac90cbc21a/jetified-xrates-kit-android-c065886/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems:coin-kit-android:935ca22f] /Users/mehul/.gradle/caches/transforms-2/files-2.1/006c535a15a0df4d76cefbc458670643/jetified-coin-kit-android-935ca22f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:tools:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/da8b8f8cce351ec219ba7e861fb326c9/jetified-tools-3d57571/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoinkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/82c01656291f35ae20e90ad0fe316e49/jetified-bitcoinkit-3d57571/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:litecoinkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/58a7c81cbd4a69718ecd2d227d1aa1ab/jetified-litecoinkit-3d57571/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:hodler:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3ba18ec1547b06859177b6a862b793a3/jetified-hodler-3d57571/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:uniswapkit:696b46a] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8fac2fe0d7e83ef73ab489465b46b10e/jetified-uniswapkit-696b46a/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4d496fdf02975dd966a7b81a3a6899a0/navigation-ui-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fd3078eaca655044f0fafa137d9452eb/navigation-ui-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [:ui] /Users/mehul/Downloads/Arwa/Erium-wallet-source/ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4fd79494f1059d767a47ec471258eb36/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d5137f1be8c07b33867726fbac39fec/biometric-1.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.horizontalsystems:blockchain-fee-rate-kit-android:047596b] /Users/mehul/.gradle/caches/transforms-2/files-2.1/068156ab0f618874c62255f1d8cd35b6/jetified-blockchain-fee-rate-kit-android-047596b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems:wallet-connect-kotlin:71984f2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a93640f81f6e35701601c764a8e4328c/jetified-wallet-connect-kotlin-71984f2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.preference:preference-ktx:1.1.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6be36168fc8b6cc87758484c9e4cb658/jetified-preference-ktx-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.1.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4f67831fbb831378d457259c7b015910/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0667fb349b8c7da4b8a93ce7f21b336c/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:erc20kit:696b46a] /Users/mehul/.gradle/caches/transforms-2/files-2.1/43d865aae2be45dc2bec9fa2292da0ed/jetified-erc20kit-696b46a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:ethereumkit:696b46a] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fac5f4709ba6875dfe76d209b617f8d5/jetified-ethereumkit-696b46a/AndroidManifest.xml:2:1-13:12
+MERGED from [com.tinder.scarlet:lifecycle-android:0.1.10] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1ad142193d6a4ae96116d5605a29844a/jetified-lifecycle-android-0.1.10/AndroidManifest.xml:3:1-14:12
+MERGED from [androidx.appcompat:appcompat:1.3.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3e4ecb575d75fe7154295e7d54ac03d4/appcompat-1.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6c947c1ee663776da9f2fac602ee0dca/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cc32d2d351a9476f04a207a403f8cc1f/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/00ba398b32dd60bb3399b74cd874b16b/jetified-fragment-ktx-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/7d8cb6c7bd6593b878e15fc04a74d819/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d14f6470b547ce5ae2701b2d767fb9b7/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/7bc4fac0ebd9b2e0533c34317322e86e/navigation-fragment-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8129cc5345354dfe971cf077d0c179e3/fragment-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fde2450acdfbc810159ea0769e9c712f/navigation-runtime-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/74fe6981ac1d445e2b2fdb1d562c2be6/jetified-activity-ktx-1.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3de1e59283ed5ad6f494d9baf7c631d2/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b832c406bc4dfc3b18233095c0a2e1be/navigation-runtime-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/30c5f4450f766eb37f2fcf2714b14d89/jetified-activity-1.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.horizontalsystems:binance-chain-kit-android:18c39c9] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3b6bed1693edfafadb70998e1614a640/jetified-binance-chain-kit-android-18c39c9/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincashkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8bbf1bfb1fc2a216c4581fea22f6d200/jetified-bitcoincashkit-3d57571/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:dashkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/69e797e71d8e1ba12ab4c44e2eaa1f6c/jetified-dashkit-3d57571/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincore:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/94d9e4da54465fd869452dff958cb3ae/jetified-bitcoincore-3d57571/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.room:room-rxjava2:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/903bc956fecf780e042c54fea83d0994/room-rxjava2-2.2.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b8b07746d5bea8f9acc6df344da97c13/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/5ed330fb2d858941c2957d823b228b45/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fd51b2107f1db317f317180764e092e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/e041dee3fc7fec0e0ebca50f62b8e1d5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6963f4f2deb30d33dc4d824b4ef42c0c/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/7801c90f8768ea4fe56309602b9bfb88/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/dab9d180a73cbfa54ee857a110e7d9cd/lifecycle-reactivestreams-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d7cf0c48f8d68e22ee990707fe64d7cf/work-runtime-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-rxjava2:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/81b93056a013a4eaafb117afd5cb4e4e/work-rxjava2-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:17:1-143:12
+MERGED from [androidx.paging:paging-runtime-ktx:2.1.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/5392625a0c8c34c10b88af8ad71f6666/jetified-paging-runtime-ktx-2.1.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.paging:paging-runtime:2.1.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/901eb583a58ed1f6aa7489818c10fdd0/paging-runtime-2.1.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/228e0558521e5eaae5e65bba9bf0099e/lifecycle-livedata-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f27b8edf8a20fba8e39f12d7c1d51d5f/browser-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a7f45bc1167b4d8844dce5dc3b5816bd/recyclerview-1.2.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0471a23ad832d12211ed2c3eaa65a288/jetified-appcompat-resources-1.3.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0f33c86bd29ef8294fb4d665f296fd73/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cd726bbf668fec222f35b93305537a1a/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0834b5ba5a2069827b66ec2381cce9a4/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6fbeb392f5263fd9571c6041381d2d25/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/5a5481f8b8e03d8adf18047a96ea54e2/navigation-common-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f9e0fd6a18c24550a127d5e495237466/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0c98e9828a7e26327831536335f7b51c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a7920aeec3b6972f65959c99e09d2d71/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b6a92021f44d1b4c76b26a00d518ec74/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/886fff83affd8705117f5efd4651f39c/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/c08bffb253dd602e89ff0791faea01fb/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/601efdb1377187c4522d02ce3587b461/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4d3cd0dc8b81bc0fb6c969bb05604f41/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/107981693e5b49db83664a624d5c41d5/navigation-common-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/426a26aa2d17d96af3652b472b184977/core-1.5.0-beta01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a2ab54d0fd3cae95762df2d535bcb68c/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5d7f0ffa6f33d4688eda96ea6e8bb09/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/e6573346792b61d3bb2286ebff0adfb2/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b2f5944930439c116d1861c3627d85b2/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:17:1-75:12
+MERGED from [androidx.room:room-ktx:2.2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/75cb274a7a8c8644397d78a1201a1dcb/jetified-room-ktx-2.2.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b55bbf19f128d4df52f0caf93c8a7a3f/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d325c501dcc7329ae209da51dcbf594e/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f764f34fef1f22b8b1d44f061e4cec73/jetified-leakcanary-object-watcher-android-androidx-2.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4524f1376dd268c716b0519a2745a198/jetified-leakcanary-object-watcher-android-support-fragments-2.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.room:room-runtime:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f413e85d06dae20b1b77061a7b723fd4/room-runtime-2.2.6/AndroidManifest.xml:17:1-31:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/9240a8d993ddb6dc2ce065dbb2e62410/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [io.grpc:grpc-android:1.34.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf0d852dd18f8e038d019844b0a635d/jetified-grpc-android-1.34.1/AndroidManifest.xml:2:1-13:12
+MERGED from [io.noties.markwon:core:4.6.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b7734dee86fa1d1ae0901097d490e655/jetified-core-4.6.2/AndroidManifest.xml:2:1-11:12
+MERGED from [me.relex:circleindicator:2.1.4] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6085b75165b424863845df84aa1d503a/jetified-circleindicator-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2885d5772086870c94195c63fa276615/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f90830786ef77f4950372456ffaeb581/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/658ad5e1bd90683ba67711911d9af5c0/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b1beb4ae56a4ac9c9c61d375a3734b28/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c6ed7427685c82245fefb4f484ad956/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3358575c28644f76e4b2d0f766cdc30a/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1c1a24d07529602a83969631f82df401/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/ba24285e95abedae158912b6f54ecbda/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d1105f9e301635c6ab86112188fc15e5/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2853cf8be6718e8802a424e16e62801d/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/beb36a322ae29d89bb540ad38a6ee5f4/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/844eb68dea5e0093fc45242a20c55579/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fd9241e234cbb7ceaae45db1a316aa8e/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/51b22036792fa400d99e6891881536f0/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/14a5eeb387199911b98187ed28662f66/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:2:1-73:12
+	package
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:4:5-46
+		INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:2:1-73:12
+		INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:2:1-73:12
+		INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:6:5-63:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:46:5-54:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/46bd3ad12a8df3472d9749fc7ef420a3/jetified-leakcanary-android-2.5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/46bd3ad12a8df3472d9749fc7ef420a3/jetified-leakcanary-android-2.5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4fd79494f1059d767a47ec471258eb36/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4fd79494f1059d767a47ec471258eb36/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:13:5-18:19
+MERGED from [com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:13:5-18:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0667fb349b8c7da4b8a93ce7f21b336c/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0667fb349b8c7da4b8a93ce7f21b336c/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6c947c1ee663776da9f2fac602ee0dca/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6c947c1ee663776da9f2fac602ee0dca/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/426a26aa2d17d96af3652b472b184977/core-1.5.0-beta01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/426a26aa2d17d96af3652b472b184977/core-1.5.0-beta01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b2f5944930439c116d1861c3627d85b2/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b2f5944930439c116d1861c3627d85b2/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:28:5-73:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:28:5-73:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:7:5-13:19
+MERGED from [androidx.room:room-runtime:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f413e85d06dae20b1b77061a7b723fd4/room-runtime-2.2.6/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f413e85d06dae20b1b77061a7b723fd4/room-runtime-2.2.6/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c6ed7427685c82245fefb4f484ad956/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c6ed7427685c82245fefb4f484ad956/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		ADDED from [com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:13:18-50
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/426a26aa2d17d96af3652b472b184977/core-1.5.0-beta01/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:10:9-41
+	tools:ignore
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:15:9-48
+	android:roundIcon
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:9:9-49
+	android:allowBackup
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:8:9-36
+	android:theme
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:14:9-55
+	android:networkSecurityConfig
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:11:9-69
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:7:9-33
+activity#io.horizontalsystems.bankwallet.modules.authentication.AuthenticationActivity
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:16:9-25:20
+	android:screenOrientation
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:18:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:19:13-73
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:17:13-74
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:23:27-74
+activity#io.horizontalsystems.bankwallet.modules.tor.TorConnectionActivity
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:26:9-28:47
+	android:launchMode
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:28:13-44
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:27:13-62
+activity#io.horizontalsystems.bankwallet.modules.launcher.LauncherActivity
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:29:9-32:61
+	android:screenOrientation
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:31:13-49
+	android:theme
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:32:13-49
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:30:13-62
+activity#io.horizontalsystems.bankwallet.modules.main.MainActivity
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:33:9-36:76
+	android:screenOrientation
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:35:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:36:13-73
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:34:13-54
+activity#io.horizontalsystems.bankwallet.modules.send.SendActivity
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:37:9-40:71
+	android:screenOrientation
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:39:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:40:13-68
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:38:13-54
+activity#io.horizontalsystems.bankwallet.modules.qrscanner.QRScannerActivity
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:41:9-43:52
+	android:screenOrientation
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:42:13-64
+activity#io.horizontalsystems.bankwallet.modules.lockscreen.LockScreenActivity
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:44:9-46:52
+	android:screenOrientation
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:46:13-49
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:45:13-66
+activity#io.horizontalsystems.bankwallet.modules.intro.IntroActivity
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:47:9-50:54
+	android:screenOrientation
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:49:13-49
+	android:theme
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:50:13-51
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:48:13-56
+activity#io.horizontalsystems.bankwallet.modules.keystore.KeyStoreActivity
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:51:9-53:52
+	android:screenOrientation
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:52:13-62
+activity#io.horizontalsystems.bankwallet.modules.rooteddevice.RootedDeviceActivity
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:54:9-56:52
+	android:screenOrientation
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:56:13-49
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:55:13-70
+receiver#io.horizontalsystems.bankwallet.core.receiver.BootCompletionReceiver
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:58:9-62:20
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:58:19-71
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:59:13-61:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:60:17-79
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:60:25-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:65:5-79
+MERGED from [cash.z.ecc.android:zcash-android-sdk-mainnet:1.2.1-beta04] /Users/mehul/.gradle/caches/transforms-2/files-2.1/e6a7016cbe4904e7f4be26d381d192fb/jetified-zcash-android-sdk-mainnet-1.2.1-beta04/AndroidManifest.xml:12:5-79
+MERGED from [cash.z.ecc.android:zcash-android-sdk-mainnet:1.2.1-beta04] /Users/mehul/.gradle/caches/transforms-2/files-2.1/e6a7016cbe4904e7f4be26d381d192fb/jetified-zcash-android-sdk-mainnet-1.2.1-beta04/AndroidManifest.xml:12:5-79
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoinkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/82c01656291f35ae20e90ad0fe316e49/jetified-bitcoinkit-3d57571/AndroidManifest.xml:11:5-79
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoinkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/82c01656291f35ae20e90ad0fe316e49/jetified-bitcoinkit-3d57571/AndroidManifest.xml:11:5-79
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:ethereumkit:696b46a] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fac5f4709ba6875dfe76d209b617f8d5/jetified-ethereumkit-696b46a/AndroidManifest.xml:11:5-79
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:ethereumkit:696b46a] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fac5f4709ba6875dfe76d209b617f8d5/jetified-ethereumkit-696b46a/AndroidManifest.xml:11:5-79
+MERGED from [com.tinder.scarlet:lifecycle-android:0.1.10] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1ad142193d6a4ae96116d5605a29844a/jetified-lifecycle-android-0.1.10/AndroidManifest.xml:12:5-79
+MERGED from [com.tinder.scarlet:lifecycle-android:0.1.10] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1ad142193d6a4ae96116d5605a29844a/jetified-lifecycle-android-0.1.10/AndroidManifest.xml:12:5-79
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincore:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/94d9e4da54465fd869452dff958cb3ae/jetified-bitcoincore-3d57571/AndroidManifest.xml:11:5-79
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincore:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/94d9e4da54465fd869452dff958cb3ae/jetified-bitcoincore-3d57571/AndroidManifest.xml:11:5-79
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:26:5-79
+MERGED from [io.grpc:grpc-android:1.34.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf0d852dd18f8e038d019844b0a635d/jetified-grpc-android-1.34.1/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.34.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf0d852dd18f8e038d019844b0a635d/jetified-grpc-android-1.34.1/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:65:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:66:5-66
+MERGED from [:core] /Users/mehul/Downloads/Arwa/Erium-wallet-source/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-66
+MERGED from [:core] /Users/mehul/Downloads/Arwa/Erium-wallet-source/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:66:22-63
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:67:5-72
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d5137f1be8c07b33867726fbac39fec/biometric-1.1.0/AndroidManifest.xml:24:5-72
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d5137f1be8c07b33867726fbac39fec/biometric-1.1.0/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:67:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:68:5-74
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d5137f1be8c07b33867726fbac39fec/biometric-1.1.0/AndroidManifest.xml:27:5-74
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d5137f1be8c07b33867726fbac39fec/biometric-1.1.0/AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:68:22-71
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:69:5-81
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:69:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:71:5-67
+MERGED from [cash.z.ecc.android:zcash-android-sdk-mainnet:1.2.1-beta04] /Users/mehul/.gradle/caches/transforms-2/files-2.1/e6a7016cbe4904e7f4be26d381d192fb/jetified-zcash-android-sdk-mainnet-1.2.1-beta04/AndroidManifest.xml:11:5-67
+MERGED from [cash.z.ecc.android:zcash-android-sdk-mainnet:1.2.1-beta04] /Users/mehul/.gradle/caches/transforms-2/files-2.1/e6a7016cbe4904e7f4be26d381d192fb/jetified-zcash-android-sdk-mainnet-1.2.1-beta04/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml:71:22-64
+uses-sdk
+INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/46bd3ad12a8df3472d9749fc7ef420a3/jetified-leakcanary-android-2.5/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/46bd3ad12a8df3472d9749fc7ef420a3/jetified-leakcanary-android-2.5/AndroidManifest.xml:20:5-44
+MERGED from [cash.z.ecc.android:zcash-android-sdk-mainnet:1.2.1-beta04] /Users/mehul/.gradle/caches/transforms-2/files-2.1/e6a7016cbe4904e7f4be26d381d192fb/jetified-zcash-android-sdk-mainnet-1.2.1-beta04/AndroidManifest.xml:7:5-9:41
+MERGED from [cash.z.ecc.android:zcash-android-sdk-mainnet:1.2.1-beta04] /Users/mehul/.gradle/caches/transforms-2/files-2.1/e6a7016cbe4904e7f4be26d381d192fb/jetified-zcash-android-sdk-mainnet-1.2.1-beta04/AndroidManifest.xml:7:5-9:41
+MERGED from [:xrateskit2] /Users/mehul/Downloads/Arwa/Erium-wallet-source/xrateskit2/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:xrateskit2] /Users/mehul/Downloads/Arwa/Erium-wallet-source/xrateskit2/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:coinkit2] /Users/mehul/Downloads/Arwa/Erium-wallet-source/coinkit2/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:coinkit2] /Users/mehul/Downloads/Arwa/Erium-wallet-source/coinkit2/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:languageswitcher] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/languageswitcher/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:languageswitcher] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/languageswitcher/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:keystore] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/keystore/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:keystore] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/keystore/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:pin] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/pin/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:pin] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/pin/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:core] /Users/mehul/Downloads/Arwa/Erium-wallet-source/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:core] /Users/mehul/Downloads/Arwa/Erium-wallet-source/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:snackbar] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/snackbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:snackbar] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/snackbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:chartview] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/chartview/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:chartview] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/chartview/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:seekbar] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/seekbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:seekbar] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/seekbar/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:views] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/views/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:views] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/views/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:icons] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/icons/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:components:icons] /Users/mehul/Downloads/Arwa/Erium-wallet-source/components/icons/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:xrates-kit-android:c065886] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b519880388d1a69256cc37ac90cbc21a/jetified-xrates-kit-android-c065886/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:xrates-kit-android:c065886] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b519880388d1a69256cc37ac90cbc21a/jetified-xrates-kit-android-c065886/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:coin-kit-android:935ca22f] /Users/mehul/.gradle/caches/transforms-2/files-2.1/006c535a15a0df4d76cefbc458670643/jetified-coin-kit-android-935ca22f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:coin-kit-android:935ca22f] /Users/mehul/.gradle/caches/transforms-2/files-2.1/006c535a15a0df4d76cefbc458670643/jetified-coin-kit-android-935ca22f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:tools:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/da8b8f8cce351ec219ba7e861fb326c9/jetified-tools-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:tools:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/da8b8f8cce351ec219ba7e861fb326c9/jetified-tools-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoinkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/82c01656291f35ae20e90ad0fe316e49/jetified-bitcoinkit-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoinkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/82c01656291f35ae20e90ad0fe316e49/jetified-bitcoinkit-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:litecoinkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/58a7c81cbd4a69718ecd2d227d1aa1ab/jetified-litecoinkit-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:litecoinkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/58a7c81cbd4a69718ecd2d227d1aa1ab/jetified-litecoinkit-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:hodler:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3ba18ec1547b06859177b6a862b793a3/jetified-hodler-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:hodler:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3ba18ec1547b06859177b6a862b793a3/jetified-hodler-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:uniswapkit:696b46a] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8fac2fe0d7e83ef73ab489465b46b10e/jetified-uniswapkit-696b46a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:uniswapkit:696b46a] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8fac2fe0d7e83ef73ab489465b46b10e/jetified-uniswapkit-696b46a/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4d496fdf02975dd966a7b81a3a6899a0/navigation-ui-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4d496fdf02975dd966a7b81a3a6899a0/navigation-ui-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fd3078eaca655044f0fafa137d9452eb/navigation-ui-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fd3078eaca655044f0fafa137d9452eb/navigation-ui-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [:ui] /Users/mehul/Downloads/Arwa/Erium-wallet-source/ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:ui] /Users/mehul/Downloads/Arwa/Erium-wallet-source/ui/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4fd79494f1059d767a47ec471258eb36/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4fd79494f1059d767a47ec471258eb36/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d5137f1be8c07b33867726fbac39fec/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d5137f1be8c07b33867726fbac39fec/biometric-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:blockchain-fee-rate-kit-android:047596b] /Users/mehul/.gradle/caches/transforms-2/files-2.1/068156ab0f618874c62255f1d8cd35b6/jetified-blockchain-fee-rate-kit-android-047596b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:blockchain-fee-rate-kit-android:047596b] /Users/mehul/.gradle/caches/transforms-2/files-2.1/068156ab0f618874c62255f1d8cd35b6/jetified-blockchain-fee-rate-kit-android-047596b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:wallet-connect-kotlin:71984f2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a93640f81f6e35701601c764a8e4328c/jetified-wallet-connect-kotlin-71984f2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:wallet-connect-kotlin:71984f2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a93640f81f6e35701601c764a8e4328c/jetified-wallet-connect-kotlin-71984f2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6be36168fc8b6cc87758484c9e4cb658/jetified-preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6be36168fc8b6cc87758484c9e4cb658/jetified-preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4f67831fbb831378d457259c7b015910/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4f67831fbb831378d457259c7b015910/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0667fb349b8c7da4b8a93ce7f21b336c/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0667fb349b8c7da4b8a93ce7f21b336c/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:erc20kit:696b46a] /Users/mehul/.gradle/caches/transforms-2/files-2.1/43d865aae2be45dc2bec9fa2292da0ed/jetified-erc20kit-696b46a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:erc20kit:696b46a] /Users/mehul/.gradle/caches/transforms-2/files-2.1/43d865aae2be45dc2bec9fa2292da0ed/jetified-erc20kit-696b46a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:ethereumkit:696b46a] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fac5f4709ba6875dfe76d209b617f8d5/jetified-ethereumkit-696b46a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.ethereum-kit-android:ethereumkit:696b46a] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fac5f4709ba6875dfe76d209b617f8d5/jetified-ethereumkit-696b46a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tinder.scarlet:lifecycle-android:0.1.10] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1ad142193d6a4ae96116d5605a29844a/jetified-lifecycle-android-0.1.10/AndroidManifest.xml:8:5-10:41
+MERGED from [com.tinder.scarlet:lifecycle-android:0.1.10] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1ad142193d6a4ae96116d5605a29844a/jetified-lifecycle-android-0.1.10/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.appcompat:appcompat:1.3.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3e4ecb575d75fe7154295e7d54ac03d4/appcompat-1.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3e4ecb575d75fe7154295e7d54ac03d4/appcompat-1.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6c947c1ee663776da9f2fac602ee0dca/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6c947c1ee663776da9f2fac602ee0dca/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cc32d2d351a9476f04a207a403f8cc1f/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cc32d2d351a9476f04a207a403f8cc1f/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/00ba398b32dd60bb3399b74cd874b16b/jetified-fragment-ktx-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/00ba398b32dd60bb3399b74cd874b16b/jetified-fragment-ktx-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/7d8cb6c7bd6593b878e15fc04a74d819/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/7d8cb6c7bd6593b878e15fc04a74d819/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d14f6470b547ce5ae2701b2d767fb9b7/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d14f6470b547ce5ae2701b2d767fb9b7/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/7bc4fac0ebd9b2e0533c34317322e86e/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/7bc4fac0ebd9b2e0533c34317322e86e/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8129cc5345354dfe971cf077d0c179e3/fragment-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8129cc5345354dfe971cf077d0c179e3/fragment-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fde2450acdfbc810159ea0769e9c712f/navigation-runtime-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fde2450acdfbc810159ea0769e9c712f/navigation-runtime-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/74fe6981ac1d445e2b2fdb1d562c2be6/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/74fe6981ac1d445e2b2fdb1d562c2be6/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3de1e59283ed5ad6f494d9baf7c631d2/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3de1e59283ed5ad6f494d9baf7c631d2/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b832c406bc4dfc3b18233095c0a2e1be/navigation-runtime-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b832c406bc4dfc3b18233095c0a2e1be/navigation-runtime-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/30c5f4450f766eb37f2fcf2714b14d89/jetified-activity-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/30c5f4450f766eb37f2fcf2714b14d89/jetified-activity-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.horizontalsystems:binance-chain-kit-android:18c39c9] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3b6bed1693edfafadb70998e1614a640/jetified-binance-chain-kit-android-18c39c9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems:binance-chain-kit-android:18c39c9] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3b6bed1693edfafadb70998e1614a640/jetified-binance-chain-kit-android-18c39c9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincashkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8bbf1bfb1fc2a216c4581fea22f6d200/jetified-bitcoincashkit-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincashkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8bbf1bfb1fc2a216c4581fea22f6d200/jetified-bitcoincashkit-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:dashkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/69e797e71d8e1ba12ab4c44e2eaa1f6c/jetified-dashkit-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:dashkit:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/69e797e71d8e1ba12ab4c44e2eaa1f6c/jetified-dashkit-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincore:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/94d9e4da54465fd869452dff958cb3ae/jetified-bitcoincore-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.horizontalsystems.bitcoin-kit-android:bitcoincore:3d57571] /Users/mehul/.gradle/caches/transforms-2/files-2.1/94d9e4da54465fd869452dff958cb3ae/jetified-bitcoincore-3d57571/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.room:room-rxjava2:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/903bc956fecf780e042c54fea83d0994/room-rxjava2-2.2.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava2:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/903bc956fecf780e042c54fea83d0994/room-rxjava2-2.2.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b8b07746d5bea8f9acc6df344da97c13/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b8b07746d5bea8f9acc6df344da97c13/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/5ed330fb2d858941c2957d823b228b45/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/5ed330fb2d858941c2957d823b228b45/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fd51b2107f1db317f317180764e092e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fd51b2107f1db317f317180764e092e/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/e041dee3fc7fec0e0ebca50f62b8e1d5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/e041dee3fc7fec0e0ebca50f62b8e1d5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6963f4f2deb30d33dc4d824b4ef42c0c/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6963f4f2deb30d33dc4d824b4ef42c0c/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/7801c90f8768ea4fe56309602b9bfb88/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/7801c90f8768ea4fe56309602b9bfb88/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/dab9d180a73cbfa54ee857a110e7d9cd/lifecycle-reactivestreams-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/dab9d180a73cbfa54ee857a110e7d9cd/lifecycle-reactivestreams-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d7cf0c48f8d68e22ee990707fe64d7cf/work-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d7cf0c48f8d68e22ee990707fe64d7cf/work-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-rxjava2:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/81b93056a013a4eaafb117afd5cb4e4e/work-rxjava2-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-rxjava2:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/81b93056a013a4eaafb117afd5cb4e4e/work-rxjava2-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.paging:paging-runtime-ktx:2.1.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/5392625a0c8c34c10b88af8ad71f6666/jetified-paging-runtime-ktx-2.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-runtime-ktx:2.1.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/5392625a0c8c34c10b88af8ad71f6666/jetified-paging-runtime-ktx-2.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-runtime:2.1.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/901eb583a58ed1f6aa7489818c10fdd0/paging-runtime-2.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-runtime:2.1.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/901eb583a58ed1f6aa7489818c10fdd0/paging-runtime-2.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/228e0558521e5eaae5e65bba9bf0099e/lifecycle-livedata-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/228e0558521e5eaae5e65bba9bf0099e/lifecycle-livedata-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f27b8edf8a20fba8e39f12d7c1d51d5f/browser-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f27b8edf8a20fba8e39f12d7c1d51d5f/browser-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a7f45bc1167b4d8844dce5dc3b5816bd/recyclerview-1.2.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a7f45bc1167b4d8844dce5dc3b5816bd/recyclerview-1.2.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0471a23ad832d12211ed2c3eaa65a288/jetified-appcompat-resources-1.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0471a23ad832d12211ed2c3eaa65a288/jetified-appcompat-resources-1.3.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0f33c86bd29ef8294fb4d665f296fd73/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0f33c86bd29ef8294fb4d665f296fd73/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cd726bbf668fec222f35b93305537a1a/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cd726bbf668fec222f35b93305537a1a/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0834b5ba5a2069827b66ec2381cce9a4/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0834b5ba5a2069827b66ec2381cce9a4/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6fbeb392f5263fd9571c6041381d2d25/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6fbeb392f5263fd9571c6041381d2d25/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/5a5481f8b8e03d8adf18047a96ea54e2/navigation-common-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/5a5481f8b8e03d8adf18047a96ea54e2/navigation-common-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f9e0fd6a18c24550a127d5e495237466/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f9e0fd6a18c24550a127d5e495237466/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0c98e9828a7e26327831536335f7b51c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0c98e9828a7e26327831536335f7b51c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a7920aeec3b6972f65959c99e09d2d71/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a7920aeec3b6972f65959c99e09d2d71/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b6a92021f44d1b4c76b26a00d518ec74/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b6a92021f44d1b4c76b26a00d518ec74/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/886fff83affd8705117f5efd4651f39c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/886fff83affd8705117f5efd4651f39c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/c08bffb253dd602e89ff0791faea01fb/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/c08bffb253dd602e89ff0791faea01fb/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/601efdb1377187c4522d02ce3587b461/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/601efdb1377187c4522d02ce3587b461/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4d3cd0dc8b81bc0fb6c969bb05604f41/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4d3cd0dc8b81bc0fb6c969bb05604f41/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/107981693e5b49db83664a624d5c41d5/navigation-common-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/mehul/.gradle/caches/transforms-2/files-2.1/107981693e5b49db83664a624d5c41d5/navigation-common-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/426a26aa2d17d96af3652b472b184977/core-1.5.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/426a26aa2d17d96af3652b472b184977/core-1.5.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a2ab54d0fd3cae95762df2d535bcb68c/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a2ab54d0fd3cae95762df2d535bcb68c/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5d7f0ffa6f33d4688eda96ea6e8bb09/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5d7f0ffa6f33d4688eda96ea6e8bb09/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/e6573346792b61d3bb2286ebff0adfb2/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/e6573346792b61d3bb2286ebff0adfb2/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b2f5944930439c116d1861c3627d85b2/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b2f5944930439c116d1861c3627d85b2/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/75cb274a7a8c8644397d78a1201a1dcb/jetified-room-ktx-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/75cb274a7a8c8644397d78a1201a1dcb/jetified-room-ktx-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b55bbf19f128d4df52f0caf93c8a7a3f/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b55bbf19f128d4df52f0caf93c8a7a3f/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d325c501dcc7329ae209da51dcbf594e/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d325c501dcc7329ae209da51dcbf594e/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f764f34fef1f22b8b1d44f061e4cec73/jetified-leakcanary-object-watcher-android-androidx-2.5/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f764f34fef1f22b8b1d44f061e4cec73/jetified-leakcanary-object-watcher-android-androidx-2.5/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4524f1376dd268c716b0519a2745a198/jetified-leakcanary-object-watcher-android-support-fragments-2.5/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/4524f1376dd268c716b0519a2745a198/jetified-leakcanary-object-watcher-android-support-fragments-2.5/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f413e85d06dae20b1b77061a7b723fd4/room-runtime-2.2.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f413e85d06dae20b1b77061a7b723fd4/room-runtime-2.2.6/AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/9240a8d993ddb6dc2ce065dbb2e62410/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/9240a8d993ddb6dc2ce065dbb2e62410/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.grpc:grpc-android:1.34.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf0d852dd18f8e038d019844b0a635d/jetified-grpc-android-1.34.1/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.34.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf0d852dd18f8e038d019844b0a635d/jetified-grpc-android-1.34.1/AndroidManifest.xml:7:5-9:41
+MERGED from [io.noties.markwon:core:4.6.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b7734dee86fa1d1ae0901097d490e655/jetified-core-4.6.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.noties.markwon:core:4.6.2] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b7734dee86fa1d1ae0901097d490e655/jetified-core-4.6.2/AndroidManifest.xml:7:5-9:41
+MERGED from [me.relex:circleindicator:2.1.4] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6085b75165b424863845df84aa1d503a/jetified-circleindicator-2.1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [me.relex:circleindicator:2.1.4] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6085b75165b424863845df84aa1d503a/jetified-circleindicator-2.1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2885d5772086870c94195c63fa276615/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2885d5772086870c94195c63fa276615/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f90830786ef77f4950372456ffaeb581/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f90830786ef77f4950372456ffaeb581/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/658ad5e1bd90683ba67711911d9af5c0/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/658ad5e1bd90683ba67711911d9af5c0/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b1beb4ae56a4ac9c9c61d375a3734b28/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b1beb4ae56a4ac9c9c61d375a3734b28/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c6ed7427685c82245fefb4f484ad956/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c6ed7427685c82245fefb4f484ad956/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3358575c28644f76e4b2d0f766cdc30a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3358575c28644f76e4b2d0f766cdc30a/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1c1a24d07529602a83969631f82df401/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1c1a24d07529602a83969631f82df401/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/ba24285e95abedae158912b6f54ecbda/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/ba24285e95abedae158912b6f54ecbda/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d1105f9e301635c6ab86112188fc15e5/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d1105f9e301635c6ab86112188fc15e5/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2853cf8be6718e8802a424e16e62801d/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2853cf8be6718e8802a424e16e62801d/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/beb36a322ae29d89bb540ad38a6ee5f4/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/beb36a322ae29d89bb540ad38a6ee5f4/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/844eb68dea5e0093fc45242a20c55579/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/844eb68dea5e0093fc45242a20c55579/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fd9241e234cbb7ceaae45db1a316aa8e/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/fd9241e234cbb7ceaae45db1a316aa8e/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/51b22036792fa400d99e6891881536f0/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/51b22036792fa400d99e6891881536f0/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/14a5eeb387199911b98187ed28662f66/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/14a5eeb387199911b98187ed28662f66/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mehul/Downloads/Arwa/Erium-wallet-source/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:48:13-74
+service#leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/46bd3ad12a8df3472d9749fc7ef420a3/jetified-leakcanary-android-2.5/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/46bd3ad12a8df3472d9749fc7ef420a3/jetified-leakcanary-android-2.5/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/46bd3ad12a8df3472d9749fc7ef420a3/jetified-leakcanary-android-2.5/AndroidManifest.xml:24:13-67
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:11:5-77
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+MERGED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:26:5-77
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:11:22-74
+service#io.horizontalsystems.tor.TorService
+ADDED from [com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:14:9-17:44
+	android:exported
+		ADDED from [com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:16:13-37
+	android:stopWithTask
+		ADDED from [com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:17:13-41
+	android:name
+		ADDED from [com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:15:13-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:25:22-65
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:33:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:36:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:32:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:44:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:51:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:64:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:70:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:81:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:92:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:103:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:113:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:125:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:136:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b2f5944930439c116d1861c3627d85b2/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b2f5944930439c116d1861c3627d85b2/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b2f5944930439c116d1861c3627d85b2/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b2f5944930439c116d1861c3627d85b2/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:24:22-78
+provider#leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:29:9-37:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:31:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:30:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:34:13-36:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:36:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:35:17-67
+activity#leakcanary.internal.activity.LeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:39:9-44:66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:42:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:41:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:44:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:43:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:40:13-69
+activity-alias#leakcanary.internal.activity.LeakLauncherActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:46:9-62:26
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:49:13-66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:51:13-71
+	android:targetActivity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:52:13-79
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:50:13-52
+	android:banner
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:48:13-59
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:54:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:53:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:47:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:55:13-61:29
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:60:17-86
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:60:27-83
+activity#leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:64:9-70:68
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:68:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:66:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:67:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:70:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:69:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:65:13-80
+receiver#leakcanary.internal.NotificationReceiver
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:72:9-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:72:19-74
+provider#leakcanary.internal.AppWatcherInstaller$MainProcess
+ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:9:13-79
+provider#leakcanary.internal.PlumberInstaller
+ADDED from [com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:10:13-69
+	android:exported
+		ADDED from [com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:9:13-64
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f413e85d06dae20b1b77061a7b723fd4/room-runtime-2.2.6/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f413e85d06dae20b1b77061a7b723fd4/room-runtime-2.2.6/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f413e85d06dae20b1b77061a7b723fd4/room-runtime-2.2.6/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f413e85d06dae20b1b77061a7b723fd4/room-runtime-2.2.6/AndroidManifest.xml:26:13-74

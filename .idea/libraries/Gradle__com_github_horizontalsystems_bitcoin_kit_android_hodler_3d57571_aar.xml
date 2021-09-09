@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.horizontalsystems.bitcoin-kit-android:hodler:3d57571@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ba18ec1547b06859177b6a862b793a3/jetified-hodler-3d57571/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ba18ec1547b06859177b6a862b793a3/jetified-hodler-3d57571/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ba18ec1547b06859177b6a862b793a3/jetified-hodler-3d57571/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.horizontalsystems.bitcoin-kit-android/hodler/3d57571/87846bf627204f1179fedf356c546bf11b6e6c55/hodler-3d57571-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

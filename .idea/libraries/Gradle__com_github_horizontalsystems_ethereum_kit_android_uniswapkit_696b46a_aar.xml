@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.horizontalsystems.ethereum-kit-android:uniswapkit:696b46a@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fac2fe0d7e83ef73ab489465b46b10e/jetified-uniswapkit-696b46a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fac2fe0d7e83ef73ab489465b46b10e/jetified-uniswapkit-696b46a/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fac2fe0d7e83ef73ab489465b46b10e/jetified-uniswapkit-696b46a/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.horizontalsystems.ethereum-kit-android/uniswapkit/696b46a/55c0485e4c4ccb969bb4fb835b5c0d991eafa8b5/uniswapkit-696b46a-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

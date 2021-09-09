@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Value from build type: debug -->
+    <string name="bscscanKey" translatable="false">5ZGSHWYHZVA8XZHB8PF6UUTRNNB4KT43ZZ</string>
+    <!-- Value from build type: debug -->
+    <string name="cryptoCompareApiKey" translatable="false">2b08fe1dba559ca6acf5e1897b6de8749cee0ace6052d7aa7fccf6aa9f1b3255</string>
+    <!-- Value from build type: debug -->
+    <string name="etherscanKey" translatable="false">GKNHXT22ED7PRVCKZATFZQD1YI7FK9AAYE</string>
+    <!-- Value from build type: debug -->
+    <string name="faqUrl" translatable="false">https://raw.githubusercontent.com/horizontalsystems/Unstoppable-Wallet-Website/master/src/faq_android.json</string>
+    <!-- Value from build type: debug -->
+    <string name="guidesUrl" translatable="false">https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/develop/index.json</string>
+    <!-- Value from build type: debug -->
+    <string name="infuraProjectId" translatable="false">2a1306f1d12f4c109a4d4fb9be46b02e</string>
+    <!-- Value from build type: debug -->
+    <string name="infuraSecretKey" translatable="false">fc479a9290b64a84a15fa6544a130218</string>
+    <!-- Value from build type: debug -->
+    <string name="is_release" translatable="false">false</string>
+    <!-- Value from build type: debug -->
+    <string name="uniswapGraphUrl" translatable="false">https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2</string>
+
+</resources>

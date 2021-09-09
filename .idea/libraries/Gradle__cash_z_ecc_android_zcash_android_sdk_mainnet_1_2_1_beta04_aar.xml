@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: cash.z.ecc.android:zcash-android-sdk-mainnet:1.2.1-beta04@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6a7016cbe4904e7f4be26d381d192fb/jetified-zcash-android-sdk-mainnet-1.2.1-beta04/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6a7016cbe4904e7f4be26d381d192fb/jetified-zcash-android-sdk-mainnet-1.2.1-beta04/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6a7016cbe4904e7f4be26d381d192fb/jetified-zcash-android-sdk-mainnet-1.2.1-beta04/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cash.z.ecc.android/zcash-android-sdk-mainnet/1.2.1-beta04/c7c1c410e5f0cf47470f06bca227a9a3557c7325/zcash-android-sdk-mainnet-1.2.1-beta04-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cash.z.ecc.android/zcash-android-sdk-mainnet/1.2.1-beta04/c6577d97fcde560966524aa8e77ce415ab2de3f7/zcash-android-sdk-mainnet-1.2.1-beta04-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
