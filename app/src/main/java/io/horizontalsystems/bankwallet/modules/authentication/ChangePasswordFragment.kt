@@ -2,7 +2,6 @@ package io.horizontalsystems.bankwallet.modules.authentication
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Patterns
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,37 +10,30 @@ import androidx.lifecycle.ViewModelProvider
 import io.horizontalsystems.bankwallet.R
 import io.horizontalsystems.bankwallet.core.App
 import io.horizontalsystems.bankwallet.core.BaseFragment
-import io.horizontalsystems.bankwallet.core.utils.PreferenceHelper
 import io.horizontalsystems.bankwallet.modules.launcher.LauncherActivity
 import io.horizontalsystems.bankwallet.modules.settings.theme.ThemeType
 import io.horizontalsystems.bankwallet.modules.swap.tradeoptions.Caution
-import io.horizontalsystems.core.findNavController
 import io.horizontalsystems.core.helpers.HudHelper
-import kotlinx.android.synthetic.main.fragment_login.*
-import kotlinx.android.synthetic.main.fragment_registration.registrationIcon
+import kotlinx.android.synthetic.main.fragment_create_new_password.*
 import kotlinx.android.synthetic.main.view_input.view.*
+import java.util.*
 
 /**
  * A simple [Fragment] subclass.
- * Use the [LoginFragment.newInstance] factory method to
+ * Use the [ChangePasswordFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class LoginFragment : BaseFragment() {
+class ChangePasswordFragment : BaseFragment() {
 
     companion object {
-        var registrationFragment: LoginFragment? = null
-
+        var registrationFragment: ChangePasswordFragment? = null
 
         @JvmStatic
-        fun newInstance(): LoginFragment {
+        fun newInstance(): ChangePasswordFragment {
             if (registrationFragment == null)
-                registrationFragment = LoginFragment()
-            return registrationFragment as LoginFragment
+                registrationFragment = ChangePasswordFragment()
+            return registrationFragment as ChangePasswordFragment
         }
-    }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
     }
 
     private val authenticationViewModel
@@ -52,7 +44,7 @@ class LoginFragment : BaseFragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_login, container, false)
+        return inflater.inflate(R.layout.fragment_create_new_password, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -61,37 +53,44 @@ class LoginFragment : BaseFragment() {
         if (App.localStorage.currentTheme == ThemeType.Dark) {
             registrationIcon.setBackgroundResource(R.drawable.dark_logo)
         }
-        email.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_email, 0, 0, 0)
+        confirmPassword.input.setCompoundDrawablesWithIntrinsicBounds(
+            R.drawable.ic_password,
+            0,
+            0,
+            0
+        )
         password.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_password, 0, 0, 0)
-
-        btnLogin.setOnClickListener {
+        oldPassword.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_password, 0, 0, 0)
+        btnSetPassword.setOnClickListener {
             when {
-                email.input.text.toString() == "" -> {
-                    email.setError(Caution("Please enter email", Caution.Type.Error))
-                }
-                !email.input.text.toString()
-                    .matches(Patterns.EMAIL_ADDRESS.pattern().toRegex()) -> {
-                    email.setError(Caution("Please enter valid email", Caution.Type.Error))
+                oldPassword.input.text.toString() == "" -> {
+                    oldPassword.setError(Caution("Please enter old password", Caution.Type.Error))
                 }
                 password.input.text.toString() == "" -> {
-                    password.setError(Caution("Please enter password", Caution.Type.Error))
+                    password.setError(Caution("Please enter new password", Caution.Type.Error))
+                }
+                confirmPassword.input.text.toString() == "" -> {
+                    confirmPassword.setError(
+                        Caution(
+                            "Please enter confirm password",
+                            Caution.Type.Error
+                        )
+                    )
+                }
+                confirmPassword.input.text.toString() != password.input.text.toString() -> {
+                    confirmPassword.setError(Caution("Password mismatch", Caution.Type.Error))
                 }
                 else -> {
-                    email.setError(null)
-                    password.setError(null)
-                    authenticationViewModel.callLoginApi(getParam())
+                    authenticationViewModel.callChangePassword(getParam())
                 }
             }
-
         }
-        tvForgotPassword.setOnClickListener {
-            findNavController().navigate(AuthViewPagerFragmentDirections.actionAuthViewPagerFragmentToForgotPasswordFragment())
-        }
-
-        authenticationViewModel.loginObserver.observe(viewLifecycleOwner, {
-            it?.let { it1 -> PreferenceHelper.setUserDetails(it1) }
-            startActivity(Intent(requireContext(), LauncherActivity::class.java))
+        authenticationViewModel.changePasswordObserver.observe(viewLifecycleOwner, {
+            if (it == 200) {
+                startActivity(Intent(requireContext(), LauncherActivity::class.java))
+            }
         })
+
         authenticationViewModel.apiErrorMessage.observe(viewLifecycleOwner, {
             HudHelper.showErrorMessage(this.requireView(), it.peekContent().toString())
         })
@@ -99,8 +98,8 @@ class LoginFragment : BaseFragment() {
 
     private fun getParam(): HashMap<String, String> {
         val hashMap = hashMapOf<String, String>()
-        hashMap["email"] = email.input.text.toString()
-        hashMap["password"] = password.input.text.toString()
+        hashMap["old_password"] = oldPassword.input.text.toString()
+        hashMap["new_password"] = password.input.text.toString()
         return hashMap
     }
 }

@@ -87,9 +87,9 @@ object PreferenceHelper {
          return Gson().fromJson(jsonString, UserData::class.java)
      }*/
 
-    /* fun isUserLogin(): Boolean {
+     fun isUserLogin(): Boolean {
          return getUserDetails() != null
-     }*/
+     }
 
     fun setSetupSecurityCounter(open: Int?) {
         customPrefs(App.getInstance(), APP_PREF)["setupSecurityCounter"] = open

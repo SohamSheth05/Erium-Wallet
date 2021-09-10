@@ -17,16 +17,24 @@ class AuthenticationViewModel(val context: Application) : BaseViewModel(context)
     var email = ObservableField("")
     var password = ObservableField("")
     val loginObserver = MutableLiveData<UserData?>()
-    fun callRegisterAPI() {
+    val registerObserver = MutableLiveData<RegisterResponse>()
+    val forgotPasswordObserver = MutableLiveData<Int>()
+    val changePasswordObserver = MutableLiveData<Int>()
+    fun callRegisterAPI(param: RegisterRequest) {
         showProgress.value = Event(true)
         //  val param = getLoginRequest()
 
-        val param = RegisterRequest("mehul@gmail.com", "Mehul", "Gajjar", "7575878798", "12345678")
 
         APITask.getInstance().register(object : OnResponseListener {
             override fun <T> onResponseReceived(response: T, requestCode: Int) {
                 showProgress.value = Event(false)
-                response as RegisterResponse
+
+                val registerResponse = response as RegisterResponse
+                if (registerResponse.success == 100) {
+                    apiErrorMessage.postValue(Event(registerResponse.message))
+                } else {
+                    registerObserver.postValue(registerResponse)
+                }
             }
 
             override fun onResponseError(
@@ -41,11 +49,17 @@ class AuthenticationViewModel(val context: Application) : BaseViewModel(context)
     }
 
     fun callLoginApi(param: HashMap<String, String>) {
+        showProgress.postValue(Event(true))
         APITask.getInstance().login(object : OnResponseListener {
             override fun <T> onResponseReceived(response: T, requestCode: Int) {
                 showProgress.value = Event(false)
                 val userData = response as ResponseData<*>
-                loginObserver.postValue(userData.data as UserData?)
+                if (userData.status == 100) {
+                    apiErrorMessage.postValue(Event(userData.message!!))
+                } else {
+                    loginObserver.postValue(userData.data as UserData?)
+                }
+
             }
 
             override fun onResponseError(message: String, requestCode: Int, responseCode: Int) {
@@ -56,4 +70,45 @@ class AuthenticationViewModel(val context: Application) : BaseViewModel(context)
         }, param)?.let { mDisposable?.add(it) }
     }
 
+    fun callForgotPassword(param: HashMap<String, String>) {
+        APITask.getInstance().forgotPassword(object : OnResponseListener {
+            override fun <T> onResponseReceived(response: T, requestCode: Int) {
+                showProgress.value = Event(false)
+                val userData = response as ResponseData<*>
+                if (userData.status == 100) {
+                    apiErrorMessage.postValue(Event(userData.message!!))
+                } else {
+                    forgotPasswordObserver.postValue(userData.status!!)
+                }
+
+            }
+
+            override fun onResponseError(message: String, requestCode: Int, responseCode: Int) {
+                showProgress.value = Event(false)
+                apiErrorMessage.value = Event(message)
+            }
+
+        }, param)?.let { mDisposable?.add(it) }
+    }
+
+    fun callChangePassword(param: HashMap<String, String>) {
+        APITask.getInstance().resetPassword(object : OnResponseListener {
+            override fun <T> onResponseReceived(response: T, requestCode: Int) {
+                showProgress.value = Event(false)
+                val userData = response as ResponseData<*>
+                if (userData.status == 100) {
+                    apiErrorMessage.postValue(Event(userData.message!!))
+                } else {
+                    changePasswordObserver.postValue(userData.status!!)
+                }
+
+            }
+
+            override fun onResponseError(message: String, requestCode: Int, responseCode: Int) {
+                showProgress.value = Event(false)
+                apiErrorMessage.value = Event(message)
+            }
+
+        }, param)?.let { mDisposable?.add(it) }
+    }
 }

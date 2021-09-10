@@ -46,27 +46,23 @@
                 android:visibility="gone" />
 
 
-            <androidx.appcompat.widget.AppCompatEditText
+            <io.horizontalsystems.bankwallet.ui.extensions.InputView
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
                 android:layout_marginTop="24dp"
-                android:background="@drawable/edittext_rounded_drawable"
                 android:hint="@string/email"
-                android:inputType="textEmailAddress"
-                android:padding="12dp" />
+                android:inputType="textEmailAddress" />
 
-            <androidx.appcompat.widget.AppCompatEditText
+            <io.horizontalsystems.bankwallet.ui.extensions.InputView
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
                 android:layout_marginTop="24dp"
-                android:background="@drawable/edittext_rounded_drawable"
                 android:hint="@string/password"
-                android:inputType="textPassword"
-                android:padding="12dp" />
+                android:inputType="textPassword" />
 
 
             <Button

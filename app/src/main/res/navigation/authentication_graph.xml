@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/authentication_graph"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/authViewPagerFragment">
 
     <fragment
         android:id="@+id/registrationFragment"
@@ -11,13 +11,21 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="io.horizontalsystems.bankwallet.modules.authentication.LoginFragment"
-        android:label="LoginFragment" />
+        android:label="LoginFragment"></fragment>
     <fragment
         android:id="@+id/createPasswordFragment"
-        android:name="io.horizontalsystems.bankwallet.modules.authentication.CreatePasswordFragment"
+        android:name="io.horizontalsystems.bankwallet.modules.authentication.ChangePasswordFragment"
         android:label="CreatePasswordFragment" />
     <fragment
         android:id="@+id/forgotPasswordFragment"
         android:name="io.horizontalsystems.bankwallet.modules.authentication.ForgotPasswordFragment"
         android:label="ForgotPasswordFragment" />
+    <fragment
+        android:id="@+id/authViewPagerFragment"
+        android:name="io.horizontalsystems.bankwallet.modules.authentication.AuthViewPagerFragment"
+        android:label="AuthViewPagerFragment">
+        <action
+            android:id="@+id/action_authViewPagerFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+    </fragment>
 </navigation>
