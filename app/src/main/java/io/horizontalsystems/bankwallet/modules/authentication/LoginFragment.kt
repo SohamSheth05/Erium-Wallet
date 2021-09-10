@@ -31,6 +31,7 @@ class LoginFragment : BaseFragment() {
     companion object {
         var registrationFragment: LoginFragment? = null
 
+
         @JvmStatic
         fun newInstance(): LoginFragment {
             if (registrationFragment == null)
