@@ -1,6 +1,7 @@
 package io.horizontalsystems.bankwallet.modules.authentication
 
 import android.os.Bundle
+import android.util.Log
 import android.util.Patterns
 import android.view.LayoutInflater
 import android.view.View
@@ -17,9 +18,10 @@ import io.horizontalsystems.core.helpers.HudHelper
 import kotlinx.android.synthetic.main.fragment_login.*
 import kotlinx.android.synthetic.main.fragment_registration.*
 import kotlinx.android.synthetic.main.fragment_registration.email
+import kotlinx.android.synthetic.main.fragment_registration.ivIcon
 import kotlinx.android.synthetic.main.fragment_registration.password
-import kotlinx.android.synthetic.main.fragment_registration.registrationIcon
 import kotlinx.android.synthetic.main.view_input.view.*
+import org.greenrobot.eventbus.EventBus
 
 /**
  * A simple [Fragment] subclass.
@@ -56,15 +58,24 @@ class RegistrationFragment : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        if (App.localStorage.currentTheme == ThemeType.Dark) {
+            ivIcon.setBackgroundResource(R.drawable.dark_logo)
+        }else{
+            ivIcon.setBackgroundResource(R.drawable.white_logo)
+        }
+
         email.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_email, 0, 0, 0)
         password.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_password, 0, 0, 0)
-        confirmPassword.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_password, 0, 0, 0)
+        confirmPassword.input.setCompoundDrawablesWithIntrinsicBounds(
+            R.drawable.ic_password,
+            0,
+            0,
+            0
+        )
         firstName.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_user_name, 0, 0, 0)
         lastName.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_user_name, 0, 0, 0)
         phone.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_phone, 0, 0, 0)
-        if (App.localStorage.currentTheme == ThemeType.Dark) {
-            registrationIcon.setBackgroundResource(R.drawable.dark_logo)
-        }
 
         btnCreate.setOnClickListener {
             //   startActivity(Intent(requireContext(), LauncherActivity::class.java))
@@ -72,14 +83,20 @@ class RegistrationFragment : BaseFragment() {
         }
 
         registerViewModel.apiErrorMessage.observe(viewLifecycleOwner, {
-            email.input.text.clear()
-            password.input.text.clear()
-            confirmPassword.input.text.clear()
-            firstName.input.text.clear()
-            lastName.input.text.clear()
-            phone.input.text.clear()
             it?.getContentIfNotHandled()?.let {
                 HudHelper.showErrorMessage(this.requireView(), it)
+            }
+        })
+
+        registerViewModel.successStringMessage.observe(viewLifecycleOwner, {
+            it?.getContentIfNotHandled()?.let {
+                email.input.text.clear()
+                password.input.text.clear()
+                confirmPassword.input.text.clear()
+                firstName.input.text.clear()
+                lastName.input.text.clear()
+                phone.input.text.clear()
+                HudHelper.showSuccessMessage(this.requireView(), it)
             }
         })
 

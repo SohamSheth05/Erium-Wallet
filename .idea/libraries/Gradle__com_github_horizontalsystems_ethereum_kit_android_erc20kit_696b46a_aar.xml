@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.horizontalsystems.ethereum-kit-android:erc20kit:696b46a@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43d865aae2be45dc2bec9fa2292da0ed/jetified-erc20kit-696b46a/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43d865aae2be45dc2bec9fa2292da0ed/jetified-erc20kit-696b46a/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43d865aae2be45dc2bec9fa2292da0ed/jetified-erc20kit-696b46a/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ac43035d4a8e4bf611eaacf3fb3641b/jetified-erc20kit-696b46a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ac43035d4a8e4bf611eaacf3fb3641b/jetified-erc20kit-696b46a/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ac43035d4a8e4bf611eaacf3fb3641b/jetified-erc20kit-696b46a/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

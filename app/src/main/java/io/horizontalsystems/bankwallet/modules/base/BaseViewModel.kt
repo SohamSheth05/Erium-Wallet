@@ -22,6 +22,7 @@ open class BaseViewModel(application: Application) : AndroidViewModel(applicatio
     var validationErrorMessage = MutableLiveData<Event<Int>>()
     var apiErrorMessage = MutableLiveData<Event<String>>()
     var successMessage = MutableLiveData<Event<Int>>()
+    var successStringMessage = MutableLiveData<Event<String>>()
     var showProgress = MutableLiveData<Event<Boolean>>()
 
     val premiumErrorType = MutableLiveData<Event<String>>()

@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.horizontalsystems.bitcoin-kit-android:dashkit:3d57571@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/69e797e71d8e1ba12ab4c44e2eaa1f6c/jetified-dashkit-3d57571/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/69e797e71d8e1ba12ab4c44e2eaa1f6c/jetified-dashkit-3d57571/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/69e797e71d8e1ba12ab4c44e2eaa1f6c/jetified-dashkit-3d57571/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b23d0a052aa910c8a890de07f71de72/jetified-dashkit-3d57571/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b23d0a052aa910c8a890de07f71de72/jetified-dashkit-3d57571/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b23d0a052aa910c8a890de07f71de72/jetified-dashkit-3d57571/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

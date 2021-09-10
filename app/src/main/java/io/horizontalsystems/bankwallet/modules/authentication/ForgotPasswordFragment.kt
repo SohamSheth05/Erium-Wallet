@@ -12,11 +12,13 @@ import io.horizontalsystems.bankwallet.core.App
 import io.horizontalsystems.bankwallet.core.BaseFragment
 import io.horizontalsystems.bankwallet.modules.settings.theme.ThemeType
 import io.horizontalsystems.bankwallet.modules.swap.tradeoptions.Caution
+import io.horizontalsystems.core.findNavController
 import io.horizontalsystems.core.helpers.HudHelper
 import kotlinx.android.synthetic.main.fragment_forgot_password.*
 import kotlinx.android.synthetic.main.fragment_forgot_password.email
 import kotlinx.android.synthetic.main.fragment_forgot_password.registrationIcon
 import kotlinx.android.synthetic.main.fragment_login.*
+import kotlinx.android.synthetic.main.raw_toolbar_with_back_arrow_and_text.*
 import kotlinx.android.synthetic.main.view_input.view.*
 
 /**
@@ -51,9 +53,25 @@ class ForgotPasswordFragment : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        txtScreenName.text = "Forgot password"
+        ivBackArrow.setOnClickListener {
+            findNavController().popBackStack()
+        }
+
         if (App.localStorage.currentTheme == ThemeType.Dark) {
             registrationIcon.setBackgroundResource(R.drawable.dark_logo)
+        }else{
+            registrationIcon.setBackgroundResource(R.drawable.white_logo)
         }
+
+        if (App.localStorage.currentTheme == ThemeType.Dark) {
+            registrationIcon.setBackgroundResource(R.drawable.dark_logo)
+            svBackground.setBackgroundColor(requireContext().getColor(R.color.white))
+        }else{
+            registrationIcon.setBackgroundResource(R.drawable.white_logo)
+            svBackground.setBackgroundColor(requireContext().getColor(R.color.dark))
+        }
+
         email.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_email, 0, 0, 0)
         btnSendLink.setOnClickListener {
             if (email.input.text.toString().isEmpty()) {

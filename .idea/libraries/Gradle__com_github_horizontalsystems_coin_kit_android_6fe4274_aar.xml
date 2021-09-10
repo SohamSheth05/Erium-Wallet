@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.horizontalsystems:coin-kit-android:6fe4274@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d4182b95f936207293326a65ee1f619/jetified-coin-kit-android-6fe4274/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d4182b95f936207293326a65ee1f619/jetified-coin-kit-android-6fe4274/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d4182b95f936207293326a65ee1f619/jetified-coin-kit-android-6fe4274/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1afad15a147f2abe02890d67fa9912ac/jetified-coin-kit-android-6fe4274/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1afad15a147f2abe02890d67fa9912ac/jetified-coin-kit-android-6fe4274/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1afad15a147f2abe02890d67fa9912ac/jetified-coin-kit-android-6fe4274/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

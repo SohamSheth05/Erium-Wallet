@@ -2,6 +2,7 @@ package io.horizontalsystems.bankwallet.modules.authentication
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.util.Patterns
 import android.view.LayoutInflater
 import android.view.View
@@ -18,7 +19,6 @@ import io.horizontalsystems.bankwallet.modules.swap.tradeoptions.Caution
 import io.horizontalsystems.core.findNavController
 import io.horizontalsystems.core.helpers.HudHelper
 import kotlinx.android.synthetic.main.fragment_login.*
-import kotlinx.android.synthetic.main.fragment_registration.registrationIcon
 import kotlinx.android.synthetic.main.view_input.view.*
 import kotlinx.coroutines.*
 
@@ -60,8 +60,13 @@ class LoginFragment : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         if (App.localStorage.currentTheme == ThemeType.Dark) {
-            registrationIcon.setBackgroundResource(R.drawable.dark_logo)
+            Log.e("MEHULLL : ", "dark")
+            ivIcon.setBackgroundResource(R.drawable.dark_logo)
+        }else{
+            Log.e("MEHULLL : ", "light")
+            ivIcon.setBackgroundResource(R.drawable.white_logo)
         }
+
         email.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_email, 0, 0, 0)
         password.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_password, 0, 0, 0)
 
@@ -91,7 +96,12 @@ class LoginFragment : BaseFragment() {
 
         authenticationViewModel.loginObserver.observe(viewLifecycleOwner, {
             it?.let { it1 -> PreferenceHelper.setUserDetails(it1) }
-            startActivity(Intent(requireContext(), LauncherActivity::class.java))
+            if(PreferenceHelper.getSetupSecurityCounter()>=3){
+                startActivity(Intent(requireActivity(), LauncherActivity::class.java))
+                requireActivity().finish()
+            }else {
+                findNavController().navigate(AuthViewPagerFragmentDirections.actionAuthViewPagerFragmentToSetupSecurityFragment())
+            }
         })
         authenticationViewModel.apiErrorMessage.observe(viewLifecycleOwner, {
             email.input.text.clear()

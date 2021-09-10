@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.horizontalsystems.ethereum-kit-android:ethereumkit:696b46a@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fac5f4709ba6875dfe76d209b617f8d5/jetified-ethereumkit-696b46a/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fac5f4709ba6875dfe76d209b617f8d5/jetified-ethereumkit-696b46a/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fac5f4709ba6875dfe76d209b617f8d5/jetified-ethereumkit-696b46a/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2d2951339dd9ebc6646c76d2a9c1dffc/jetified-ethereumkit-696b46a/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2d2951339dd9ebc6646c76d2a9c1dffc/jetified-ethereumkit-696b46a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2d2951339dd9ebc6646c76d2a9c1dffc/jetified-ethereumkit-696b46a/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

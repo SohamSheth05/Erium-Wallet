@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.horizontalsystems.bitcoin-kit-android:litecoinkit:3d57571@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58a7c81cbd4a69718ecd2d227d1aa1ab/jetified-litecoinkit-3d57571/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58a7c81cbd4a69718ecd2d227d1aa1ab/jetified-litecoinkit-3d57571/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58a7c81cbd4a69718ecd2d227d1aa1ab/jetified-litecoinkit-3d57571/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2ddb1140b25d701268231f78cdac7d2/jetified-litecoinkit-3d57571/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2ddb1140b25d701268231f78cdac7d2/jetified-litecoinkit-3d57571/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2ddb1140b25d701268231f78cdac7d2/jetified-litecoinkit-3d57571/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

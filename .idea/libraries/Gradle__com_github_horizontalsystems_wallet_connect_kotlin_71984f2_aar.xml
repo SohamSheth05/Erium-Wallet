@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.horizontalsystems:wallet-connect-kotlin:71984f2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a93640f81f6e35701601c764a8e4328c/jetified-wallet-connect-kotlin-71984f2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a93640f81f6e35701601c764a8e4328c/jetified-wallet-connect-kotlin-71984f2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a93640f81f6e35701601c764a8e4328c/jetified-wallet-connect-kotlin-71984f2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7300c065f37d5c5f50a20264735c636e/jetified-wallet-connect-kotlin-71984f2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7300c065f37d5c5f50a20264735c636e/jetified-wallet-connect-kotlin-71984f2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7300c065f37d5c5f50a20264735c636e/jetified-wallet-connect-kotlin-71984f2/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

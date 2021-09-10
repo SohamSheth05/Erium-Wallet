@@ -11,6 +11,7 @@ import io.horizontalsystems.bankwallet.entities.response.RegisterResponse
 import io.horizontalsystems.bankwallet.entities.response.ResponseData
 import io.horizontalsystems.bankwallet.entities.response.UserData
 import io.horizontalsystems.bankwallet.modules.base.BaseViewModel
+import org.greenrobot.eventbus.EventBus
 
 class AuthenticationViewModel(val context: Application) : BaseViewModel(context) {
     val loginObserver = MutableLiveData<UserData?>()
@@ -30,7 +31,7 @@ class AuthenticationViewModel(val context: Application) : BaseViewModel(context)
                 if (registerResponse.success == 100) {
                     apiErrorMessage.postValue(Event(registerResponse.message))
                 } else {
-                    registerObserver.postValue(registerResponse)
+                    successStringMessage.postValue(Event("Verification email sent."))
                 }
             }
 

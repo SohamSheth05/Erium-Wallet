@@ -60,14 +60,13 @@ class SetupSecurityFragment : BaseFragment() {
             btnNotNow.background = resources.getDrawable(R.drawable.white_round_corner_button)
         }
 
-        val counter = PreferenceHelper.getSetupSecurityCounter() + 1
-        PreferenceHelper.setSetupSecurityCounter(counter)
-
         btnSetup.setOnClickListener {
 
         }
 
         btnNotNow.setOnClickListener {
+            val counter = PreferenceHelper.getSetupSecurityCounter() + 1
+            PreferenceHelper.setSetupSecurityCounter(counter)
             startActivity(Intent(requireActivity(), LauncherActivity::class.java))
             requireActivity().finish()
         }

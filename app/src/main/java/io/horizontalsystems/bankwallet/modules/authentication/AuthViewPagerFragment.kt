@@ -1,6 +1,7 @@
 package io.horizontalsystems.bankwallet.modules.authentication
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,6 +13,8 @@ import io.horizontalsystems.bankwallet.core.App
 import io.horizontalsystems.bankwallet.core.BaseFragment
 import io.horizontalsystems.bankwallet.modules.settings.theme.ThemeType
 import kotlinx.android.synthetic.main.fragment_auth_viewpager_layout.*
+import org.greenrobot.eventbus.EventBus
+import org.greenrobot.eventbus.Subscribe
 
 /**
  * A simple [Fragment] subclass.
@@ -36,7 +39,7 @@ class AuthViewPagerFragment : BaseFragment() {
     }
 
     private val authenticationViewModel
-            by lazy { ViewModelProvider(requireActivity()).get(AuthenticationViewModel::class.java) }
+            by lazy { ViewModelProvider(this).get(AuthenticationViewModel::class.java) }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -66,13 +69,14 @@ class AuthViewPagerFragment : BaseFragment() {
             }
 
             override fun onPageSelected(position: Int) {
-                if (position == 1) {
+                /*if (position == 1) {
                     authenticationViewModel.registerObserver.observe(viewLifecycleOwner, {
                         if (it.success == 200) {
                             viewPager.currentItem = 0
                         }
+                        Log.e("MEHUL-------------------------","-------------------------")
                     })
-                }
+                }*/
             }
 
             override fun onPageScrollStateChanged(state: Int) {
@@ -80,6 +84,25 @@ class AuthViewPagerFragment : BaseFragment() {
             }
         })
     }
+
+ /*   override fun onStart() {
+        super.onStart()
+        EventBus.getDefault().register(this)
+    }
+
+    override fun onStop() {
+        super.onStop()
+        EventBus.getDefault().unregister(this)
+    }
+
+    //The Method which will call every time when data sync to server
+    @Subscribe
+    fun onEvent(syncStatusMessage: Int) {
+        //you can do whatever you want releted with UI
+        if (syncStatusMessage == 200) {
+            viewPager.currentItem = 0
+        }
+    }*/
 
     private val loginFragment = LoginFragment()
     private val registrationFragment = RegistrationFragment()

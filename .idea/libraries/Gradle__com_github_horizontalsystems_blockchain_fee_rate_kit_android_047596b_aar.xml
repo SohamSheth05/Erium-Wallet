@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.horizontalsystems:blockchain-fee-rate-kit-android:047596b@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/068156ab0f618874c62255f1d8cd35b6/jetified-blockchain-fee-rate-kit-android-047596b/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/068156ab0f618874c62255f1d8cd35b6/jetified-blockchain-fee-rate-kit-android-047596b/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/068156ab0f618874c62255f1d8cd35b6/jetified-blockchain-fee-rate-kit-android-047596b/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b39f02bec88c5a9893328fc492f2dbe3/jetified-blockchain-fee-rate-kit-android-047596b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b39f02bec88c5a9893328fc492f2dbe3/jetified-blockchain-fee-rate-kit-android-047596b/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b39f02bec88c5a9893328fc492f2dbe3/jetified-blockchain-fee-rate-kit-android-047596b/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

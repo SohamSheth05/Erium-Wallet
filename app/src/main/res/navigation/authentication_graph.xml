@@ -11,7 +11,7 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="io.horizontalsystems.bankwallet.modules.authentication.LoginFragment"
-        android:label="LoginFragment"></fragment>
+        android:label="LoginFragment"/>
     <fragment
         android:id="@+id/createPasswordFragment"
         android:name="io.horizontalsystems.bankwallet.modules.authentication.ChangePasswordFragment"
@@ -27,5 +27,12 @@
         <action
             android:id="@+id/action_authViewPagerFragment_to_forgotPasswordFragment"
             app:destination="@id/forgotPasswordFragment" />
+        <action
+            android:id="@+id/action_authViewPagerFragment_to_setupSecurityFragment"
+            app:destination="@id/setupSecurityFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/setupSecurityFragment"
+        android:name="io.horizontalsystems.bankwallet.modules.authentication.SetupSecurityFragment"
+        android:label="SetupSecurityFragment" />
 </navigation>

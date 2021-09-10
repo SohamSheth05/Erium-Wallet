@@ -8,12 +8,14 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import io.horizontalsystems.bankwallet.core.App
 import io.horizontalsystems.bankwallet.core.utils.PreferenceHelper
+import io.horizontalsystems.bankwallet.modules.authentication.AuthViewPagerFragmentDirections
 import io.horizontalsystems.bankwallet.modules.authentication.AuthenticationActivity
 import io.horizontalsystems.bankwallet.modules.intro.IntroActivity
 import io.horizontalsystems.bankwallet.modules.keystore.KeyStoreActivity
 import io.horizontalsystems.bankwallet.modules.lockscreen.LockScreenActivity
 import io.horizontalsystems.bankwallet.modules.main.MainModule
 import io.horizontalsystems.bankwallet.modules.tor.TorConnectionActivity
+import io.horizontalsystems.core.findNavController
 import io.horizontalsystems.pin.PinModule
 
 class LauncherActivity : AppCompatActivity() {

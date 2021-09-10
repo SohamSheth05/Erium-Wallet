@@ -1,13 +1,19 @@
 package io.horizontalsystems.bankwallet.modules.intro
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import io.horizontalsystems.bankwallet.R
+import io.horizontalsystems.bankwallet.core.App
+import io.horizontalsystems.bankwallet.modules.settings.theme.ThemeType
+import kotlinx.android.synthetic.main.fragment_login.*
 import kotlinx.android.synthetic.main.fragment_slide_intro.*
+import kotlinx.android.synthetic.main.fragment_slide_intro.description
+import kotlinx.android.synthetic.main.fragment_slide_intro.title
 
 class IntroSlideFragment : Fragment() {
 
@@ -29,6 +35,13 @@ class IntroSlideFragment : Fragment() {
         if (titleResId != 0) {
             title.text = getString(titleResId)
         }
+
+        if (App.localStorage.currentTheme == ThemeType.Dark) {
+            title.setTextColor(requireContext().getColor(R.color.white))
+        }else{
+            title.setTextColor(requireContext().getColor(R.color.dark))
+        }
+
         description.text = getString(descriptionResId)
     }
 
