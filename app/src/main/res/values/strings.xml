@@ -936,4 +936,8 @@
     <string name="create_new_account" translatable="false">Create a new account</string>
     <string name="forgot_password" translatable="false">Forgot Password?</string>
 
+    <string name="setup_security" translatable="false">You can set either Passcode or Fingerprint in order to secure your wallet.</string>
+    <string name="button_setup" translatable="false">Setup</string>
+    <string name="button_not_now" translatable="false">Not now</string>
+
 </resources>

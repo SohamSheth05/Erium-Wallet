@@ -57,11 +57,6 @@
             android:name="io.horizontalsystems.bankwallet.modules.authentication.AuthenticationActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="io.horizontalsystems.bankwallet.modules.tor.TorConnectionActivity"
@@ -69,7 +64,13 @@
         <activity
             android:name="io.horizontalsystems.bankwallet.modules.launcher.LauncherActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/LauncherTheme" />
+            android:theme="@style/LauncherTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="io.horizontalsystems.bankwallet.modules.main.MainActivity"
             android:screenOrientation="portrait"

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mehul/Downloads/Arwa/Erium-wallet-source/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-he/values-he.xml",
+            "outputFile": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-he/values-he.xml",
             "map": [
                 {
                     "source": "/Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/res/values-he/values-he.xml",

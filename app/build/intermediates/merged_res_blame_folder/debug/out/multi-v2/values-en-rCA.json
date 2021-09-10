@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mehul/Downloads/Arwa/Erium-wallet-source/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "/Users/mehul/.gradle/caches/transforms-2/files-2.1/3d5137f1be8c07b33867726fbac39fec/biometric-1.1.0/res/values-en-rCA/values-en-rCA.xml",

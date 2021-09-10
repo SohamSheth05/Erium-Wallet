@@ -526,7 +526,9 @@
     {
       "code": "1INCH",
       "name": "1inch",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -562,7 +564,9 @@
     {
       "code": "AAVE",
       "name": "Aave",
-      "categories": ["lending"],
+      "categories": [
+        "lending"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -630,7 +634,9 @@
     {
       "code": "AKRO",
       "name": "Akropolis",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -649,12 +655,16 @@
       },
       "rating": "",
       "id": "erc20|0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7",
-      "funds": ["kenetic"]
+      "funds": [
+        "kenetic"
+      ]
     },
     {
       "code": "ALBT",
       "name": "AllianceBlock",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -672,12 +682,16 @@
       },
       "rating": "",
       "id": "erc20|0x00a8b738e453ffd858a7edf03bccfe20412f0eb0",
-      "funds": ["woodstock"]
+      "funds": [
+        "woodstock"
+      ]
     },
     {
       "code": "ALPHA",
       "name": "Alpha Finance",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -702,12 +716,17 @@
         }
       ],
       "id": "erc20|0xa1faa113cbe53436df28ff0aee54275c13b40975",
-      "funds": ["multicoin_capital", "divergence_ventures"]
+      "funds": [
+        "multicoin_capital",
+        "divergence_ventures"
+      ]
     },
     {
       "code": "AMPL",
       "name": "Ampleforth",
-      "categories": ["rebase_tokens"],
+      "categories": [
+        "rebase_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -726,12 +745,19 @@
       },
       "rating": "",
       "id": "erc20|0xd46ba6d942050d489dbd938a2c909a5d5039a161",
-      "funds": ["fbg_capital", "arrington_xrp_capital", "parafi_capital", "pantera_capital"]
+      "funds": [
+        "fbg_capital",
+        "arrington_xrp_capital",
+        "parafi_capital",
+        "pantera_capital"
+      ]
     },
     {
       "code": "ANKR",
       "name": "Ankr",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -749,12 +775,17 @@
         "telegram": "https://t.me/ankrnetwork"
       },
       "id": "erc20|0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
-      "funds": ["lemniscap", "ngc_ventures"]
+      "funds": [
+        "lemniscap",
+        "ngc_ventures"
+      ]
     },
     {
       "code": "API3",
       "name": "API3",
-      "categories": ["oracles"],
+      "categories": [
+        "oracles"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -773,12 +804,20 @@
       },
       "rating": "",
       "id": "erc20|0x0b38210ea11411557c13457d4da7dc6ea731b88a",
-      "funds": ["placeholder", "digital_currency_group", "pantera_capital", "coinfund", "hashed"]
+      "funds": [
+        "placeholder",
+        "digital_currency_group",
+        "pantera_capital",
+        "coinfund",
+        "hashed"
+      ]
     },
     {
       "code": "APY",
       "name": "APY.Finance",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -796,7 +835,9 @@
       },
       "rating": "",
       "id": "erc20|0x95a4492f028aa1fd432ea71146b433e7b4446611",
-      "funds": ["alameda_research_"]
+      "funds": [
+        "alameda_research_"
+      ]
     },
     {
       "code": "AUC",
@@ -831,7 +872,10 @@
     {
       "code": "BAC",
       "name": "Basis Cash",
-      "categories": ["stablecoin_issuers", "algo_stablecoins"],
+      "categories": [
+        "stablecoin_issuers",
+        "algo_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -853,7 +897,9 @@
     {
       "code": "BADGER",
       "name": "Badger DAO",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -878,12 +924,17 @@
         }
       ],
       "id": "erc20|0x3472a5a71965499acd81997a54bba8d852c6e53d",
-      "funds": ["polychain_capital", "parafi_capital"]
+      "funds": [
+        "polychain_capital",
+        "parafi_capital"
+      ]
     },
     {
       "code": "BAL",
       "name": "Balancer",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -928,7 +979,9 @@
     {
       "code": "BAND",
       "name": "Band Protocol",
-      "categories": ["oracles"],
+      "categories": [
+        "oracles"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -947,7 +1000,10 @@
       },
       "rating": "",
       "id": "erc20|0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
-      "funds": ["woodstock", "sequoia_capital"]
+      "funds": [
+        "woodstock",
+        "sequoia_capital"
+      ]
     },
     {
       "code": "BASE",
@@ -998,7 +1054,9 @@
     {
       "code": "BNT",
       "name": "Bancor",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1043,12 +1101,17 @@
         }
       ],
       "id": "erc20|0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
-      "funds": ["kr1", "draper_associates"]
+      "funds": [
+        "kr1",
+        "draper_associates"
+      ]
     },
     {
       "code": "BOND",
       "name": "BarnBridge",
-      "categories": ["risk_management"],
+      "categories": [
+        "risk_management"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1067,12 +1130,16 @@
       },
       "rating": "",
       "id": "erc20|0x0391d2021f89dc339f60fff84546ea23e337750f",
-      "funds": ["parafi_capital"]
+      "funds": [
+        "parafi_capital"
+      ]
     },
     {
       "code": "BONDLY",
       "name": "Bondly",
-      "categories": ["nft"],
+      "categories": [
+        "nft"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1096,7 +1163,9 @@
     {
       "code": "BUSD",
       "name": "Binance USD",
-      "categories": ["fiat_stablecoins"],
+      "categories": [
+        "fiat_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1120,7 +1189,9 @@
     {
       "code": "BZRX",
       "name": "bZx Protocol",
-      "categories": ["lending"],
+      "categories": [
+        "lending"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1160,12 +1231,16 @@
         }
       ],
       "id": "erc20|0x56d811088235f11c8920698a204a5010a788f4b3",
-      "funds": ["hashed"]
+      "funds": [
+        "hashed"
+      ]
     },
     {
       "code": "CC10",
       "name": "Cryptocurrency Top 10 Tokens Index",
-      "categories": ["index_funds"],
+      "categories": [
+        "index_funds"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1188,7 +1263,10 @@
     {
       "code": "CEL",
       "name": "Celsius Network",
-      "categories": ["lending", "wallets"],
+      "categories": [
+        "lending",
+        "wallets"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1206,12 +1284,16 @@
       },
       "rating": "",
       "id": "erc20|0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
-      "funds": ["gumi_cryptos"]
+      "funds": [
+        "gumi_cryptos"
+      ]
     },
     {
       "code": "CELR",
       "name": "Celer Network",
-      "categories": ["scaling"],
+      "categories": [
+        "scaling"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1230,12 +1312,19 @@
       },
       "rating": "",
       "id": "erc20|0x4f9254c83eb525f9fcf346490bbb3ed28a81c667",
-      "funds": ["arrington_xrp_capital", "pantera_capital", "iosg_ventures", "ngc_ventures"]
+      "funds": [
+        "arrington_xrp_capital",
+        "pantera_capital",
+        "iosg_ventures",
+        "ngc_ventures"
+      ]
     },
     {
       "code": "CHAIN",
       "name": "Chain Games",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1259,7 +1348,9 @@
     {
       "code": "CHSB",
       "name": "SwissBorg",
-      "categories": ["wallets"],
+      "categories": [
+        "wallets"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1283,7 +1374,9 @@
     {
       "code": "CHZ",
       "name": "Chiliz",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1301,7 +1394,9 @@
       },
       "rating": "",
       "id": "erc20|0x3506424f91fd33084466f402d5d97f05f8e3b4af",
-      "funds": ["binance_labs"]
+      "funds": [
+        "binance_labs"
+      ]
     },
     {
       "code": "COIN",
@@ -1330,7 +1425,9 @@
     {
       "code": "COMP",
       "name": "Compound",
-      "categories": ["lending"],
+      "categories": [
+        "lending"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1383,7 +1480,9 @@
     {
       "code": "COVER",
       "name": "Cover Protocol",
-      "categories": ["risk_management"],
+      "categories": [
+        "risk_management"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1407,7 +1506,9 @@
     {
       "code": "CREAM",
       "name": "Cream",
-      "categories": ["lending"],
+      "categories": [
+        "lending"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1430,7 +1531,10 @@
     {
       "code": "CRO",
       "name": "Crypto.com Coin",
-      "categories": ["wallets", "exchange_tokens"],
+      "categories": [
+        "wallets",
+        "exchange_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1476,7 +1580,9 @@
     {
       "code": "CRV",
       "name": "Curve DAO Token",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1506,7 +1612,9 @@
     {
       "code": "CVC",
       "name": "Civic",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1524,12 +1632,19 @@
       },
       "rating": "",
       "id": "erc20|0x41e5560054824ea6b0732e656e3ad64e20e94e45",
-      "funds": ["blockchain_capital", "digital_currency_group", "pantera_capital"]
+      "funds": [
+        "blockchain_capital",
+        "digital_currency_group",
+        "pantera_capital"
+      ]
     },
     {
       "code": "DAI",
       "name": "Dai",
-      "categories": ["algo_stablecoins", "fiat_stablecoins"],
+      "categories": [
+        "algo_stablecoins",
+        "fiat_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1547,12 +1662,17 @@
       },
       "rating": "",
       "id": "erc20|0x6b175474e89094c44da98b954eedeac495271d0f",
-      "funds": ["polychain_capital", "1confirmation"]
+      "funds": [
+        "polychain_capital",
+        "1confirmation"
+      ]
     },
     {
       "code": "DDIM",
       "name": "DuckDaoDime",
-      "categories": ["fundraising"],
+      "categories": [
+        "fundraising"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1575,7 +1695,9 @@
     {
       "code": "DEFI5",
       "name": "DEFI Top 5 Tokens Index",
-      "categories": ["index_funds"],
+      "categories": [
+        "index_funds"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1620,7 +1742,9 @@
     {
       "code": "DEGO",
       "name": "Dego Finance",
-      "categories": ["nft"],
+      "categories": [
+        "nft"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1644,7 +1768,9 @@
     {
       "code": "DEUS",
       "name": "DEUS Finance",
-      "categories": ["synthetics"],
+      "categories": [
+        "synthetics"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1666,7 +1792,9 @@
     {
       "code": "DF",
       "name": "dForce Token",
-      "categories": ["lending"],
+      "categories": [
+        "lending"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1714,7 +1842,9 @@
     {
       "code": "DHT",
       "name": "dHedge DAO",
-      "categories": ["risk_management"],
+      "categories": [
+        "risk_management"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1745,7 +1875,9 @@
     {
       "code": "DIA",
       "name": "DIA",
-      "categories": ["oracles"],
+      "categories": [
+        "oracles"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1788,7 +1920,9 @@
       },
       "rating": "",
       "id": "erc20|0xc719d010b63e5bbf2c0551872cd5316ed26acd83",
-      "funds": ["kr1"]
+      "funds": [
+        "kr1"
+      ]
     },
     {
       "code": "DNT",
@@ -1817,7 +1951,9 @@
     {
       "code": "DODO",
       "name": "Dodo",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1860,7 +1996,9 @@
     {
       "code": "DPI",
       "name": "DeFiPulse Index",
-      "categories": ["index_funds"],
+      "categories": [
+        "index_funds"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1924,7 +2062,10 @@
       },
       "rating": "",
       "id": "erc20|0x5bc25f649fc4e26069ddf4cf4010f9f706c23831",
-      "funds": ["parafi_capital", "divergence_ventures"]
+      "funds": [
+        "parafi_capital",
+        "divergence_ventures"
+      ]
     },
     {
       "code": "DYP",
@@ -1952,7 +2093,9 @@
     {
       "code": "ENJ",
       "name": "Enjin Coin",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -1995,7 +2138,9 @@
       },
       "rating": "",
       "id": "erc20|0x36f3fd68e7325a35eb768f1aedaae9ea0689d723",
-      "funds": ["robot_ventures"]
+      "funds": [
+        "robot_ventures"
+      ]
     },
     {
       "code": "ETHYS",
@@ -2046,7 +2191,9 @@
     {
       "code": "FARM",
       "name": "Harvest Finance",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2080,7 +2227,9 @@
     {
       "code": "FIN",
       "name": "DeFiner",
-      "categories": [""],
+      "categories": [
+        ""
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2159,7 +2308,9 @@
     {
       "code": "FOR",
       "name": "ForTube",
-      "categories": ["lending"],
+      "categories": [
+        "lending"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2188,12 +2339,17 @@
         }
       ],
       "id": "erc20|0x1fcdce58959f536621d76f5b7ffb955baa5a672f",
-      "funds": ["ngc_ventures"]
+      "funds": [
+        "ngc_ventures"
+      ]
     },
     {
       "code": "FRAX",
       "name": "Frax",
-      "categories": ["stablecoin_issuers", "algo_stablecoins"],
+      "categories": [
+        "stablecoin_issuers",
+        "algo_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2217,7 +2373,9 @@
     {
       "code": "FTT",
       "name": "FTX Token",
-      "categories": ["exchange_tokens"],
+      "categories": [
+        "exchange_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2234,12 +2392,19 @@
         "telegram": "https://t.me/FTX_Official"
       },
       "id": "erc20|0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
-      "funds": ["fbg_capital", "lemniscap", "pantera_capital", "kenetic"]
+      "funds": [
+        "fbg_capital",
+        "lemniscap",
+        "pantera_capital",
+        "kenetic"
+      ]
     },
     {
       "code": "FUN",
       "name": "FunFair",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2304,12 +2469,16 @@
       },
       "rating": "",
       "id": "erc20|0x543ff227f64aa17ea132bf9886cab5db55dcaddf",
-      "funds": ["infinite_capital"]
+      "funds": [
+        "infinite_capital"
+      ]
     },
     {
       "code": "GLM",
       "name": "Golem",
-      "categories": ["computing"],
+      "categories": [
+        "computing"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2328,12 +2497,17 @@
       },
       "rating": "",
       "id": "erc20|0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
-      "funds": ["kr1"]
+      "funds": [
+        "kr1"
+      ]
     },
     {
       "code": "GNO",
       "name": "Gnosis",
-      "categories": ["prediction_markets", "wallets"],
+      "categories": [
+        "prediction_markets",
+        "wallets"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2399,7 +2573,9 @@
     {
       "code": "GRT",
       "name": "The Graph",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2434,7 +2610,9 @@
     {
       "code": "GT",
       "name": "GateToken",
-      "categories": ["exchange_tokens"],
+      "categories": [
+        "exchange_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2456,7 +2634,9 @@
     {
       "code": "GUSD",
       "name": "Gemini Dollar",
-      "categories": ["fiat_stablecoins"],
+      "categories": [
+        "fiat_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2480,7 +2660,9 @@
     {
       "code": "HBTC",
       "name": "Huobi BTC",
-      "categories": ["tokenized_bitcoin"],
+      "categories": [
+        "tokenized_bitcoin"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2526,7 +2708,9 @@
     {
       "code": "HEGIC",
       "name": "Hegic",
-      "categories": ["risk_management"],
+      "categories": [
+        "risk_management"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2602,7 +2786,9 @@
     {
       "code": "HOT",
       "name": "Holo",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2621,12 +2807,16 @@
       },
       "rating": "",
       "id": "erc20|0x6c6ee5e31d828de241282b9606c8e98ea48526e2",
-      "funds": ["woodstock"]
+      "funds": [
+        "woodstock"
+      ]
     },
     {
       "code": "HT",
       "name": "Huobi Token",
-      "categories": ["exchange_tokens"],
+      "categories": [
+        "exchange_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2649,7 +2839,9 @@
     {
       "code": "IDEX",
       "name": "IDEX",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2673,7 +2865,9 @@
     {
       "code": "IDLE",
       "name": "IDLE",
-      "categories": [""],
+      "categories": [
+        ""
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2701,7 +2895,9 @@
         }
       ],
       "id": "erc20|0x875773784af8135ea0ef43b5a374aad105c5d39e",
-      "funds": ["gumi_cryptos"]
+      "funds": [
+        "gumi_cryptos"
+      ]
     },
     {
       "code": "IMBTC",
@@ -2728,7 +2924,9 @@
     {
       "code": "INJ",
       "name": "Injective Protocol",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2746,12 +2944,18 @@
       },
       "rating": "",
       "id": "erc20|0xe28b3b32b6c345a34ff64674606124dd5aceca30",
-      "funds": ["pantera_capital", "hashed", "binance_labs"]
+      "funds": [
+        "pantera_capital",
+        "hashed",
+        "binance_labs"
+      ]
     },
     {
       "code": "KCS",
       "name": "KuCoin Token",
-      "categories": ["exchange_tokens"],
+      "categories": [
+        "exchange_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2769,12 +2973,16 @@
       },
       "rating": "",
       "id": "erc20|0xf34960d9d60be18cc1d5afc1a6f012a723a28811",
-      "funds": ["ngc_ventures"]
+      "funds": [
+        "ngc_ventures"
+      ]
     },
     {
       "code": "KEEP",
       "name": "Keep Network",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2792,12 +3000,19 @@
         "telegram": "https://t.me/KeepNetworkOfficial"
       },
       "id": "erc20|0x85eee30c52b0b379b046fb0f85f4f3dc3009afec",
-      "funds": ["paradigm", "infinite_capital", "dtc_capital", "andreessen_horowitz"]
+      "funds": [
+        "paradigm",
+        "infinite_capital",
+        "dtc_capital",
+        "andreessen_horowitz"
+      ]
     },
     {
       "code": "KNC",
       "name": "Kyber Network",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2847,7 +3062,9 @@
     {
       "code": "KP3R",
       "name": "Keep3rV1",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2870,7 +3087,9 @@
     {
       "code": "LDO",
       "name": "Lido DAO",
-      "categories": ["staking_eth_2_0"],
+      "categories": [
+        "staking_eth_2_0"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2889,7 +3108,10 @@
       },
       "rating": "",
       "id": "erc20|0x5a98fcbea516cf06857215779fd812ca3bef1b32",
-      "funds": ["kr1", "parafi_capital"]
+      "funds": [
+        "kr1",
+        "parafi_capital"
+      ]
     },
     {
       "code": "LGCY",
@@ -2917,7 +3139,9 @@
     {
       "code": "LINK",
       "name": "Chainlink",
-      "categories": ["oracles"],
+      "categories": [
+        "oracles"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2936,12 +3160,17 @@
       },
       "rating": "",
       "id": "erc20|0x514910771af9ca656af840dff83e8264ecf986ca",
-      "funds": ["8_decimal_capital", "framework_ventures"]
+      "funds": [
+        "8_decimal_capital",
+        "framework_ventures"
+      ]
     },
     {
       "code": "LON",
       "name": "Tokenlon",
-      "categories": [""],
+      "categories": [
+        ""
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -2988,7 +3217,9 @@
     {
       "code": "LPT",
       "name": "Livepeer",
-      "categories": ["computing"],
+      "categories": [
+        "computing"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3007,12 +3238,18 @@
       },
       "rating": "",
       "id": "erc20|0x58b6a8a3302369daec383334672404ee733ab239",
-      "funds": ["digital_currency_group", "pantera_capital", "coinfund"]
+      "funds": [
+        "digital_currency_group",
+        "pantera_capital",
+        "coinfund"
+      ]
     },
     {
       "code": "MANA",
       "name": "Decentraland",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3031,12 +3268,16 @@
       },
       "rating": "",
       "id": "erc20|0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
-      "funds": ["digital_currency_group"]
+      "funds": [
+        "digital_currency_group"
+      ]
     },
     {
       "code": "MATIC",
       "name": "Matic Network",
-      "categories": ["scaling"],
+      "categories": [
+        "scaling"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3061,12 +3302,16 @@
         }
       ],
       "id": "erc20|0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
-      "funds": ["coinbase_ventures"]
+      "funds": [
+        "coinbase_ventures"
+      ]
     },
     {
       "code": "MCB",
       "name": "MCDex",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3100,7 +3345,9 @@
     {
       "code": "MEME",
       "name": "Meme",
-      "categories": ["nft"],
+      "categories": [
+        "nft"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3123,7 +3370,9 @@
     {
       "code": "MFT",
       "name": "Hifi Finance",
-      "categories": ["lending"],
+      "categories": [
+        "lending"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3142,12 +3391,20 @@
       },
       "rating": "",
       "id": "erc20|0xdf2c7238198ad8b389666574f2d8bc411a4b7428",
-      "funds": ["8_decimal_capital", "blocktower_capital", "1kx", "kenetic", "iosg_ventures"]
+      "funds": [
+        "8_decimal_capital",
+        "blocktower_capital",
+        "1kx",
+        "kenetic",
+        "iosg_ventures"
+      ]
     },
     {
       "code": "MIR",
       "name": "Mirror Protocol",
-      "categories": ["synthetics"],
+      "categories": [
+        "synthetics"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3165,12 +3422,17 @@
         "telegram": "https://t.me/mirror_protocol"
       },
       "id": "erc20|0x09a3ecafa817268f77be1283176b946c4ff2e608",
-      "funds": ["robot_ventures"]
+      "funds": [
+        "robot_ventures"
+      ]
     },
     {
       "code": "MKR",
       "name": "Maker",
-      "categories": ["lending", "stablecoin_issuers"],
+      "categories": [
+        "lending",
+        "stablecoin_issuers"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3228,7 +3490,9 @@
     {
       "code": "MLN",
       "name": "Enzyme",
-      "categories": ["risk_management"],
+      "categories": [
+        "risk_management"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3247,12 +3511,16 @@
       },
       "rating": "",
       "id": "erc20|0xec67005c4e498ec7f55e092bd1d35cbc47c91892",
-      "funds": ["placeholder"]
+      "funds": [
+        "placeholder"
+      ]
     },
     {
       "code": "MPH",
       "name": "88mph",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3275,7 +3543,9 @@
     {
       "code": "MUSD",
       "name": "mStable",
-      "categories": ["fiat_stablecoins"],
+      "categories": [
+        "fiat_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3309,7 +3579,9 @@
     {
       "code": "MX",
       "name": "MX Token",
-      "categories": ["exchange_tokens"],
+      "categories": [
+        "exchange_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3331,7 +3603,9 @@
     {
       "code": "NEST",
       "name": "NEST Protocol",
-      "categories": ["oracles"],
+      "categories": [
+        "oracles"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3355,7 +3629,9 @@
     {
       "code": "NEXO",
       "name": "NEXO",
-      "categories": ["wallets"],
+      "categories": [
+        "wallets"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3374,12 +3650,17 @@
       },
       "rating": "",
       "id": "erc20|0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
-      "funds": ["arrington_xrp_capital"]
+      "funds": [
+        "arrington_xrp_capital"
+      ]
     },
     {
       "code": "PUNDIX",
       "name": "Pundi X",
-      "categories": ["b2b","wallets"],
+      "categories": [
+        "b2b",
+        "wallets"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3402,7 +3683,9 @@
     {
       "code": "NSURE",
       "name": "Nsure Network",
-      "categories": ["risk_management"],
+      "categories": [
+        "risk_management"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3425,7 +3708,9 @@
     {
       "code": "NXM",
       "name": "Nexus Mutual",
-      "categories": ["risk_management"],
+      "categories": [
+        "risk_management"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3458,7 +3743,9 @@
     {
       "code": "OCTO",
       "name": "OctoFi",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -3482,7 +3769,9 @@
     {
       "code": "ONT",
       "name": "Ontology",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "",
       "links": {
@@ -3496,12 +3785,18 @@
       },
       "rating": "",
       "id": "unsupported|ontology",
-      "funds": ["8_decimal_capital", "hashed", "sequoia_capital"]
+      "funds": [
+        "8_decimal_capital",
+        "hashed",
+        "sequoia_capital"
+      ]
     },
     {
       "code": "DCR",
       "name": "Decred",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "",
       "links": {
@@ -3515,12 +3810,17 @@
       },
       "rating": "",
       "id": "unsupported|decred",
-      "funds": ["blockchain_capital", "blue_yard"]
+      "funds": [
+        "blockchain_capital",
+        "blue_yard"
+      ]
     },
     {
       "code": "IOST",
       "name": "IOST",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "",
       "links": {
@@ -3534,12 +3834,16 @@
       },
       "rating": "",
       "id": "unsupported|iostoken",
-      "funds": ["sequoia_capital"]
+      "funds": [
+        "sequoia_capital"
+      ]
     },
     {
       "code": "AST",
       "name": "AirSwap",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -3558,12 +3862,16 @@
       },
       "rating": "",
       "id": "erc20|0x27054b13b1b798b345b591a4d22e6562d47ea75a",
-      "funds": ["kenetic"]
+      "funds": [
+        "kenetic"
+      ]
     },
     {
       "code": "AERGO",
       "name": "Aergo",
-      "categories": ["b2b"],
+      "categories": [
+        "b2b"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -3582,12 +3890,17 @@
       },
       "rating": "",
       "id": "erc20|0x91af0fbb28aba7e31403cb457106ce79397fd4e6",
-      "funds": ["arrington_xrp_capital", "sequoia_capital"]
+      "funds": [
+        "arrington_xrp_capital",
+        "sequoia_capital"
+      ]
     },
     {
       "code": "PNG",
       "name": "Pangolin",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "description": "",
       "links": {
@@ -3606,7 +3919,9 @@
     {
       "code": "EROWAN",
       "name": "Sifchain",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -3625,12 +3940,17 @@
       },
       "rating": "",
       "id": "erc20|0x07bac35846e5ed502aa91adf6a9e7aa210f2dcbe",
-      "funds": ["alameda_research_", "ngc_ventures"]
+      "funds": [
+        "alameda_research_",
+        "ngc_ventures"
+      ]
     },
     {
       "code": "TORN",
       "name": "Tornado Cash",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -3654,7 +3974,9 @@
     {
       "code": "ZKS",
       "name": "ZKSwap",
-      "categories": ["scaling"],
+      "categories": [
+        "scaling"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -3678,7 +4000,10 @@
     {
       "code": "NU",
       "name": "NuCypher",
-      "categories": ["privacy", "infrastructure"],
+      "categories": [
+        "privacy",
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -3711,7 +4036,9 @@
     {
       "code": "SCRT",
       "name": "Secret",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "description": "",
       "links": {
@@ -3730,7 +4057,9 @@
     {
       "code": "XHV",
       "name": "Haven",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "description": "",
       "links": {
@@ -3749,7 +4078,9 @@
     {
       "code": "HOPR",
       "name": "HOPR",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -3768,12 +4099,17 @@
       },
       "rating": "",
       "id": "erc20|0xf5581dfefd8fb0e4aec526be659cfab1f8c781da",
-      "funds": ["spark_digital_capital", "binance_labs"]
+      "funds": [
+        "spark_digital_capital",
+        "binance_labs"
+      ]
     },
     {
       "code": "SENT",
       "name": "Sentinel",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -3792,12 +4128,16 @@
       },
       "rating": "",
       "id": "erc20|0xa44e5137293e855b1b7bc7e2c6f8cd796ffcb037",
-      "funds": ["woodstock"]
+      "funds": [
+        "woodstock"
+      ]
     },
     {
       "code": "BLANK",
       "name": "Blank",
-      "categories": ["wallets"],
+      "categories": [
+        "wallets"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -3816,12 +4156,16 @@
       },
       "rating": "",
       "id": "erc20|0xaec7e1f531bb09115103c53ba76829910ec48966",
-      "funds": ["woodstock"]
+      "funds": [
+        "woodstock"
+      ]
     },
     {
       "code": "DUSK",
       "name": "Dusk Network",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -3840,12 +4184,16 @@
       },
       "rating": "",
       "id": "erc20|0x940a2db1b7008b6c776d4faaca729d6d4a4aa551",
-      "funds": ["maven_11_capital"]
+      "funds": [
+        "maven_11_capital"
+      ]
     },
     {
       "code": "ZEN",
       "name": "Horizen",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "description": "",
       "links": {
@@ -3864,7 +4212,9 @@
     {
       "code": "XVG",
       "name": "Verge",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "description": "",
       "links": {
@@ -3883,7 +4233,9 @@
     {
       "code": "ROSE",
       "name": "Oasis Network",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "description": "",
       "links": {
@@ -3897,12 +4249,20 @@
       },
       "rating": "",
       "id": "unsupported|oasis-network",
-      "funds": ["polychain_capital", "ausum_ventures", "pantera_capital"]
+      "funds": [
+        "polychain_capital",
+        "ausum_ventures",
+        "pantera_capital"
+      ]
     },
     {
       "code": "ONE",
       "name": "Harmony",
-      "categories": ["scaling", "cross_chain","blockchain"],
+      "categories": [
+        "scaling",
+        "cross_chain",
+        "blockchain"
+      ],
       "active": true,
       "description": "",
       "links": {
@@ -3916,12 +4276,16 @@
       },
       "rating": "",
       "id": "unsupported|harmony",
-      "funds": ["lemniscap"]
+      "funds": [
+        "lemniscap"
+      ]
     },
     {
       "code": "FTM",
       "name": "Fantom",
-      "categories": ["scaling"],
+      "categories": [
+        "scaling"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -3940,12 +4304,18 @@
       },
       "rating": "",
       "id": "erc20|0x4e15361fd6b4bb609fa63c81a2be19d873717870",
-      "funds": ["8_decimal_capital", "blocktower_capital", "arrington_xrp_capital"]
+      "funds": [
+        "8_decimal_capital",
+        "blocktower_capital",
+        "arrington_xrp_capital"
+      ]
     },
     {
       "code": "RAZOR",
       "name": "RAZOR Network",
-      "categories": ["oracles"],
+      "categories": [
+        "oracles"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -3964,12 +4334,17 @@
       },
       "rating": "",
       "id": "erc20|0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd",
-      "funds": ["alameda_research_", "ngc_ventures"]
+      "funds": [
+        "alameda_research_",
+        "ngc_ventures"
+      ]
     },
     {
       "code": "KYL",
       "name": "Kylin Network",
-      "categories": ["oracles"],
+      "categories": [
+        "oracles"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -3993,7 +4368,9 @@
     {
       "code": "BRY",
       "name": "Berry Data",
-      "categories": ["oracles"],
+      "categories": [
+        "oracles"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4017,7 +4394,10 @@
     {
       "code": "ROOM",
       "name": "OptionRoom",
-      "categories": ["oracles", "prediction_markets"],
+      "categories": [
+        "oracles",
+        "prediction_markets"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4036,12 +4416,16 @@
       },
       "rating": "",
       "id": "erc20|0xad4f86a25bbc20ffb751f2fac312a0b4d8f88c64",
-      "funds": ["cms"]
+      "funds": [
+        "cms"
+      ]
     },
     {
       "code": "UMB",
       "name": "Umbrella Network",
-      "categories": ["oracles"],
+      "categories": [
+        "oracles"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4065,7 +4449,9 @@
     {
       "code": "POLK",
       "name": "Polkamarkets",
-      "categories": ["prediction_markets"],
+      "categories": [
+        "prediction_markets"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4089,7 +4475,9 @@
     {
       "code": "VSP",
       "name": "Vesper Finance",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4108,12 +4496,16 @@
       },
       "rating": "",
       "id": "erc20|0x1b40183efb4dd766f11bda7a7c3ad8982e998421",
-      "funds": ["kenetic"]
+      "funds": [
+        "kenetic"
+      ]
     },
     {
       "code": "BEL",
       "name": "Bella Protocol",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4137,7 +4529,9 @@
     {
       "code": "AUTO",
       "name": "Auto",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4185,7 +4579,9 @@
     {
       "code": "MBTC",
       "name": "mStable BTC",
-      "categories": ["tokenized_bitcoin"],
+      "categories": [
+        "tokenized_bitcoin"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4209,7 +4605,9 @@
     {
       "code": "LEO",
       "name": "LEO Token",
-      "categories": ["exchange_tokens"],
+      "categories": [
+        "exchange_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4233,7 +4631,9 @@
     {
       "code": "ROOK",
       "name": "KeeperDAO",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4252,12 +4652,19 @@
       },
       "rating": "",
       "id": "erc20|0xfa5047c9c78b8877af97bdcb85db743fd7313d4a",
-      "funds": ["polychain_capital", "three_arrows_capital"]
+      "funds": [
+        "polychain_capital",
+        "three_arrows_capital"
+      ]
     },
     {
       "code": "FIS",
       "name": "Stafi",
-      "categories": ["risk_management", "synthetics", "staking_eth_2_0"],
+      "categories": [
+        "risk_management",
+        "synthetics",
+        "staking_eth_2_0"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4276,12 +4683,18 @@
       },
       "rating": "",
       "id": "unsupported|stafi",
-      "funds": ["woodstock"]
+      "funds": [
+        "woodstock"
+      ]
     },
     {
       "code": "OXY",
       "name": "Oxygen",
-      "categories": ["risk_management", "wallets","lending"],
+      "categories": [
+        "risk_management",
+        "wallets",
+        "lending"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4300,12 +4713,18 @@
       },
       "rating": "",
       "id": "erc20|0x965697b4ef02f0de01384d0d4f9f782b1670c163",
-      "funds": ["cms", "alameda_research_", "multicoin_capital"]
+      "funds": [
+        "cms",
+        "alameda_research_",
+        "multicoin_capital"
+      ]
     },
     {
       "code": "HGET",
       "name": "Hedget",
-      "categories": ["risk_management"],
+      "categories": [
+        "risk_management"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4324,12 +4743,17 @@
       },
       "rating": "",
       "id": "erc20|0x7968bc6a03017ea2de509aaa816f163db0f35148",
-      "funds": ["alameda_research_", "ngc_ventures"]
+      "funds": [
+        "alameda_research_",
+        "ngc_ventures"
+      ]
     },
     {
       "code": "ARMOR",
       "name": "ARMOR",
-      "categories": ["risk_management"],
+      "categories": [
+        "risk_management"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4348,12 +4772,17 @@
       },
       "rating": "",
       "id": "erc20|0x1337def16f9b486faed0293eb623dc8395dfe46a",
-      "funds": ["alameda_research_", "1kx"]
+      "funds": [
+        "alameda_research_",
+        "1kx"
+      ]
     },
     {
       "code": "MATH",
       "name": "MATH",
-      "categories": ["wallets"],
+      "categories": [
+        "wallets"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4372,12 +4801,18 @@
       },
       "rating": "",
       "id": "erc20|0x08d967bb0134f2d07f7cfb6e246680c53927dd30",
-      "funds": ["alameda_research_", "multicoin_capital", "binance_labs"]
+      "funds": [
+        "alameda_research_",
+        "multicoin_capital",
+        "binance_labs"
+      ]
     },
     {
       "code": "SFP",
       "name": "SafePal",
-      "categories": ["wallets"],
+      "categories": [
+        "wallets"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4396,12 +4831,17 @@
       },
       "rating": "",
       "id": "bep20|0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb",
-      "funds": ["binance_labs"]
+      "funds": [
+        "binance_labs"
+      ]
     },
     {
       "code": "LSK",
       "name": "Lisk",
-      "categories": ["wallets", "infrastructure"],
+      "categories": [
+        "wallets",
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4420,12 +4860,18 @@
       },
       "rating": "",
       "id": "unsupported|lisk",
-      "funds": ["iosg_ventures"]
+      "funds": [
+        "iosg_ventures"
+      ]
     },
     {
       "code": "WAN",
       "name": "Wanchain",
-      "categories": ["wallets", "infrastructure", "cross_chain"],
+      "categories": [
+        "wallets",
+        "infrastructure",
+        "cross_chain"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4444,12 +4890,16 @@
       },
       "rating": "",
       "id": "unsupported|wanchain",
-      "funds": ["8_decimal_capital"]
+      "funds": [
+        "8_decimal_capital"
+      ]
     },
     {
       "code": "PPAY",
       "name": "Plasma Finance",
-      "categories": ["wallets"],
+      "categories": [
+        "wallets"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4473,7 +4923,9 @@
     {
       "code": "INDEX",
       "name": "Index Cooperative",
-      "categories": ["index_funds"],
+      "categories": [
+        "index_funds"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4497,7 +4949,9 @@
     {
       "code": "NFTX",
       "name": "NFTX",
-      "categories": ["index_funds"],
+      "categories": [
+        "index_funds"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4516,12 +4970,16 @@
       },
       "rating": "",
       "id": "erc20|0x87d73e916d7057945c9bcd8cdd94e42a6f47f776",
-      "funds": ["robot_ventures"]
+      "funds": [
+        "robot_ventures"
+      ]
     },
     {
       "code": "DEGEN",
       "name": "Degen Index",
-      "categories": ["index_funds"],
+      "categories": [
+        "index_funds"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4545,7 +5003,9 @@
     {
       "code": "SDEFI",
       "name": "sDEFI",
-      "categories": ["index_funds"],
+      "categories": [
+        "index_funds"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4569,7 +5029,9 @@
     {
       "code": "DEFI+L",
       "name": "PieDAO DEFI Large Cap",
-      "categories": ["index_funds"],
+      "categories": [
+        "index_funds"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4593,7 +5055,9 @@
     {
       "code": "ERN",
       "name": "Ethernity Chain",
-      "categories": ["nft"],
+      "categories": [
+        "nft"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4612,12 +5076,16 @@
       },
       "rating": "",
       "id": "erc20|0xbbc2ae13b23d715c30720f079fcd9b4a74093505",
-      "funds": ["woodstock"]
+      "funds": [
+        "woodstock"
+      ]
     },
     {
       "code": "TVK",
       "name": "Terra Virtua Kolect",
-      "categories": ["nft"],
+      "categories": [
+        "nft"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4636,12 +5104,18 @@
       },
       "rating": "",
       "id": "erc20|0xd084b83c305dafd76ae3e1b4e1f1fe2ecccb3988",
-      "funds": ["woodstock", "ngc_ventures", "hashed"]
+      "funds": [
+        "woodstock",
+        "ngc_ventures",
+        "hashed"
+      ]
     },
     {
       "code": "FLOW",
       "name": "Flow",
-      "categories": ["nft"],
+      "categories": [
+        "nft"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4660,12 +5134,18 @@
       },
       "rating": "",
       "id": "unsupported|flow",
-      "funds": ["blocktower_capital", "svangel", "coinbase_ventures"]
+      "funds": [
+        "blocktower_capital",
+        "svangel",
+        "coinbase_ventures"
+      ]
     },
     {
       "code": "WHALE",
       "name": "WHALE",
-      "categories": ["nft"],
+      "categories": [
+        "nft"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4689,7 +5169,9 @@
     {
       "code": "WAXP",
       "name": "WAX",
-      "categories": ["nft"],
+      "categories": [
+        "nft"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4708,12 +5190,16 @@
       },
       "rating": "",
       "id": "unsupported|wax",
-      "funds": ["pantera_capital"]
+      "funds": [
+        "pantera_capital"
+      ]
     },
     {
       "code": "MUSE",
       "name": "Muse",
-      "categories": ["nft"],
+      "categories": [
+        "nft"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4737,7 +5223,9 @@
     {
       "code": "DAO",
       "name": "DAO Maker",
-      "categories": ["fundraising"],
+      "categories": [
+        "fundraising"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4761,7 +5249,9 @@
     {
       "code": "AXS",
       "name": "Axie Infinity",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4780,12 +5270,16 @@
       },
       "rating": "",
       "id": "erc20|0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
-      "funds": ["hashed"]
+      "funds": [
+        "hashed"
+      ]
     },
     {
       "code": "DG",
       "name": "Decentral Games",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4809,7 +5303,9 @@
     {
       "code": "GHST",
       "name": "Aavegotchi",
-      "categories": ["nft"],
+      "categories": [
+        "nft"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4833,7 +5329,9 @@
     {
       "code": "REVV",
       "name": "REVV",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4857,7 +5355,9 @@
     {
       "code": "GALA",
       "name": "Gala",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4881,7 +5381,9 @@
     {
       "code": "CWS",
       "name": "Crowns",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4905,7 +5407,9 @@
     {
       "code": "ORN",
       "name": "Orion Protocol",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4929,7 +5433,9 @@
     {
       "code": "CRE",
       "name": "Carry",
-      "categories": ["b2b"],
+      "categories": [
+        "b2b"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4948,12 +5454,16 @@
       },
       "rating": "",
       "id": "erc20|0x115ec79f1de567ec68b7ae7eda501b406626478e",
-      "funds": ["kenetic"]
+      "funds": [
+        "kenetic"
+      ]
     },
     {
       "code": "BLZ",
       "name": "Bluzelle",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4972,12 +5482,18 @@
       },
       "rating": "",
       "id": "erc20|0x5732046a883704404f284ce41ffadd5b007fd668",
-      "funds": ["8_decimal_capital", "kenetic", "ngc_ventures"]
+      "funds": [
+        "8_decimal_capital",
+        "kenetic",
+        "ngc_ventures"
+      ]
     },
     {
       "code": "KSM",
       "name": "Kusama",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -4996,12 +5512,19 @@
       },
       "rating": "",
       "id": "unsupported|kusama",
-      "funds": ["kr1", "fenbushi_capital", "iosg_ventures", "ngc_ventures"]
+      "funds": [
+        "kr1",
+        "fenbushi_capital",
+        "iosg_ventures",
+        "ngc_ventures"
+      ]
     },
     {
       "code": "FIL",
       "name": "Filecoin",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5033,7 +5556,9 @@
     {
       "code": "AR",
       "name": "Arweave",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5065,7 +5590,9 @@
     {
       "code": "FIO",
       "name": "FIO Protocol",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5084,12 +5611,16 @@
       },
       "rating": "",
       "id": "unsupported|fio-protocol",
-      "funds": ["binance_labs"]
+      "funds": [
+        "binance_labs"
+      ]
     },
     {
       "code": "COS",
       "name": "Contentos",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5108,12 +5639,16 @@
       },
       "rating": "",
       "id": "bep20|0x96dd399f9c3afda1f194182f71600f1b65946501",
-      "funds": ["binance_labs"]
+      "funds": [
+        "binance_labs"
+      ]
     },
     {
       "code": "PKF",
       "name": "PolkaFoundry",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5137,7 +5672,9 @@
     {
       "code": "META",
       "name": "Metadium",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5192,7 +5729,9 @@
     {
       "code": "SUPER",
       "name": "SuperFarm",
-      "categories": ["cross_chain"],
+      "categories": [
+        "cross_chain"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5211,12 +5750,16 @@
       },
       "rating": "",
       "id": "erc20|0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
-      "funds": ["woodstock"]
+      "funds": [
+        "woodstock"
+      ]
     },
     {
       "code": "SWTH",
       "name": "Switcheo",
-      "categories": ["cross_chain"],
+      "categories": [
+        "cross_chain"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5235,12 +5778,17 @@
       },
       "rating": "",
       "id": "unsupported|switcheo",
-      "funds": ["three_arrows_capital", "ngc_ventures"]
+      "funds": [
+        "three_arrows_capital",
+        "ngc_ventures"
+      ]
     },
     {
       "code": "KONO",
       "name": "Konomi Network",
-      "categories": ["cross_chain"],
+      "categories": [
+        "cross_chain"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5259,12 +5807,16 @@
       },
       "rating": "",
       "id": "erc20|0x850aab69f0e0171a9a49db8be3e71351c8247df4",
-      "funds": ["cms"]
+      "funds": [
+        "cms"
+      ]
     },
     {
       "code": "LINA",
       "name": "Linear",
-      "categories": ["cross_chain"],
+      "categories": [
+        "cross_chain"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5283,12 +5835,20 @@
       },
       "rating": "",
       "id": "erc20|0x3e9bc21c9b189c09df3ef1b824798658d5011937",
-      "funds": ["cms", "alameda_research_", "kenetic", "ngc_ventures", "hashed"]
+      "funds": [
+        "cms",
+        "alameda_research_",
+        "kenetic",
+        "ngc_ventures",
+        "hashed"
+      ]
     },
     {
       "code": "AETH",
       "name": "ankrETH",
-      "categories": ["staking_eth_2_0"],
+      "categories": [
+        "staking_eth_2_0"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5312,7 +5872,9 @@
     {
       "code": "STETH",
       "name": "StakeHound Staked Ether",
-      "categories": ["staking_eth_2_0"],
+      "categories": [
+        "staking_eth_2_0"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5336,7 +5898,9 @@
     {
       "code": "DIGG",
       "name": "DIGG",
-      "categories": ["rebase_tokens"],
+      "categories": [
+        "rebase_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5360,7 +5924,9 @@
     {
       "code": "MARK",
       "name": "Benchmark Protocol ",
-      "categories": ["rebase_tokens"],
+      "categories": [
+        "rebase_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5384,7 +5950,9 @@
     {
       "code": "DITTO",
       "name": "Ditto ",
-      "categories": ["rebase_tokens"],
+      "categories": [
+        "rebase_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -5432,7 +6000,9 @@
     {
       "code": "OGN",
       "name": "Origin Protocol",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5464,7 +6034,9 @@
     {
       "code": "OMG",
       "name": "OMG Network",
-      "categories": ["scaling"],
+      "categories": [
+        "scaling"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5483,7 +6055,11 @@
       },
       "rating": "",
       "id": "erc20|0xd26114cd6ee289accf82350c8d8487fedb8a0c07",
-      "funds": ["kr1", "pantera_capital", "hashed"]
+      "funds": [
+        "kr1",
+        "pantera_capital",
+        "hashed"
+      ]
     },
     {
       "code": "OPIUM",
@@ -5513,12 +6089,20 @@
         }
       ],
       "id": "erc20|0x888888888889c00c67689029d7856aac1065ec11",
-      "funds": ["cms", "alameda_research_", "zee_prime_capital", "kenetic", "galaxy_digital_lp"]
+      "funds": [
+        "cms",
+        "alameda_research_",
+        "zee_prime_capital",
+        "kenetic",
+        "galaxy_digital_lp"
+      ]
     },
     {
       "code": "ORAI",
       "name": "Oraichain Token",
-      "categories": ["oracles"],
+      "categories": [
+        "oracles"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5542,7 +6126,9 @@
     {
       "code": "ORBS",
       "name": "Orbs",
-      "categories": ["b2b"],
+      "categories": [
+        "b2b"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5566,7 +6152,9 @@
     {
       "code": "OXT",
       "name": "Orchid Protocol",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5585,12 +6173,19 @@
       },
       "rating": "",
       "id": "erc20|0x4575f41308ec1483f3d399aa9a2826d74da13deb",
-      "funds": ["polychain_capital", "blockchain_capital", "sequoia_capital", "foundation_capital"]
+      "funds": [
+        "polychain_capital",
+        "blockchain_capital",
+        "sequoia_capital",
+        "foundation_capital"
+      ]
     },
     {
       "code": "Ocean",
       "name": "Ocean Protocol",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5614,7 +6209,9 @@
     {
       "code": "PAR",
       "name": "Parachute",
-      "categories": [""],
+      "categories": [
+        ""
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5637,7 +6234,9 @@
     {
       "code": "PAX",
       "name": "Paxos Standard",
-      "categories": ["fiat_stablecoins"],
+      "categories": [
+        "fiat_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5685,7 +6284,9 @@
     {
       "code": "PBTC",
       "name": "pTokens BTC",
-      "categories": ["tokenized_bitcoin"],
+      "categories": [
+        "tokenized_bitcoin"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5733,12 +6334,17 @@
         }
       ],
       "id": "erc20|0xeca82185adce47f39c684352b0439f030f860318",
-      "funds": ["arrington_xrp_capital", "1kx"]
+      "funds": [
+        "arrington_xrp_capital",
+        "1kx"
+      ]
     },
     {
       "code": "PERP",
       "name": "Perpetual Protocol",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5769,7 +6375,9 @@
     {
       "code": "PICKLE",
       "name": "Pickle Finance",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5798,7 +6406,9 @@
     {
       "code": "PIPT",
       "name": "Power Index Pool Token",
-      "categories": ["index_funds"],
+      "categories": [
+        "index_funds"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5819,7 +6429,9 @@
     {
       "code": "PLOT",
       "name": "PlotX",
-      "categories": ["prediction_markets"],
+      "categories": [
+        "prediction_markets"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5837,7 +6449,9 @@
       },
       "rating": "",
       "id": "erc20|0x72f020f8f3e8fd9382705723cd26380f8d0c66bb",
-      "funds": ["ngc_ventures"]
+      "funds": [
+        "ngc_ventures"
+      ]
     },
     {
       "code": "PNK",
@@ -5865,7 +6479,10 @@
     {
       "code": "POLS",
       "name": "Polkastarter",
-      "categories": ["fundraising","cross_chain"],
+      "categories": [
+        "fundraising",
+        "cross_chain"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5883,12 +6500,16 @@
       },
       "rating": "",
       "id": "erc20|0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa",
-      "funds": ["ngc_ventures"]
+      "funds": [
+        "ngc_ventures"
+      ]
     },
     {
       "code": "POLY",
       "name": "Polymath Network",
-      "categories": ["b2b"],
+      "categories": [
+        "b2b"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5912,7 +6533,9 @@
     {
       "code": "QNT",
       "name": "Quant",
-      "categories": ["b2b"],
+      "categories": [
+        "b2b"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5936,7 +6559,9 @@
     {
       "code": "QSP",
       "name": "Quantstamp",
-      "categories": ["b2b"],
+      "categories": [
+        "b2b"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5955,12 +6580,17 @@
       },
       "rating": "",
       "id": "erc20|0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d",
-      "funds": ["kenetic", "hashed"]
+      "funds": [
+        "kenetic",
+        "hashed"
+      ]
     },
     {
       "code": "RARI",
       "name": "Rarible",
-      "categories": ["nft"],
+      "categories": [
+        "nft"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -5978,12 +6608,19 @@
       },
       "rating": "",
       "id": "erc20|0xfca59cd816ab1ead66534d82bc21e7515ce441cf",
-      "funds": ["parafi_capital", "1kx", "coinfund", "coinbase_ventures"]
+      "funds": [
+        "parafi_capital",
+        "1kx",
+        "coinfund",
+        "coinbase_ventures"
+      ]
     },
     {
       "code": "RENBTC",
       "name": "renBTC",
-      "categories": ["tokenized_bitcoin"],
+      "categories": [
+        "tokenized_bitcoin"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6007,7 +6644,9 @@
     {
       "code": "RFUEL",
       "name": "RioDeFi",
-      "categories": ["cross_chain"],
+      "categories": [
+        "cross_chain"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6030,7 +6669,9 @@
     {
       "code": "RGT",
       "name": "Rari Governance Token",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6049,12 +6690,16 @@
       },
       "rating": "",
       "id": "erc20|0xd291e7a03283640fdc51b121ac401383a46cc623",
-      "funds": ["maven_11_capital"]
+      "funds": [
+        "maven_11_capital"
+      ]
     },
     {
       "code": "RING",
       "name": "Darwinia Network Native Token",
-      "categories": ["cross_chain"],
+      "categories": [
+        "cross_chain"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6078,7 +6723,9 @@
     {
       "code": "RLC",
       "name": "iExec RLC",
-      "categories": ["computing"],
+      "categories": [
+        "computing"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6101,7 +6748,9 @@
     {
       "code": "RPL",
       "name": "Pocket Pool",
-      "categories": ["staking_eth_2_0"],
+      "categories": [
+        "staking_eth_2_0"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6120,12 +6769,16 @@
       },
       "rating": "",
       "id": "erc20|0xb4efd85c19999d84251304bda99e90b92300bd93",
-      "funds": ["kr1"]
+      "funds": [
+        "kr1"
+      ]
     },
     {
       "code": "RSR",
       "name": "Reserve Rights Token",
-      "categories": ["stablecoin_issuers"],
+      "categories": [
+        "stablecoin_issuers"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6144,7 +6797,9 @@
       },
       "rating": "",
       "id": "erc20|0x8762db106b2c2a0bccb3a80d1ed41273552616e8",
-      "funds": ["blocktower_capital"]
+      "funds": [
+        "blocktower_capital"
+      ]
     },
     {
       "code": "RSV",
@@ -6167,12 +6822,18 @@
         "telegram": "https://t.me/reservecurrency"
       },
       "id": "erc20|0x196f4727526ea7fb1e17b2071b3d8eaa38486988",
-      "funds": ["arrington_xrp_capital", "digital_currency_group", "coinbase_ventures"]
+      "funds": [
+        "arrington_xrp_capital",
+        "digital_currency_group",
+        "coinbase_ventures"
+      ]
     },
     {
       "code": "SAND",
       "name": "Sand",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6190,12 +6851,16 @@
       },
       "rating": "",
       "id": "erc20|0x3845badade8e6dff049820680d1f14bd3903a5d0",
-      "funds": ["hashed"]
+      "funds": [
+        "hashed"
+      ]
     },
     {
       "code": "SBTC",
       "name": "sBTC",
-      "categories": ["tokenized_bitcoin"],
+      "categories": [
+        "tokenized_bitcoin"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6217,7 +6882,9 @@
     {
       "code": "SFI",
       "name": "saffron.finance",
-      "categories": ["risk_management"],
+      "categories": [
+        "risk_management"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6264,7 +6931,9 @@
     {
       "code": "SNT",
       "name": "Status",
-      "categories": ["wallets"],
+      "categories": [
+        "wallets"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6288,7 +6957,11 @@
     {
       "code": "SNX",
       "name": "Synthetix Network Token",
-      "categories": ["synthetics", "dexes", "stablecoin_issuers"],
+      "categories": [
+        "synthetics",
+        "dexes",
+        "stablecoin_issuers"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6343,7 +7016,7 @@
     {
       "code": "SPDR",
       "name": "SpiderDAO",
-      "categories": [ ],
+      "categories": [],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6367,7 +7040,9 @@
     {
       "code": "SRM",
       "name": "Serum",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6399,7 +7074,9 @@
     {
       "code": "STAKE",
       "name": "xDAI Stake",
-      "categories": ["scaling"],
+      "categories": [
+        "scaling"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6437,7 +7114,9 @@
     {
       "code": "STORJ",
       "name": "Storj",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6461,7 +7140,10 @@
     {
       "code": "SUSD",
       "name": "sUSD",
-      "categories": ["fiat_stablecoins", "algo_stablecoins"],
+      "categories": [
+        "fiat_stablecoins",
+        "algo_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6485,7 +7167,9 @@
     {
       "code": "SUSHI",
       "name": "Sushi",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6518,7 +7202,9 @@
     {
       "code": "SWAP",
       "name": "Trustswap",
-      "categories": ["fundraising"],
+      "categories": [
+        "fundraising"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6586,7 +7272,9 @@
     {
       "code": "SWRV",
       "name": "Swerve",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6616,7 +7304,9 @@
     {
       "code": "SXP",
       "name": "Swipe",
-      "categories": ["wallets"],
+      "categories": [
+        "wallets"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6640,7 +7330,9 @@
     {
       "code": "TBTC",
       "name": "tBTC",
-      "categories": ["tokenized_bitcoin"],
+      "categories": [
+        "tokenized_bitcoin"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6659,7 +7351,9 @@
       },
       "rating": "",
       "id": "erc20|0x8daebade922df735c38c80c7ebd708af50815faa",
-      "funds": ["iosg_ventures"]
+      "funds": [
+        "iosg_ventures"
+      ]
     },
     {
       "code": "TKN",
@@ -6712,7 +7406,9 @@
     {
       "code": "TRB",
       "name": "Tellor",
-      "categories": ["oracles"],
+      "categories": [
+        "oracles"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6731,12 +7427,16 @@
       },
       "rating": "",
       "id": "erc20|0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
-      "funds": ["binance_labs"]
+      "funds": [
+        "binance_labs"
+      ]
     },
     {
       "code": "TRU",
       "name": "TrueFi",
-      "categories": ["lending"],
+      "categories": [
+        "lending"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6765,7 +7465,9 @@
     {
       "code": "TUSD",
       "name": "TrueUSD",
-      "categories": ["fiat_stablecoins"],
+      "categories": [
+        "fiat_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6812,7 +7514,9 @@
     {
       "code": "UBT",
       "name": "Unibright",
-      "categories": ["b2b"],
+      "categories": [
+        "b2b"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6835,7 +7539,9 @@
     {
       "code": "UMA",
       "name": "UMA",
-      "categories": ["synthetics"],
+      "categories": [
+        "synthetics"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6866,7 +7572,7 @@
     {
       "code": "UMX",
       "name": "UniMex Network",
-      "categories": [ ],
+      "categories": [],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6889,7 +7595,9 @@
     {
       "code": "UNI",
       "name": "Uniswap",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6934,7 +7642,9 @@
     {
       "code": "USDC",
       "name": "USD Coin",
-      "categories": ["fiat_stablecoins"],
+      "categories": [
+        "fiat_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -6953,12 +7663,19 @@
       },
       "rating": "",
       "id": "erc20|0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-      "funds": ["fenbushi_capital", "blockchain_capital", "digital_currency_group", "2020_ventures"]
+      "funds": [
+        "fenbushi_capital",
+        "blockchain_capital",
+        "digital_currency_group",
+        "2020_ventures"
+      ]
     },
     {
       "code": "USDN",
       "name": "Neutrino USD",
-      "categories": ["algo_stablecoins"],
+      "categories": [
+        "algo_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -7056,7 +7773,9 @@
     {
       "code": "WBTC",
       "name": "Wrapped Bitcoin",
-      "categories": ["tokenized_bitcoin"],
+      "categories": [
+        "tokenized_bitcoin"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -7127,7 +7846,7 @@
     {
       "code": "XFT",
       "name": "Offshift",
-      "categories": [ ],
+      "categories": [],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -7242,7 +7961,9 @@
     {
       "code": "YFI",
       "name": "yearn.finance",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -7260,12 +7981,20 @@
         "telegram": "https://t.me/yearnfinance"
       },
       "id": "erc20|0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
-      "funds": ["blockchain_capital", "infinite_capital", "framework_ventures", "maven_11_capital", "dtc_capital"]
+      "funds": [
+        "blockchain_capital",
+        "infinite_capital",
+        "framework_ventures",
+        "maven_11_capital",
+        "dtc_capital"
+      ]
     },
     {
       "code": "YFII",
       "name": "DFI.money",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -7334,7 +8063,9 @@
     {
       "code": "ZCN",
       "name": "0Chain",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -7380,7 +8111,9 @@
     {
       "code": "ZRX",
       "name": "0x",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -7399,12 +8132,21 @@
       },
       "rating": "",
       "id": "erc20|0xe41d2489571d322189246dafa5ebde1f4699f498",
-      "funds": ["8_decimal_capital", "kr1", "placeholder", "infinite_capital", "pantera_capital", "hex_capital"]
+      "funds": [
+        "8_decimal_capital",
+        "kr1",
+        "placeholder",
+        "infinite_capital",
+        "pantera_capital",
+        "hex_capital"
+      ]
     },
     {
       "code": "LTO",
       "name": "LTO Network",
-      "categories": ["b2b"],
+      "categories": [
+        "b2b"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -7427,7 +8169,9 @@
     {
       "code": "BTC",
       "name": "Bitcoin",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nBitcoin is a decentralized, public and permissionless network that facilitates cryptocurrency transactions. This network consists of all entities worldwide running openly accessible Bitcoin node software. \n\nThe network remains functional and transactions go through for as long as there is at least one Bitcoin node is online. The network is not reliant upon any single entity to function,  censorship-resistant and enforces same participation rules for everyone.\n\n### Token Description\n\nThe native unit of cryptocurrency in Bitcoin the network is also called Bitcoin. Denoted by a symbol BTC and divisible into 100,000,000 subunits, known as satoshi. \n\nThe Bitcoin network is mainly used for transferring Bitcoins from one address to another, without relying on centralised intermediary.\n\nThe main utility of Bitcoin cryptocurrency today lies in Bitcoin network which in its nature is a publicly open alternative to traditional financial services i.e. banks and money transmitters. \n\nBitcoin currency is often used for store of value as a hedge against monetary inflation. \n\n### Token Emission\n\nThere were 0 Bitcoins initially and approximately every 10 minutes new Bitcoins were issued to the random node powering the Bitcoin network.\n\nStarting from January 2009, a 50 new Bitcoins were awarded every 10 minutes. The award amount is cut in half every 4 years by the protocol powering the network. There were about 18,5 mil. Bitcoins in circulation by the end of 2020. There can be at most 21 million Bitcoins and it will take another 130 years to reach there.\n\nIt's estimated that around 3-4 million Bitcoins mined in early days were permanently lost due to users loosing their private keys. As a result these Bitcoins remain dormant and out of circulation.",
       "links": {
@@ -7446,7 +8190,9 @@
     {
       "code": "ETH",
       "name": "Ethereum",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nEthereum is a globally accessible nework and a platform to build censorship-resistant services which are always online. The network and its underlying technology enables anyone to build, launch and operate decentralized services on Ethereum blockchain. \n\nThere are hundreds of decentralized (mostly financial) services built on Ethereum. Some of these services serve a lot of users and manage large amounts of cryptocurrency in an automated, safe and transparent manner.\n\n### Token Description\n\nThe native unit of currency in Ethereum blockchain network is called Ether. Denoted by a symbol ETH and divisible into 100,000,000,000,000,000 subunits called wei. \n\nThe main utility of Ether cryptocurrency today is it being a 'fuel' for executing any action on Ethereum blockchain. The more people use Ethereum blockchain the higher is the demand for that fuel. \n\nUsers with significant ETH on balance can choose to stake their ETH tokens by becoming one of the validator nodes in the Ethereum 2.0 and earn part of the protocol emission.\n\n### Token Emission\n\nUnlike Bitcoin, the number of Ethers in circulation didn't increase gradually, starting from zero. \n\nInitially, ETH was pre-mined and sold for BTC at a rate of 1000–2000 ETH per BTC. This resulted in 60M ETH that was further inflated by 12M in developer reserve funds. Then, similar to BTC, new ETH was set to be issued to Ethereum network nodes at rate of 26% of the pre-mined ETH per year. \n\nEthereum network is currently going through some major updates which are expected to be fully rolled out by 2022 and bring emission inflation to 0-2%.",
       "links": {
@@ -7460,12 +8206,17 @@
       },
       "rating": "",
       "id": "ethereum",
-      "funds": ["8_decimal_capital", "kr1"]
+      "funds": [
+        "8_decimal_capital",
+        "kr1"
+      ]
     },
     {
       "code": "BCH",
       "name": "Bitcoin Cash",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nBitcoin Cash is a fork of Bitcoin blockchain. It has forked from the original Bitcoin blockchain on August 2017 as a result of a community split. \n\nUntil the split point the Bitcoin and what now known as Bitcoin Cash was essentially a single blockchain. As a result of the split a new Bitcoin Cash blockchain was formed.\n\nBitcoin Cash blockchain allows larger block sizes which enables the network to fit more transactions into the block and as a result provides higher processing speed and cheaper transaction fees.\n\n### Token Description\n\nThe native unit of currency in Bitcoin Cash blockchain network is called Bitcoin Cash. It's denoted by a symbol BCH and divisible into 100,000,000 subunits. \n\n### Token Emission\n\nThere can be at most 21 million BCH units in circulation.\n\nBeing a fork of Bitcoin, Bitcoin Cash inherited the emission model of the Bitcoin blockchain. Just like BTC, new BCH are minted every new block which takes about 10 minutes and then sent to one of the network miners. The award amount is cut in half every 4 years by the protocol powering the network. \n\nIt's estimated that around 3-4 million BCH units mined in early days were permanently lost due to users loosing their private keys. As a result these Bitcoin Cash units remain dormant and out of circulation.",
       "links": {
@@ -7482,7 +8233,10 @@
     {
       "code": "DASH",
       "name": "Dash",
-      "categories": ["blockchain", "privacy"],
+      "categories": [
+        "blockchain",
+        "privacy"
+      ],
       "active": true,
       "description": "### Project Description\n\nLaunched in 2014, the cryptocurrency Dash was originally known as Xcoin. After being rebranded as Darkcoin, it landed on its current name, Dash, in March 2015. \n\nIt is known as privacy-coin and was designed to ensure user privacy and anonymity when transacting on the Dash network.\n\nUnlike Bitcoin where every network node acts as a validator and remitter of payments, Dash blockchain has both two types of nodes. These are regular open-to-all network nodes responsible for mining blocks and so called masternodes. \n\nThe masternodes enable privacy features (PrivateSend), instant transactions (InstantSend), and the decentralized governance and budgeting system for the network. As a result of such network design, Dash network able to provide anonymous, faster and cheaper transactions when compared to Bitcoin.\n\n### Token Description\n\nThe native unit of currency in Dash network denoted by a symbol DASH and divisible into 100,000,000 subunits. \n\nOne of the key utilities for DASH cryptocurrency, other than being used for transacting on the network, lies in the ability to run masternodes and earn fees as a result of powering private and instant transactions on the network. \n\nAnyone with a 1000 DASH tokens can become a network governing entity and a masternode.\n\n### Token Emission\n\nUnlike Bitcoin where entire amount of block reward (emission + transaction fees) goes to miners, Dash splits block rewards between three stakeholders—masternodes (45%), miners (45%), and treasury (10%). The masternodes are randomly selected for payment in each mined block, approximately every 2.6 minutes.\n\nThe treasury's 10% share is used to finance future development projects at Dash.",
       "links": {
@@ -7501,7 +8255,9 @@
     {
       "code": "DOGE",
       "name": "Litecoin",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nLitecoin was launched in 2011 by former Google engineer Charlie Lee and was debuted as the lite version of Bitcoin. Some technical parameters aside these two blockchains are very similar. \n\nLitecoin blockchain processes a block of transactions roughly every 2.5 minutes where as it takes 10 minutes for the Bitcoin blockchain. As a result, the Litecoin blockchain can process up to 4 times more transactions than Bitcoin in a given interval.\n\nThe flip side of the Litecoin is the vulnerability of the Litecoin network to attacks, which is due to the smaller number of network nodes and miners. This means that the Litecoin platform is significantly less protected from outside interference.\n\n### Token Description\n\nThe native unit of currency in Litecoin network is also called Litecoin, denoted by LTC symbol and divisible into 100,000,000 subunits.\n\n### Token Emission\n\nThere can be at most 84 million LTC coin units which is 4 times larger than that of Bitcoin. About 65-70 million is already in circulation.\n\nSimilar to Bitcoin, about every 4 years (840,000 blocks) the reward miner gets for processing a block of transactions is cut in half and currently stands at 12.5 LTC (until August 2023).",
       "links": {
@@ -7520,7 +8276,10 @@
     {
       "code": "ZEC",
       "name": "Zcash",
-      "categories": ["blockchain", "privacy"],
+      "categories": [
+        "blockchain",
+        "privacy"
+      ],
       "active": true,
       "description": "### Project Description\n\nZcash grew out of an experimental proposal from a group of scientists and mathematicians looking to fix а lack of privacy on Bitcoin. \n\nZcash launched on October 28, 2016 by Electric Coin Co and was the first cryptocurrency project making use of zk-SNARKs technology, also known as zero-knowledge proofs.\n\nWhile Bitcoin blockchain takes about 10 minutes to process a block with new transactions, on Zcash the blocks are on average processed once in about 75 seconds (1.25 minutes) making it faster.\n\n### Token Description\n\nThe native unit of currency in Zcash network denoted by a symbol ZEC and divisible into 100,000,000 subunits known as zatoshi. \n\nMain utility of ZEC currency lies in ability to conduct anonymous transactions. In comparison, every single Bitcoin transaction exposes some information about sender's balance as well as past and future transactions. Zcash blockchain allows transactions which are verifiable for validity by any third party without exposing private data of the entities involved in that transaction. \n\n### Token Emission\n\nZcash is actually a fork of the Bitcoin cryptocurrency project and shares a lot of fundamental properties inlcuding a limited supply of at most 21 million ZEC tokens.\n\nNew ZEC units are created each time a block is added to the Zcash blockchain. New blocks are created roughly every 75 seconds.\n\nThe ZEC supply curve mirrors Bitcoin's, however the number of ZEC created per Zcash block are 1/8 the number of BTC created per Bitcoin block.. \n\nThe first weeks after Zcash launch were a \"slow-start\" mining period. During that period, the amount of ZEC each time a block was mined started at zero and gradually ramped up to 12.5 ZEC after 34 days. \n\nThe slow-start period ended on December 1st, 2016.",
       "links": {
@@ -7534,12 +8293,19 @@
       },
       "rating": "",
       "id": "zcash",
-      "funds": ["placeholder", "fenbushi_capital", "digital_currency_group", "pantera_capital"]
+      "funds": [
+        "placeholder",
+        "fenbushi_capital",
+        "digital_currency_group",
+        "pantera_capital"
+      ]
     },
     {
       "code": "ADA",
       "name": "Cardano",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nCardano was founded back in 2017, by Charles Hoskinson, who was also one of the co-founders of the Ethereum network. He is the CEO of IOHK, the company that built Cardano’s blockchain.\n\nCardano is one of the biggest blockchains to successfully use a proof-of-stake consensus mechanism, which is less energy intensive than the proof-of-work algorithm relied upon by Bitcoin. \n\nIt's an Ethereum like smart-contract enabled blockchain that allows for arbitrary services to be built on top of it. Cardano is significantly faster than Ethereum and therefore capable of processing a lot more transactions at a very low cost.\n\nThat said, desp Cardano is still nowhere near Ethereum when it comes to the number of services operating on the blockchain and the value locked in smart contracts. \n\nThe project has taken pride in ensuring that all of the technology developed goes through a process of peer-reviewed research.\n\n### Token Description\n\nTha native cryptocurrency unit of Cardano blockchain is ADA. The token is designed to ensure that owners can participate in the operation of the network. Those who hold it have a right to vote on any proposed changes to the software powering Cardano blockchain.\n\nAs is the case with other proof-of-stake blockchains ADA token holders can stake their tokens and earn ADA tokens as a result.\n\nThere are two ways an ada holder can earn rewards: by delegating their stake to a stake pool run by someone else, or running their own stake pool. \n\nThe more stake is delegated to a stake pool (up to a certain point), the more likely it is to make the next block – and the rewards are shared between everyone who delegated their stake to that stake pool.\n\n### Token Emission\n\nAbout 30 billion of those are already in circulation. As part of initial fund raising there were 5 rounds of public sales of Cardano tokens, held between September 2015 and January 2017.\n\nApproximately 2.5 billion ADA was allotted to IOHK once the network launched. Meanwhile, an additional 2.1 billion ADA was given to Emurgo, a global blockchain technology company that served as a founding entity of the Cardano protocol. \n\nAnother 648 million ADA was given to the not-for-profit Cardano Foundation, which aims to promote the platform and increase levels of adoption.\n\nOverall, about 16% of ADA’s total supply went to the project’s founders, with the remaining 84% being split among investors.\n\nThere can be a maximum supply of 45 billion ADA tokens. The newly issued tokens are distributed among ADA token holders which stake their tokens with the protocol.",
       "links": {
@@ -7556,7 +8322,9 @@
     {
       "code": "ALGO",
       "name": "Algorand",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nAlgorand is a scalable, secure, and decentralized cryptocurrency and smart contract platform. Algorand blockchain finalizes blocks in seconds and provides immediate transaction finality. Along with Avalanche and Solana, Algorand is one of the key contenders to the Ethereum.\n\nAlgorand headed by a strong team from MIT and other academic institutions. It was founded by a turning award-winning MIT cryptography professor Silvio Micali who has conceived a number of key technologies currently used in blockchains such as zero-knowledge proofs. So, to say that he’s accomplished in the field of cryptography is an understatement. \n\nThe project raised a large amount of money through 2 private sales and one public sale over 120 million dollars from funds like Union Square Ventures and many others. \n\nThe proceeds of the sales have been used by the team to finance the development of community, academics involved in the project, and development of the Algorand blockchain ecosystem.\n\n### Token Description\n\nThe native cryptocurrency on Alagorand blockchain known as Algo and denoted as ALGO.\n\nAs is the case with most proof-of-stake blockchains, Algo token holders may stake their holdings with the protocol and earn rewards in a form of newly emitted tokens by the protocol. Also, a small amount of Algo required to execute a transaction on the blockchain.\n\nFinally, Algo token holders are in charge of governance and control the direction of Algorand protocol.\n\n### Token Emission\n\nAt genesis of the Algorand blockchain, 10 billion ALGO was minted and it represents the fixed and immutable maximum supply of the Algo cryptocurrency. About 30% of that amount was in circulation as of April, 2021. \n\nThe 2.5 billion of initially minted tokens were primarily assigned to  Algorand Inc (2 billion ALGO) and Algorand Foundation (500 million ALGO).\n\nThe remaining supply of 7 billion ALGO is expected to be in circulation by the end of 2030 and distributed in the following manner:\n\n- Community Incentives: 6.2 billion ALGO\n- Ecosystem Support: 1.25 billion ALGO\n\nWhile the ALGO emission rate is going to remain pretty high over the next 9 years it should facilitate more democratic distribution of ALGO tokens in the ecosystem.",
       "links": {
@@ -7567,7 +8335,12 @@
         "telegram": "https://t.me/algorand"
       },
       "id": "unsupported|algorand",
-      "funds": ["arrington_xrp_capital", "lemniscap", "ngc_ventures", "foundation_capital"]
+      "funds": [
+        "arrington_xrp_capital",
+        "lemniscap",
+        "ngc_ventures",
+        "foundation_capital"
+      ]
     },
     {
       "code": "ANT",
@@ -7590,12 +8363,16 @@
         "telegram": ""
       },
       "id": "erc20|0xa117000000f279d81a1d3cc75430faa017fa5a2e",
-      "funds": ["placeholder"]
+      "funds": [
+        "placeholder"
+      ]
     },
     {
       "code": "ATOM",
       "name": "Cosmos",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nCosmos is a network of many independent blockchains, called zones. The zones are powered by Tendermint Core, which provides a high-performance, consistent, secure PBFT-like consensus engine, where strict fork-accountability guarantees hold over the behaviour of malicious actors. Tendermint Core’s BFT consensus algorithm is well suited for scaling public proof-of-stake blockchains.The first zone on Cosmos is called the Cosmos Hub. The Cosmos Hub is a multi-asset proof-of-stake cryptocurrency with a simple governance mechanism which enables the network to adapt and upgrade. In addition, the Cosmos Hub can be extended by connecting other zones. The hub and zones of the Cosmos network communicate with each other via an inter-blockchain communication (IBC) protocol, a kind of virtual UDP or TCP for blockchains. Tokens can be transferred from one zone to another securely and quickly without the need for exchange liquidity between zones. Instead, all inter-zone token transfers go through the Cosmos Hub, which keeps track of the total amount of tokens held by each zone. The hub isolates each zone from the failure of other zones. Because anyone can connect a new zone to the Cosmos Hub, zones allow for future-compatibility with new blockchain innovations. The supply won’t be limited as the project plans to introduce a yearly inflatory model. ",
       "links": {
@@ -7606,12 +8383,20 @@
         "telegram": "https://t.me/cosmosproject"
       },
       "id": "unsupported|cosmos",
-      "funds": ["kr1", "dragonfly_capital_partners", "iosg_ventures", "hashed", "uncorrelated_ventures"]
+      "funds": [
+        "kr1",
+        "dragonfly_capital_partners",
+        "iosg_ventures",
+        "hashed",
+        "uncorrelated_ventures"
+      ]
     },
     {
       "code": "AVAX",
       "name": "Avalanche",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nAvalanche is a high-speed third generation smart-contract enabled blockchain that's capable of confirming transactions in under one second.\n\nAvalanche features complete support for the Ethereum**,** and thus, Ethereum tooling works out of the box. As a result it's very easy to get started developing on Avalanche blockchain for someone coming from Ethereum.\n\nAvalanche supports application-specific sharding, empowering developers to launch services that conform to their own specific needs.\n\n### Token Description\n\nAVAX is the native token of the Avalanche platform and is needed to transact on Avalanche blockchain. AVAX tokens that are used for transaction fees are burned, increasing scarcity of AVAX.\n\nAVAX token holders may stake their funds and earn staking rewards which are subject to dynamic changes as the system evolves. For the first year, the annual staking reward targets a rate between 7% and 12% of the circulating supply.\n\nBecoming a full block-producer in Avalanche and all of its other subnets requires a minimum stake of 2,000 AVAX tokens. \n\n### Token Emission\n\nThere can be at most 720 million tokens, with slightly over 50% of that amount currently in circulation. The rate at which the maximum cap is reached can vary based on AVAX holders governance vote.\n\nAvalanche network transaction fees whicha re paid in AVAX tokens do not go towards any specific validator. Instead, they are burned, thus increasing scarcity of the AVAX.\n\nAvalanche also boasts one of the most egalitarian token distribution plans in the space, with less than 14% of mainnet tokens issued to private investors and almost 70% issued to people building on the ecosystem.",
       "links": {
@@ -7622,12 +8407,19 @@
         "telegram": ""
       },
       "id": "unsupported|avalanche-2",
-      "funds": ["digital_finance_group", "lemniscap", "iosg_ventures", "ngc_ventures"]
+      "funds": [
+        "digital_finance_group",
+        "lemniscap",
+        "iosg_ventures",
+        "ngc_ventures"
+      ]
     },
     {
       "code": "BIFI",
       "name": "Beefy.Finance",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "links": {
         "website": "https://beefy.finance/",
@@ -7645,7 +8437,10 @@
     {
       "code": "BNB",
       "name": "Binance Coin",
-      "categories": ["blockchain","exchange_tokens"],
+      "categories": [
+        "blockchain",
+        "exchange_tokens"
+      ],
       "active": true,
       "description": "### Project Description\n\nBNB powers the Binance ecosystem and is the native asset of the Binance Chain. BNB is a cryptocurrency created in June 2017, launched during an ICO in July, and initially issued as an ERC-20 token. Designed to be used for a fee reduction on the Binance exchange, its scope was extended over the years.BNB powers the Binance Chain as its native chain token. For instance, it is used to pay fees on the Binance DEX, issue new tokens, send/cancel orders, and transfer assets.BNB is also powering the Binance Smart Chain, which is an EVM-compatible network, forked from “go-ethereum”. It supports smart contracts and relies on a new consensus mechanism: Proof-of-Staked Authority (PoSA) consensus (“Parlia”), which incorporates elements from both Proof of Stake and Proof of Authority. BNB is used for delegated staking on the authority validator, leading to staking rewards for users and validators.Besides its on-chain functions, BNB has multiple additional use-cases such as fee discounts on multiple exchanges (e.g., Binance.com), payment asset on third-party services, and participation rights &amp; transacting currency on Binance Launchpad.At the core of the economics of BNB, there is a burn mechanism leading to period reductions in its total supply (~ every three months). From its initial maximum supply of 200 million, burns are expected to continue until the supply reaches 100 million.Whitepaper",
       "links": {
@@ -7662,7 +8457,9 @@
     {
       "code": "CAKE",
       "name": "PancakeSwap",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "description": "### Project Description\n\nPancakeSwap is a decentralized exchange (DEX) built on Binance Smart Chain (BSC) for trading BEP20 compliant cryptocurrency tokens in a decentralized and private manner. \n\nPancakeSwap utilizes an automated market making (AMM) system just like Uniswap, SushiSwap and other DEXes. There are no order books. \n\nPancakeSwap is a clone of SushiSwap and has an almost identical codebase but has the advantage of cheaper and faster transactions due to being built on BSC. Typically fees for executing trading transactions are ranging from $0.04 to $0.20, and transactions take less than 5 seconds on average.\n\nAside from cheaper network fees, PancakeSwap offers a lower swap fee of 0.2% while the sector average is typically 0.3%.\n\nOn the back of its low-fee model, PancakeSwap became one of the industry's largest decentralized exchanges by trading volume and total value locked (TVL) in February 2021, standing toe-to-toe with AMM model pioneer Uniswap.\n\n### Token Description\n\nThe native cryptocurrency token on PancakeSwap exchange is CAKE and give its holders a right to propose and vote on changes to PancakeSwap mechanics. \n\nUsers are also able to stake CAKE in the pools of PancakeSwap and earn more CAKE tokens, or even tokens of other projects built on the Binance Smart Chain such as DODO, UST (Terra USD), or LINA (Linear Finance).\n\n### Token Emission\n\nThere's currently no hard cap on the supply of CAKE token, making it an inflationary token. \n\nThe CAKE token's primary function is to incentivize providing liquidity to the exchange. That's how the CAKE token created.\n\nDaily emission (based on 30k blocks per day) is 1.2 million CAKE, but with 450,000 per day burned the effective daily emission is 750,000 CAKE per day.\n\n- Farmers: 450,000 CAKE\n- CAKE holders: 300,000 CAKE\n\nThere are some deflationary measures in place which consistently destroy CAKE tokens. All burn processes are currently manual.\n\n- 9.09% of CAKE harvested from farms are burned\n- 10% of CAKE spent on lottery tickets are burned\n- 100% of CAKE raised in IFOs are burned\n\nThere is no supply cap for CAKE. PancakeSwap team is planning transition to a community-led emissions model, where governance vote will be held at the end of each month to decide how emissions are to be adjusted for the following month.",
       "links": {
@@ -7705,7 +8502,9 @@
     {
       "code": "CTK",
       "name": "CertiK",
-      "categories": ["b2b"],
+      "categories": [
+        "b2b"
+      ],
       "active": true,
       "description": "### Project Description\n\nThe CertiK Foundation is a nonprofit, research-driven organization with a mission to give people the power to trust in the blockchain. By pushing forward the adoption of provably secure software, the Foundation hopes to raise the standards of security across space.CertiK Chain provides developers with the safeguards and flexibility to code with confidence, facilitating blockchain adoption for developers, and large enterprises alike.",
       "links": {
@@ -7717,12 +8516,20 @@
       },
       "rating": "",
       "id": "unsupported|certik",
-      "funds": ["8_decimal_capital", "arrington_xrp_capital", "kenetic", "ngc_ventures", "binance_labs"]
+      "funds": [
+        "8_decimal_capital",
+        "arrington_xrp_capital",
+        "kenetic",
+        "ngc_ventures",
+        "binance_labs"
+      ]
     },
     {
       "code": "DOS",
       "name": "DOS Network",
-      "categories": ["oracles"],
+      "categories": [
+        "oracles"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -7746,7 +8553,9 @@
     {
       "code": "DOT",
       "name": "Polkadot",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nThe primary purpose of Polkadot network is to allow independent blockchains i.e. Bitcoin, Ethereum etc to exchange information between them. Public blockchains like Bitcoin have no means to know anything that happens outside its blockchain network. \n\nFor instance, using Polkadot a decentralized financial service on Ethereum blockchain can track the status of the transaction on Bitcoin blockchain and act accordingly.\n\nPolkadot also allows anyone to build special purpose blockchains known as parachains that can communicate with other blockchains connected to Polkadot blockchain. That creates a network of special purpose blockchains that not only able to communicate with each other but also get to benefit from the security model of Polkadot blockchain.\n\n### Token Description\n\nThe native cryptocurrency unit on Polkadot network is DOT. Polkadot token holders have complete control over the Polkadot protocol, including managing exceptional events such as protocol upgrades and fixes.\n\nThe token gets further utility value from the way transactions from parachains are being validated and recorded on the main Polkadot blockchain. The entities validating transactions on parachains and then brodcasting them to the main Polkadot blockchain are required to lock DOT tokens as a safety measure against cheating. \n\nGood validators are rewarded for this by Polkadot protocol in a form of newly issues DOT tokens whilst bad ones lose their deposit stake.\n\nUsers with DOT tokens can choose to stake their tokens with one of the enitites validating transactions and earn part of the rewards received by validator.\n\n### Token Emission\n\nThe Polkadot Foundation concluded an ICO in October 2017 and raised over $140 million by selling 50% of the 10,000,000 DOT token supply. \n\nLater, DOT token holders conducted governance vote to redenominate DOT tokens by a factor of 100, increasing the total supply to 1,000,000,000. \n\nThe rate of issuance of new DOT tokens by the protocol is dependent on the current staking rate in the network and maxes out at 10% as the staking ratio approaches 50%. The more DOT staked the higher is the inflation rate.",
       "links": {
@@ -7788,7 +8597,9 @@
     {
       "code": "EGLD",
       "name": "Elrond",
-      "categories": ["scaling"],
+      "categories": [
+        "scaling"
+      ],
       "active": true,
       "description": "### Project Description\n\nElrond is a novel architecture that goes beyond state-of-the-art by introducing a genuine State Sharding scheme for practical scalability, eliminating energy and computational waste while ensuring distributed fairness through a Secure Proof of Stake (SPoS) consensus mechanism. Having a strong focus on security, Elrond’s network is built to ensure resistance to known security problems like the Sybil attack, Rogue-key attack, Nothing at Stake attack, and others. In an ecosystem that strives for interconnectivity, Elrond’s solution for smart contracts offers an EVM compliant engine to ensure interoperability by design.Elrond (ERD) to Elrond (EGLD) swap:Following the launch of the Elrond Mainnet on the 30th of July, Elrond officially began the token swap from ERD to EGLD on the 3rd of September of 2020. The eGLD ticker is an abbreviation for eGold, denoting the metaphor of what the Elrond currency aims to become. Elrond&#39;s dedicated website Elrond Bridge enabled ERC20/BEP2 ERD holders to swap their tokens for eGLD at a 1000:1 ratio (1000 ERD (old) = 1 eGLD (new)). ",
       "links": {
@@ -7800,12 +8611,19 @@
       },
       "rating": "",
       "id": "unsupported|elrond-erd-2",
-      "funds": ["electric_capital", "maven_11_capital", "woodstock", "ngc_ventures"]
+      "funds": [
+        "electric_capital",
+        "maven_11_capital",
+        "woodstock",
+        "ngc_ventures"
+      ]
     },
     {
       "code": "EOS",
       "name": "EOS",
-      "categories": [""],
+      "categories": [
+        ""
+      ],
       "active": true,
       "description": "### Project Description\n\nEOS.IO is software that introduces a blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications (the “EOS.IO Software”). This is achieved through an operating system-like construct upon which applications can be built. The software provides accounts, authentication, databases, asynchronous communication and the scheduling of applications across multiple CPU cores and/or clusters. The resulting technology is a blockchain architecture that has the potential to scale to millions of transactions per second, eliminates user fees and allows for quick and easy deployment of decentralized applications. For more information, please read the EOS.IO Technical White Paper.Blockexplorer: https://eospark.com/In the case of EOS, circulating supply and total supply are available but max supply is not available, which indicates that EOS supply is infinite. The current cap is 1 billion tokens, there will be an inflation of up to 5% per annum to reward the block producers and they may use these to sell or to invest back into EOS dapps.Blockchain data provided by: Blockchair (main source), Bloks.io (backup)",
       "links": {
@@ -7821,7 +8639,10 @@
     {
       "code": "HEZ",
       "name": "Hermez Network",
-      "categories": ["scaling", "wallet"],
+      "categories": [
+        "scaling",
+        "wallet"
+      ],
       "active": true,
       "description": "### Project Description\n\nFounded on October 15th, 2020 and based in Zug, Switzerland, Hermez Network is a decentralized zk-rollup focused on scaling payments and token transfers on top of Ethereum.One of the most important things about Hermez is the way it decides who the next block creator should be, as block creators are selected via a burn auction, except rather than burning tokens, a 40% of the winning bid goes back to be reinvested in Ethereum public goods through Gitcoin quadratic funding grants.In the Hermez Network this mechanism is referred as proof-of-donation because a significant fraction of this bid is donated to the protocols and social services that run on top of Ethereum.Hermez Network is developed by idem3",
       "links": {
@@ -7839,7 +8660,9 @@
     {
       "code": "ICX",
       "name": "ICON",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nICON Foundation is leading ICON project, one of the largest blockchain networks in the world, launched in 2017 with the vision of ‘Hyperconnect the World’. By using the high-performance blockchain engine, ‘loopchain’, ICON projects to connect various blockchain communities and build an environment where blockchain technology can be applied to real life. ICON supports not only private blockchain projects cooperating with various companies, but also DApp developments in public blockchain sector through strategic partnerships to expand ICON’s blockchain ecosystem.",
       "links": {
@@ -7850,12 +8673,19 @@
         "telegram": "https://t.me/hello_iconworld"
       },
       "id": "unsupported|icon",
-      "funds": ["8_decimal_capital", "pantera_capital", "kenetic", "hashed"]
+      "funds": [
+        "8_decimal_capital",
+        "pantera_capital",
+        "kenetic",
+        "hashed"
+      ]
     },
     {
       "code": "IRIS",
       "name": "Irisnet",
-      "categories": ["cross_chain"],
+      "categories": [
+        "cross_chain"
+      ],
       "active": true,
       "description": "### Project Description\n\nThe IRIS network is an internet of blockchains intended to provide a technology foundation that facilitates construction of distributed business applications.The IRIS network is part of the larger Cosmos network -- all zones in the network would be able to interact with any other zone in the Cosmos network over the standard IBC protocol. By introducing a layer of service semantics into the network, IRIS is going to provide an innovative solution that enables a whole new set of business scenarios, which would result in an increase in scale and diversity of the Cosmos network.",
       "links": {
@@ -7867,12 +8697,16 @@
       },
       "rating": "",
       "id": "unsupported|iris-network",
-      "funds": ["8_decimal_capital"]
+      "funds": [
+        "8_decimal_capital"
+      ]
     },
     {
       "code": "KAVA",
       "name": "Kava.io",
-      "categories": ["lending"],
+      "categories": [
+        "lending"
+      ],
       "active": true,
       "description": "### Project Description\n\nKava is a PoS blockchain built on Cosmos, with its own native KAVA token that is deployed in its governance model along with its multi-collateral backed USDX stable coin.",
       "links": {
@@ -7884,12 +8718,21 @@
       },
       "rating": "",
       "id": "unsupported|kava",
-      "funds": ["arrington_xrp_capital", "framework_ventures", "lemniscap", "robot_ventures", "iosg_ventures"]
+      "funds": [
+        "arrington_xrp_capital",
+        "framework_ventures",
+        "lemniscap",
+        "robot_ventures",
+        "iosg_ventures"
+      ]
     },
     {
       "code": "LRC",
       "name": "Loopring",
-      "categories": ["dexes","scaling"],
+      "categories": [
+        "dexes",
+        "scaling"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -7923,7 +8766,10 @@
     {
       "code": "LUNA",
       "name": "Terra",
-      "categories": ["stablecoin_issuers","wallets"],
+      "categories": [
+        "stablecoin_issuers",
+        "wallets"
+      ],
       "active": true,
       "description": "### Project Description\n\nTerra aims to build a new financial infrastructure that works better for everyone. The network is powered by a family of stablecoins, each pegged to major fiat currencies all algorithmically stabilized by Terra’s native token, Luna. Terra’s mission is to set money free by building open financial infrastructure. Luna, as the native staking asset from which the family of Terra stablecoins derives their stability, utility, and value, acts both as collateral for the entire Terra economy and as a staking token that secures the PoS network. Luna can be held and traded like a normal crypto asset, but can also be staked to accrue rewards in the network generated from transaction fees. Luna can also be used to make and vote on governance proposals.The family of Terra stablecoins is designed to achieve stability through consistent mining rewards with a contracting and expanding money supply. For example, if the system has detected that the price of a Terra currency has deviated from its peg, it applies pressure to normalize the price. Currently, the family of Terra stablecoins includes: KRT (Terra stablecoin pegged to Korean Won), UST (Terra stablecoin pegged to US Dollar), MNT (Terra stablecoin pegged to Mongolian Togrog), SDR (Terra stablecoin pegged to IMF SDR), with more being added in the future.",
       "links": {
@@ -7952,7 +8798,9 @@
     {
       "code": "NEAR",
       "name": "Near",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nNEAR is an open-source, decentralized platform with the potential to change how systems are designed, how applications are built and how the web itself works. It is a complex technology with a simple goal — allow developers and entrepreneurs to easily and sustainably build applications which secure high value assets like money and identity while making them performant and usable enough for consumers to access. NEAR provides a community-operated cloud infrastructure for deploying and running decentralized applications.  It combines the features of a decentralized database with others of a serverless compute platform. The token which allows this platform to run also enables applications built on top of it to interact with each other in new ways.  Together, these features allow developers to create censorship resistant back-ends for applications that deal with high stakes data like money, identity and assets and open-state components which interact seamlessly with each other. NEAR’s token economy is built around the NEAR token, a unit of value on the platform that enables token holders to use applications on NEAR, participate in network governance, and earn token rewards by staking to the network.  ",
       "links": {
@@ -7981,7 +8829,9 @@
     {
       "code": "NEO",
       "name": "NEO",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nNEO is an open source project driven by community. It utilizes blockchain technology and digital identities to digitize assets and automate the management of digital assets using smart contracts. Using a distributed network, it aims to create a \"Smart Economy\".NEO was founded in 2014 and open sourced on GitHub in June 2015. Its MainNet was released in October 2016. Its vision of a \"smart economy\" was set up along with the project rebranding in 2017.NEO represents ownership of the NEO platform and allows users to buy NEO (ANC) and to vote on protocol changes on the NEO blockchain. ANS are 100% premined and issued on the NEO&#39;s genesis block.",
       "links": {
@@ -7997,7 +8847,9 @@
     {
       "code": "OKB",
       "name": "OKB",
-      "categories": ["exchange_tokens"],
+      "categories": [
+        "exchange_tokens"
+      ],
       "active": true,
       "description": "",
       "links": {
@@ -8013,7 +8865,9 @@
     {
       "code": "QTUM",
       "name": "Qtum",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nQtum is a decentralized blockchain platform with dApp and turing-complete smart contract functionalities while still maintaining an Unspent Transaction Output (UTXO) transaction model. Qtum is PoS based and boasts a Decentralized Governance Protocol (DGP) which allows specific blockchain settings to be modified by making use of smart contracts.QTUM is the underlying value token in the Qtum blockchain.",
       "links": {
@@ -8024,12 +8878,16 @@
         "telegram": ""
       },
       "id": "unsupported|qtum",
-      "funds": ["kr1"]
+      "funds": [
+        "kr1"
+      ]
     },
     {
       "code": "REN",
       "name": "REN",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "description": "### Project Description\n\nRen, formerly known as Republic Protocol, makes the cryptocurrency transfers between blockchains easy, transparent, and secure in a private model. \n\nRen provided capability for decentralized apps (i.e. projects in DeFi ecosystem) on Ethereum, Binance Smart Chain and potentially other blockchains to bring external cryptocurrency assets like Bitcoin (BTC), Bitcoin Cash (BCH), Zcash (ZEC) and Doge (DOGE) to their offerings. \n\nFor instance, Ren provides a Bitcoin equivalent on Ethereum blockchain known as renBTC allowing anyone to exchange BTC to renBTC and vice a versa to a large extent in a trustless manner. The same thing cannot be said about wBTC (wrapped Bitcoin) which requires users to trust the entity behind wBTC coins which rperesents a point of failure. Swapping BTC to renBTC and back is faster than alternative technology known as atomic swaps.\n\nIt should further be noted that Ren converts external assets (ex: BTC) to an Ethereum ERC20 type token (ex: renBTC) giving the underlying asset all properties of ERC20 token standard.\n\nThe engine that powers decentralized interoperability solution of Ren is called RenVM, which is a network of network nodes (Darknodes) making up a virtual machine. RenVM is a sort of rustless custodian for cryptocurrency – every renBTC token issues by Ren is backed by an equivalent BTC token stored in the RenVM.\n\nThe RenVM network is also trustless, meaning there is no central authority that can stop you minting or redeeming tokens.\n\n### Token Description\n\nThe native cryptocurrency token on Ren protocol is REN. The token is required for running a node on the RenVM network. 100,000 REN tokens are required to register and run a Darknode. \n\nAlthough, the REN token has no other use case than for operating a node, people are encouraged to run Darknodes as they can earn fees in more popular cryptocurrencies like BTC and ETH. \n\n### Token Emission\n\nThe Ren token, called REN has a fixed supply of 1 billion tokens. It is an ERC20 compliant token sold during the token sale. \n\nDuring the two rounds of ICO, 60.2% of the tokens were sold to investors. Ren conducted a presale and public token sale in 2018, during which a total of 60.2% of the supply was sold to investors.\n\nIt has a reserve fund of 19.9% of the total supply with 9.9% of the fund allocated internally to advisors, the team, and its founders.\n\nThe team tokens came with a two-year lock-up period, with a six-month lock-up for advisor allocations.\n\nAlso, 10% of the REN supply is specifically for partnerships, development, and other activities.",
       "links": {
@@ -8042,12 +8900,19 @@
         "telegram": "https://t.me/renproject"
       },
       "id": "erc20|0x408e41876cccdc0f92210600ef50372656052a38",
-      "funds": ["polychain_capital", "fbg_capital", "infinite_capital", "1kx"]
+      "funds": [
+        "polychain_capital",
+        "fbg_capital",
+        "infinite_capital",
+        "1kx"
+      ]
     },
     {
       "code": "REP",
       "name": "Augur",
-      "categories": ["prediction_markets"],
+      "categories": [
+        "prediction_markets"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -8076,12 +8941,18 @@
         }
       ],
       "id": "erc20|0x221657776846890989a759ba2973e427dff5c9bb",
-      "funds": ["kr1", "1confirmation", "pantera_capital"]
+      "funds": [
+        "kr1",
+        "1confirmation",
+        "pantera_capital"
+      ]
     },
     {
       "code": "RUNE",
       "name": "THORChain",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "description": "### Project Description\n\nTHORChain is an independent blockchain that serves as a decentralized exchange (DEX) allowing users to swap cryptocurrencies residing on different blockchains in a decentralized manner. \n\nIt's like Uniswap but goe beyond the boundaries of a single blockchain. In fact, its core offering is to enable cross-blockchain token swaps in a non-custodial manner, without involving a party that need to be trusted.\n\n### Token Description\n\nThe native cryptocurrency of THORChain is called RUNE. \n\nSome uses for RUNE include:\n\n- Validators must stake RUNE to be part of the Validator Sets.\n- All network transaction fees are paid in RUNE.\n- RUNE holders can stake their holding in THORChain liquidity pools Continuous Liquidity Pools (CLPs) to earn rewards from network service fees.\n- Block rewards to validator nodes are paid in RUNE.\n\n### Token Emission\n\nRUNE has a 500 million max supply with tokens allocated as shown below. The project opted to distribute tokens through a few tokens sales, a reward mechanism for providing liquidity, and direct allocations to early contributors:\n\n- Nodes & liquidity incentives: ~220.5 million RUNE. Two-thirds of this goes to service nodes (aka validators), and the remaining third to liquidity incentives.\n- THORChain company: 65 million (vested over 40 months).\n- Community reserves (RUNEVault): 60 million, emitted over 2.5 years. RUNEVault issues 2 million RUNE each month as part of its staking rewards program.\n- Team & Advisors: 50 million, locked until mainnet launch, then released in 20% batches every 3 montns.\n- Seed investors: 30 million, of which 4 million were distributed immediately. Locked until mainnet launch, then released in 20% batches every 3 months.\n- Private Sale investors: 70 million. 50% of this pool was unlocked upon distribution to provide enough liquidity on Binance DEX. The other half unlocked one week after the close of THORChain's initial DEX offering (IDO).\n- Initial DEX Offering (IDO): 7 million, no vesting schedule.",
       "links": {
@@ -8095,12 +8966,16 @@
       },
       "rating": "",
       "id": "erc20|0x3155ba85d5f96b2d030a4966af206230e46849cb",
-      "funds": ["zee_prime_capital"]
+      "funds": [
+        "zee_prime_capital"
+      ]
     },
     {
       "code": "SOL",
       "name": "Solana",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nFounded in 2017, Solana is a high-performance cryptocurrency blockchain which supports smart contracts. \n\nIt's currently one of the leading 3rd generation blockchains along with blockchains like Avalanche or Algorand that aims to serve as a foundational layer for decentralized applications.\n\nSolana can theoretically process up to 70,000 transactions per second (compared to Bitcoin’s 7 TPS and Ethereum’s 15 TPS). Moreover, it can achieve such a high throughput without the need to delegate operations to other attached blockchains known as sidechains (layer 2) as is the case with blockchains like Polkadot or Ethereum 2.0. \n\nSolana is developed by a company of the same name which is based in San Diego, California. The team consists of former Qualcomm, Google, Apple, Microsoft, and Dropbox employees.\n\n### Token Description\n\nSOL is a cryptocurrency native to the Solana blockchain. It is used to pay for executing transactions on the Solana network. \n\nSOL holders can also stake their tokens to become a blockchain node and receive earn some additional SOL tokens as a result.\n\nThe governance of the Solana blockchain is also expected to be oversee by SOL token holders.\n\n### Token Emission\n\nSolana has had 5 funding rounds in total and raised over 25 million USD in funding across these five rounds. \n\nSOL cryptocurrency has a total supply of 500 million and about 185 million SOL tokens were sold during the funding rounds.\n\nOf this total supply:\n\n- 36.2% sold to private investors\n- 12.8% allocated to the team (vested over 2 years)\n- 10.4%  allocated to the Solana Foundation\n- 39% allocated to the Solana community\n\nAs part of Solana's security design, all network fees which are paid in SOL are burnt, reducing the total supply.",
       "links": {
@@ -8111,12 +8986,17 @@
         "telegram": "https://t.me/solanaio"
       },
       "id": "unsupported|solana",
-      "funds": ["blocktower_capital", "zee_prime_capital"]
+      "funds": [
+        "blocktower_capital",
+        "zee_prime_capital"
+      ]
     },
     {
       "code": "THETA",
       "name": "Theta Network",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nTheta is a decentralized video delivery network, powered by users.The Theta mainnet was launched on March 15th, 2019 with the swap from ERC20 (Ethereum) Theta Tokens to native Theta Tokens on the Theta blockchain. To make sure that you receive your Theta Tokens on the mainnet as well as the 1:5 distribution of Theta Fuel, download the new Theta wallet for Android OS or Apple iOS and move your tokens there.",
       "links": {
@@ -8127,12 +9007,18 @@
         "telegram": ""
       },
       "id": "unsupported|theta-token",
-      "funds": ["infinite_capital", "iosg_ventures", "gumi_cryptos"]
+      "funds": [
+        "infinite_capital",
+        "iosg_ventures",
+        "gumi_cryptos"
+      ]
     },
     {
       "code": "TRX",
       "name": "Tron",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "## Project Description\n\nTRON was launched by Justin Sun in 2016, initially as an ERC-20 token on Ethereum, and later in 2018 as an independent blockchain with its own native token. Today the project maintained by a non-profit TRON Foundation.\n\nTRON often compared to Ethereum due to many similarities projects share. Like Ethereum TRON enables developers to create autonomous financial and other services powered by smart contracts. Although the platform enables free and considerably faster transactions, it's nowhere near the Ethereum when it comes to the amount of value locked in the services operating on top of the blockchain. \n\nOn 25 July 2018, the TRON Foundation announced it had acquired Bittorrent, the biggest peer-to-peer file sharing network. Later the Bittorent ecosystem got its own token  on TRON platform.\n\n### Token Description\n\nThe native unit of currency in TRON blockchain network is TRONix, denoted by a symbol TRX. While transactions are nearly free the still require a tiny bit of TRX tokens as a measure against spam attacks. \n\nTRX token holders may stake their holdings with the protocol and earn passive income. The more users stake, the more TRON Power (TP) they earn. Then TP tokens can be used for voting on Super Representatives on the blockchain which are tasked with producing blocks. \n\n### Token Emission\n\nIn 2017 TRON Foundation conducted initial coin offering (ICO) and raised about $70 million for further development of the TRON blockchain and ecosystem around it. There was an initial issuance of 100 billion TRX tokens.\n\nInitially, TRON blockchain used to award 32 TRX tokens to one of the Super Representatives powering the network with every new block, roughly every 3 seconds. At the same time, 16 TRX were awarded to one of the witness nodes (or Super Representative Candidate). As a result, the approximated daily inflation is 1.38 million TRX and the approximated yearly inflation is over 500 million TRX.\n\nLater, community voted to change this incetive mechanism. Rewards for each block were lowered from 32TRX to 16TRX, while the amount of voting rewards increased tenfold to 160TRX which gets split between top 127 SRs, proportionally to the number of votes they received.",
       "links": {
@@ -8149,7 +9035,9 @@
     {
       "code": "TWT",
       "name": "Trust Wallet Token",
-      "categories": ["wallets"],
+      "categories": [
+        "wallets"
+      ],
       "active": true,
       "description": "### Project Description\n\nTrust Wallet Token is an utility token that provides a range of benefits and incentives to Trust Wallet users. Trust Wallet itself is a mobile cryptocurrency wallet that supports dozens of popular native assets, in addition to popular tokens on the Ethereum, Binance and TRON blockchains.\nHolders of TWT tokens unlock a variety of benefits when using Trust Wallet, including discounts on in-app cryptocurrency purchases and on the use of decentralized exchange (DEX) services. TWT holders can also participate in the governance of Trust Wallet and can vote on Trust Wallet update proposals, helping to shape the development of the app.\nTrust Wallet Token was initially launched as a BEP-2 asset on Binance Chain, but was relaunched as a BEP-20 token on Binance Smart Chain in October 2020.",
       "links": {
@@ -8166,7 +9054,9 @@
     {
       "code": "UNFI",
       "name": "Unifi Protocol DAO",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "description": "### Project Description\n\nUnifi Protocol DAO was launched on September 1st on Tron, and is a group of non-custodial, interoperable, decentralized, and multi-chain smart contracts providing the building blocks for the next generation of DeFi development. The Unifi Protocol is designed to provide developers with functional DeFi building blocks linking multiple blockchains together into one large DeFi marketplace. uTrade is the working proof-ofconcept for harnessing multi-chain and multi-platform liquidity mining to power UNFI, Unifi’s Global Governance Token.Unifi Protocol was developed by Sesameseed.",
       "links": {
@@ -8183,7 +9073,9 @@
     {
       "code": "USDT",
       "name": "Tether",
-      "categories": ["fiat_stablecoins"],
+      "categories": [
+        "fiat_stablecoins"
+      ],
       "active": true,
       "description": "### Project Description\n\nLaunched by a Hong Kong based Tether Limited, Tether is a stablecoin with a value meant to mirror the value of the US dollar. It's currently the biggest stablecoin in the cryptocurrency space. \n\nFor individuals Tether opens up ways for anyone to store assets in USD equivalent without the need to have a bank account.\n\nFor cryptocurrency businesses and exchanges Tether provides means to enable cryptocurrency-to-fiat trading without using legacy banking and payment providers which are currently heavily regulated and just plain slow.\n\nTether tokens may be purchased directly from the Tether's website or on crypto exchanges  using fiat money (USD, EUR etc) or other cryptocurrency. In the same manner, users may redeem Tether tokens into fiat currency by selling them on crypto exchanges or via Tether's website.\n\n### Token Description\n\nTether stablecoin tokens are denoted by USDT symbol and exist on several blockchains \n\nBeing a cryptocurrency token on a blockchain, Tether adopts some benefits of cryptocurrency allowing parties to transact with each other pseudo anonymously.\n\nAny individual accepting Tether tokens as payment may potentially do so without knowing the identity of the sender. The sender only needs a wallet that supports sending and receiving of Tether tokens.\n\nTether stablecoin can be found on most cryptocurrency exchages, both centralized and decentralized, and supported by most crypto wallets. It's a highly liquid stablecoin and usually traded in pairs with the highest daily trading volume.\n\nTether is a centralized stablecoin and can potentially be compared to cash in your bank account. Tether funds on your cryptocurrency wallet can potentially be frozen and confiscated, as such functionality is integarted into a smart contract powering Tether stablecoin.\n\nTether is available on many blockchains (Bitcoin, Ethereum, Tron, etc.) \n\n### Token Emission\n\nThere is no limit to supply, and as of April 2020 there is more than 50 billion tokens in circulation.\n\nThe basic operating principle behind any centralized stablecoin like Tether is that there should be an equivalent amount of USD held by the company issuing the stablecoin.\n\nThis deposit ensures that the Tether Limited can always act as a buyer of last resort to purchase all Tethers in circulation should every Tether token holder decide to sell it.\n\nThe Tether Limited currently acts as a centralized custodian of the reserve assets. The company claims that all Tether tokens in circulation are 100% backed by cash and other liquid assets.\n\nAt this point there is no sure way to know that Tether Limited has the required amount of cash or other liquid reserves. There has been some controversy around that. Thus, the reliability of Tether tokens is fully dependent on the amount of trust someone is willing to place into the Tether Limited as a company as well as the external factors that may affect its ability to operate.\n\nThat said, Tether Limited currently offers one of the most convenient ways to purchase large amount of cryptocurrency for someone outside western hemisphere.",
       "links": {
@@ -8201,7 +9093,9 @@
     {
       "code": "UTK",
       "name": "UTRUST",
-      "categories": ["b2b"],
+      "categories": [
+        "b2b"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -8225,7 +9119,9 @@
     {
       "code": "WAVES",
       "name": "Waves",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nWaves is an open blockchain protocol and development toolset for Web 3.0 applications and decentralized solutions, aiming to raise security, reliability and speed of IT systems. It enables anyone to build their apps, fostering mass adoption of blockchain, with a wide range of purpose-designed tools for making the process of developing and running dApps easy and accessible. Launched in 2016, Waves has since released numerous successful blockchain-based solutions and has steadily developed into a rich and constantly-growing technological platform. Waves’ technology is designed to address the needs of developers and companies that want to leverage the properties of blockchain systems – including their security, auditability, verifiability and the trustless execution of transactions and business logic.Waves Platform provides everything required to support the backend of Web 3.0 services. In 2017, Waves successfully launched its mainnet with LPoS, pioneer decentralised exchange DEX and later the Waves-NG protocol. In 2018, the Waves development team delivered the first implementation of smart contracts. This was followed by the release of the RIDE programming language in 2019, a simple and powerful language for programming logic. Moreover, in June 2019 the mainnet of Waves Enterprise, a global private blockchain solution, was launched. All of this is complemented with a broad infrastructure: an IDE for sandbox development, tools, SDKs, libraries, frameworks and protocols for convenient and easy integrations.",
       "links": {
@@ -8242,7 +9138,9 @@
     {
       "code": "WRX",
       "name": "WazirX",
-      "categories": ["exchange_tokens"],
+      "categories": [
+        "exchange_tokens"
+      ],
       "active": true,
       "description": "### Project Description\n\nWRX, a utility token backed by WazirX, forms the backbone of the WazirX ecosystem. It launched WRX tokens to involve its community in helping build out WazirX, and reward them accordingly for contributing to success. This helps WazirX stay true to the ethos of cryptocurrency and blockchain - to share the rewards of WazirX&#39;s success with its early adopters and supporters.",
       "links": {
@@ -8261,7 +9159,9 @@
     {
       "code": "XEM",
       "name": "NEM",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nNEM is a peer-to-peer crypto platform. It is written in Java and JavaScript with 100% original source code. NEM has a stated goal of a wide distribution model and has introduced new features in blockchain technology in its proof-of-importance (POI) algorithm. NEM also features an integrated P2P secure and encrypted messaging system, multisignature accounts and an Eigentrust++ reputation system.NEM has gone through extensive open alpha testing starting June 25, 2014, followed by lengthy and comprehensive beta testing starting on October 20, 2014. NEM finally launched on May 31, 2015.",
       "links": {
@@ -8278,7 +9178,9 @@
     {
       "code": "XLM",
       "name": "Stellar",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nStellar is a decentralized platform that aims to connect banks, payments systems, and people. Integrate to move money quickly, reliably, and at almost no cost. Supported by a nonprofit, Stellar&#39;s goal is to bring the world together by increasing interoperability between diverse financial systems and currencies.Stellar is a technology that enables money to move directly between people, companies and financial institutions as easily as email. This means more access for individuals, lower costs for banks and more revenue for businesses.Stellar Lumens is not mineable and does not use proof of work (PoW). Instead, Stellar uses SCP, the stellar consensus protocol. Blockchain data provided by: Blockchair (Block Number), Stellar.org Dashboard (Total Supply)",
       "links": {
@@ -8294,7 +9196,10 @@
     {
       "code": "XMR",
       "name": "Monero",
-      "categories": ["blockchain", "privacy"],
+      "categories": [
+        "blockchain",
+        "privacy"
+      ],
       "active": true,
       "description": "### Project Description\n\nMonero is generally known as the top privacy-centric cryptocurrency. It uses a special kind of cryptography to ensure that all of its network transactions are remain unlinkable and untraceable. It's based on the CryptoNote protocol, a secure, private and untraceable currency system. \n\nIn July of 2012, Bytecoin, the first real life implementation of CryptoNote, was launched. While Bytecoin had promise, people noticed that 80% of the coins were already distributed. So, it was decided that the bytecoin blockchain will be forked and the new coins in the new chain will be called Bitmonero, which is was later changed to Monero.\n\nLike some top cryptocurrency projects Monero has a growing community of supporters voluntarily working on various parts of the ecosystem.\n\nMonero also has a block size cap of 2 MBs, but it’s a soft cap. When the line of waiting transactions gets too long, the miners can increase the size of the blocks.\n\n### Token Description\n\nThe native unit of currency in Monero network denoted by a symbol XMR. A single XMR token consists of 1,000,000,000,000 piconero units.\n\nThe main utility value of monero lies in ability to execute fully anonymous transactions which are for the most part impossible with most of the other cryptocurrencies.\n\nToday it's often labelled as the privacy coin of choice when it comes to transacting on the dark web.\n\n### Token Emission\n\nThere are about 18 million XMR tokens in circulation. Similar to many proof of work cryptocurrencies i.e. Bitcoin, new Monero tokens are awarded to one of the network nodes on every block (every 2 minutes)\n\nThe current emission amount is about 1.2 XMR and will gradually drop until end of May 2022. At this point, rewards will be fixed at 0.6 XMR per block.",
       "links": {
@@ -8311,7 +9216,9 @@
     {
       "code": "XTZ",
       "name": "Tezos",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "description": "### Project Description\n\nTezos is a new decentralized blockchain that governs itself by establishing a true digital commonwealth. It facilitates formal verification, a technique that mathematically proves the correctness of the code governing transactions and boosts the security of the most sensitive or financially weighted smart contracts.Tezos takes a fundamentally different approach to governance by creating governance rules for stakeholders to approve of protocol upgrades that are then automatically deployed on the network. When a developer proposes a protocol upgrade, they can attach an invoice to be paid out to their address upon approval and inclusion of their upgrade. This approach provides a strong incentive for participation in the Tezos core development and further decentralizes the maintenance of the network. It compensates developers with tokens that have immediate value rather than forcing them to seek corporate sponsorships, foundation salaries, or work for Internet fame alone.Blockchain data provided by: Blockchair (main source), TzStats (backup)",
       "links": {
@@ -8322,12 +9229,16 @@
         "telegram": ""
       },
       "id": "unsupported|tezos",
-      "funds": ["draper_associates"]
+      "funds": [
+        "draper_associates"
+      ]
     },
     {
       "code": "OVR",
       "name": "Ovr",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "ethereum",
@@ -8351,7 +9262,9 @@
     {
       "code": "EPS",
       "name": "Ellipsis",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8375,7 +9288,9 @@
     {
       "code": "RDN",
       "name": "Raiden Network Token",
-      "categories": ["scaling"],
+      "categories": [
+        "scaling"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8399,7 +9314,9 @@
     {
       "code": "SKL",
       "name": "SKALE",
-      "categories": ["scaling"],
+      "categories": [
+        "scaling"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8423,7 +9340,9 @@
     {
       "code": "BUNNY",
       "name": "BunnyToken",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8447,7 +9366,9 @@
     {
       "code": "VALUE",
       "name": "Value DeFi",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8471,7 +9392,9 @@
     {
       "code": "SGT",
       "name": "SharedStake Governance Token",
-      "categories": ["staking_eth_2_0"],
+      "categories": [
+        "staking_eth_2_0"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8495,7 +9418,10 @@
     {
       "code": "ALPACA",
       "name": "Alpaca Finance",
-      "categories": ["yield_aggregators","lending"],
+      "categories": [
+        "yield_aggregators",
+        "lending"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8519,7 +9445,9 @@
     {
       "code": "FEI",
       "name": "Fei Protocol",
-      "categories": ["algo_stablecoins"],
+      "categories": [
+        "algo_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8543,7 +9471,9 @@
     {
       "code": "MIOTA",
       "name": "IOTA",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8567,7 +9497,9 @@
     {
       "code": "XRP",
       "name": "XRP",
-      "categories": ["blockchain"],
+      "categories": [
+        "blockchain"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8591,7 +9523,9 @@
     {
       "code": "WIN",
       "name": "WINk",
-      "categories": ["oracles"],
+      "categories": [
+        "oracles"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8615,7 +9549,9 @@
     {
       "code": "ACS",
       "name": "ACryptoS",
-      "categories": ["yield_aggregators"],
+      "categories": [
+        "yield_aggregators"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8639,7 +9575,9 @@
     {
       "code": "BTMX",
       "name": "Bitmax Token",
-      "categories": ["exchange_tokens"],
+      "categories": [
+        "exchange_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8663,7 +9601,9 @@
     {
       "code": "WOO",
       "name": "Wootrade Network",
-      "categories": ["exchange_tokens"],
+      "categories": [
+        "exchange_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8687,7 +9627,9 @@
     {
       "code": "ZMT",
       "name": "Zipmex Token",
-      "categories": ["exchange_tokens"],
+      "categories": [
+        "exchange_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8711,7 +9653,9 @@
     {
       "code": "BDPI",
       "name": "Interest Bearing DPI",
-      "categories": ["index_funds"],
+      "categories": [
+        "index_funds"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8735,7 +9679,9 @@
     {
       "code": "BAR",
       "name": "FC Barcelona Fan Token",
-      "categories": ["fan_tokens"],
+      "categories": [
+        "fan_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8759,7 +9705,9 @@
     {
       "code": "PSG",
       "name": "Paris Saint-Germain Fan Token",
-      "categories": ["fan_tokens"],
+      "categories": [
+        "fan_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8783,7 +9731,9 @@
     {
       "code": "JUV",
       "name": "Juventus Fan Token",
-      "categories": ["fan_tokens"],
+      "categories": [
+        "fan_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8807,7 +9757,9 @@
     {
       "code": "GAL",
       "name": "Galatasaray Fan Token",
-      "categories": ["fan_tokens"],
+      "categories": [
+        "fan_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8831,7 +9783,9 @@
     {
       "code": "ACM",
       "name": "AC Milan Fan Token",
-      "categories": ["fan_tokens"],
+      "categories": [
+        "fan_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8855,7 +9809,9 @@
     {
       "code": "ATM",
       "name": "Atletico Madrid Fan Token",
-      "categories": ["fan_tokens"],
+      "categories": [
+        "fan_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8879,7 +9835,9 @@
     {
       "code": "OG",
       "name": "OG Fan Token",
-      "categories": ["fan_tokens"],
+      "categories": [
+        "fan_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8903,7 +9861,9 @@
     {
       "code": "ASR",
       "name": "AS Roma Fan Token",
-      "categories": ["fan_tokens"],
+      "categories": [
+        "fan_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8927,7 +9887,9 @@
     {
       "code": "STV",
       "name": "Sint-Truidense Voetbalvereniging Fan Token",
-      "categories": ["fan_tokens"],
+      "categories": [
+        "fan_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8951,7 +9913,9 @@
     {
       "code": "TH",
       "name": "Team Heretics Fan Token",
-      "categories": ["fan_tokens"],
+      "categories": [
+        "fan_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8975,7 +9939,9 @@
     {
       "code": "TRA",
       "name": "Trabzonspor Fan Token",
-      "categories": ["fan_tokens"],
+      "categories": [
+        "fan_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -8999,7 +9965,9 @@
     {
       "code": "NAVI",
       "name": "Natus Vincere Fan Token",
-      "categories": ["fan_tokens"],
+      "categories": [
+        "fan_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9023,7 +9991,9 @@
     {
       "code": "CKB",
       "name": "Nervos Network",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9047,7 +10017,9 @@
     {
       "code": "TKO",
       "name": "Tokocrypto",
-      "categories": ["exchange_tokens"],
+      "categories": [
+        "exchange_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9071,7 +10043,9 @@
     {
       "code": "PRQ",
       "name": "PARSIQ",
-      "categories": ["investment_tools"],
+      "categories": [
+        "investment_tools"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9095,7 +10069,9 @@
     {
       "code": "DEXT",
       "name": "DexTools",
-      "categories": ["investment_tools"],
+      "categories": [
+        "investment_tools"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9119,7 +10095,9 @@
     {
       "code": "BDP",
       "name": "Big Data Protocol",
-      "categories": ["investment_tools"],
+      "categories": [
+        "investment_tools"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9143,7 +10121,9 @@
     {
       "code": "GLQ",
       "name": "GraphLinq Protocol",
-      "categories": ["investment_tools"],
+      "categories": [
+        "investment_tools"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9167,7 +10147,9 @@
     {
       "code": "UWL",
       "name": "UniWhales",
-      "categories": ["investment_tools"],
+      "categories": [
+        "investment_tools"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9191,7 +10173,9 @@
     {
       "code": "WATCH",
       "name": "Yieldwatch",
-      "categories": ["investment_tools"],
+      "categories": [
+        "investment_tools"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9215,7 +10199,9 @@
     {
       "code": "RAY",
       "name": "Raydium",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9239,7 +10225,9 @@
     {
       "code": "HEZ",
       "name": "Hermez Network",
-      "categories": ["wallets"],
+      "categories": [
+        "wallets"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9263,7 +10251,9 @@
     {
       "code": "ZERO",
       "name": "0.exchange",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9287,7 +10277,9 @@
     {
       "code": "ANY",
       "name": "Anyswap",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9311,7 +10303,9 @@
     {
       "code": "BURGER",
       "name": "Burger Swap",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9335,7 +10329,9 @@
     {
       "code": "PENDLE",
       "name": "Pendle",
-      "categories": ["dexes"],
+      "categories": [
+        "dexes"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9359,7 +10355,10 @@
     {
       "code": "ALCX",
       "name": "Alchemix",
-      "categories": ["lending", "synthetics"],
+      "categories": [
+        "lending",
+        "synthetics"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9383,7 +10382,10 @@
     {
       "code": "XVS",
       "name": "Venus",
-      "categories": ["lending","stablecoin_issuers"],
+      "categories": [
+        "lending",
+        "stablecoin_issuers"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9407,7 +10409,9 @@
     {
       "code": "UFT",
       "name": "UniLend Finance",
-      "categories": ["lending"],
+      "categories": [
+        "lending"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9431,7 +10435,9 @@
     {
       "code": "APL",
       "name": "Apollon Limassol Fan Token",
-      "categories": ["fan_tokens"],
+      "categories": [
+        "fan_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9455,7 +10461,9 @@
     {
       "code": "LQTY",
       "name": "Liquity",
-      "categories": ["lending"],
+      "categories": [
+        "lending"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9479,7 +10487,9 @@
     {
       "code": "FIRO",
       "name": "Firo",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9503,7 +10513,9 @@
     {
       "code": "GRIN",
       "name": "Grin",
-      "categories": ["privacy"],
+      "categories": [
+        "privacy"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9527,7 +10539,9 @@
     {
       "code": "PROS",
       "name": "Prosper",
-      "categories": ["prediction_markets"],
+      "categories": [
+        "prediction_markets"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9551,7 +10565,9 @@
     {
       "code": "VAI",
       "name": "Vai",
-      "categories": ["algo_stablecoins"],
+      "categories": [
+        "algo_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9575,7 +10591,9 @@
     {
       "code": "ZB",
       "name": "ZB Token",
-      "categories": ["exchange_tokens"],
+      "categories": [
+        "exchange_tokens"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9599,7 +10617,9 @@
     {
       "code": "ETH2x-FLI",
       "name": "ETH 2x Flexible Leverage Index",
-      "categories": ["index_funds"],
+      "categories": [
+        "index_funds"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9623,7 +10643,9 @@
     {
       "code": "CARDS",
       "name": "Cardstarter",
-      "categories": ["fundraising"],
+      "categories": [
+        "fundraising"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9647,7 +10669,9 @@
     {
       "code": "UOS",
       "name": "Ultra",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9671,7 +10695,9 @@
     {
       "code": "ALICE",
       "name": "My Neighbor Alice",
-      "categories": ["gaming"],
+      "categories": [
+        "gaming"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9695,7 +10721,9 @@
     {
       "code": "FIDA",
       "name": "Bonfida",
-      "categories": ["infrastructure"],
+      "categories": [
+        "infrastructure"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9719,7 +10747,9 @@
     {
       "code": "STEP",
       "name": "Step Finance",
-      "categories": ["investment_tools"],
+      "categories": [
+        "investment_tools"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9743,7 +10773,9 @@
     {
       "code": "TerraUSD",
       "name": "UST",
-      "categories": ["fiat_stablecoins"],
+      "categories": [
+        "fiat_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -9767,7 +10799,9 @@
     {
       "code": "STETH",
       "name": "Lido Staked Ether",
-      "categories": ["algo_stablecoins"],
+      "categories": [
+        "algo_stablecoins"
+      ],
       "active": true,
       "platform": {
         "name": "",
@@ -11347,14 +12381,26 @@
       "name": "CRXzone",
       "image_url": "https://assets.coingecko.com/markets/images/148/small/Logo_Symbol_transparentBG.png?1523781069"
     },
-    { "id": "binance_dex_mini", "name": "Binance DEX (Mini)", "image_url": "missing_small.png" },
+    {
+      "id": "binance_dex_mini",
+      "name": "Binance DEX (Mini)",
+      "image_url": "missing_small.png"
+    },
     {
       "id": "zilswap",
       "name": "Zilswap",
       "image_url": "https://assets.coingecko.com/markets/images/652/small/D9XBZNlj_400x400.png?1618895352"
     },
-    { "id": "niftex", "name": "Niftex", "image_url": "missing_small.png" },
-    { "id": "zkswap", "name": "ZKSwap", "image_url": "missing_small.png" },
+    {
+      "id": "niftex",
+      "name": "Niftex",
+      "image_url": "missing_small.png"
+    },
+    {
+      "id": "zkswap",
+      "name": "ZKSwap",
+      "image_url": "missing_small.png"
+    },
     {
       "id": "pancakeswap_others",
       "name": "Pancakeswap (Others)",

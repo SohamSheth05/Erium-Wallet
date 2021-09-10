@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mehul/Downloads/Arwa/Erium-wallet-source/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "/Users/mehul/.gradle/caches/transforms-2/files-2.1/426a26aa2d17d96af3652b472b184977/core-1.5.0-beta01/res/values-en-rXC/values-en-rXC.xml",

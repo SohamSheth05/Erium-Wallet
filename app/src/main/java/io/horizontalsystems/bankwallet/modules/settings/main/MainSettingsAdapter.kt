@@ -1,5 +1,8 @@
 package io.horizontalsystems.bankwallet.modules.settings.main
 
+import android.app.Activity
+import android.content.Context
+import android.content.Intent
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
@@ -7,6 +10,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import io.horizontalsystems.bankwallet.R
 import io.horizontalsystems.bankwallet.core.App
+import io.horizontalsystems.bankwallet.core.utils.PreferenceHelper
+import io.horizontalsystems.bankwallet.modules.authentication.AuthenticationActivity
 import io.horizontalsystems.bankwallet.modules.settings.theme.ThemeType
 import io.horizontalsystems.views.ListPosition
 import io.horizontalsystems.views.SettingsView
@@ -15,8 +20,10 @@ import io.horizontalsystems.views.helpers.LayoutHelper
 import io.horizontalsystems.views.inflate
 import kotlinx.android.extensions.LayoutContainer
 
-class MainSettingsAdapter(private val items: List<SettingsViewItem?>) :
+class MainSettingsAdapter(private val activity : Activity, private val items: List<SettingsViewItem?>) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+
+    private val context = activity
 
     private val viewTypeArrow = 0
     private val viewTypeSwitch = 1
@@ -67,7 +74,7 @@ class MainSettingsAdapter(private val items: List<SettingsViewItem?>) :
         when (holder) {
             is SettingsViewHolderBottom -> {
                 if (item is SettingsMenuBottom) {
-                    holder.bind(item)
+                    holder.bind(context,item)
                 }
             }
             is SettingsViewHolderSwitch -> {
@@ -90,8 +97,9 @@ class MainSettingsAdapter(private val items: List<SettingsViewItem?>) :
         RecyclerView.ViewHolder(containerView), LayoutContainer {
         private val companyLogo = containerView.findViewById<ImageView>(R.id.companyLogo)
         private val appName = containerView.findViewById<TextView>(R.id.appName)
+        private val tvLogout = containerView.findViewById<TextView>(R.id.tvLogout)
 
-        fun bind(item: SettingsMenuBottom) {
+        fun bind(context : Activity, item: SettingsMenuBottom) {
             appName.text = item.appName
 
             if (App.localStorage.currentTheme == ThemeType.Dark) {
@@ -102,6 +110,12 @@ class MainSettingsAdapter(private val items: List<SettingsViewItem?>) :
 
             companyLogo.setOnClickListener {
                 item.onClick()
+            }
+
+            tvLogout.setOnClickListener {
+                PreferenceHelper.logout()
+                context.startActivity(Intent(context,AuthenticationActivity::class.java))
+                context.finish()
             }
         }
     }

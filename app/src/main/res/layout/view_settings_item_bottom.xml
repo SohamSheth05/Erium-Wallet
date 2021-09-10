@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+<androidx.appcompat.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvLogout"
+        style="@style/Headline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textAllCaps="true"
+        android:textColor="@color/grey"
+        android:text="Logout" />
 
     <TextView
         android:id="@+id/appName"
@@ -24,10 +37,7 @@
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:layout_marginTop="4dp"
-        android:background="@color/steel_10"
-        app:layout_constraintEnd_toEndOf="@+id/appName"
-        app:layout_constraintStart_toStartOf="@+id/appName"
-        app:layout_constraintTop_toBottomOf="@+id/appName" />
+        android:background="@color/steel_10" />
 
     <TextView
         android:id="@+id/decentralizedAppBy"
@@ -36,10 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="3.5dp"
         android:text="@string/Settings_InfoSubtitle"
-        android:textColor="@color/grey"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lineView" />
+        android:textColor="@color/grey" />
 
     <ImageView
         android:id="@+id/companyLogo"
@@ -47,10 +54,7 @@
         android:layout_height="80dp"
         android:layout_marginTop="26dp"
         android:background="?android:selectableItemBackground"
-        android:padding="6dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/decentralizedAppBy" />
+        android:padding="6dp" />
 
     <TextView
         android:id="@+id/companyName"
@@ -60,9 +64,6 @@
         android:layout_marginTop="6dp"
         android:layout_marginBottom="32dp"
         android:text="@string/Settings_CompanyName"
-        android:textColor="@color/grey"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/companyLogo" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:textColor="@color/grey" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>

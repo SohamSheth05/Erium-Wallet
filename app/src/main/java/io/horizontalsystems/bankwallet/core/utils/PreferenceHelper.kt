@@ -8,7 +8,7 @@ import io.horizontalsystems.bankwallet.core.App
 import io.horizontalsystems.bankwallet.entities.response.UserData
 
 object PreferenceHelper {
-    val TOKEN_PREF = "TOKEN_PREF"
+    val APP_PREF = "APP_PREF"
     fun defaultPrefs(context: Context): SharedPreferences =
         PreferenceManager.getDefaultSharedPreferences(context)
 
@@ -91,19 +91,20 @@ object PreferenceHelper {
          return getUserDetails() != null
      }*/
 
-    /*  fun setFirstTimeOpen(open: Boolean?) {
-          customPrefs(App.getInstance(), APP_PREF)["isFirstTime"] = open
-      }
+    fun setSetupSecurityCounter(open: Int?) {
+        customPrefs(App.getInstance(), APP_PREF)["setupSecurityCounter"] = open
+    }
 
-      fun getFirstTimeOpen(): Boolean {
-          return customPrefs(App.getInstance(), APP_PREF)["isFirstTime"] ?: false
-      }*/
+    fun getSetupSecurityCounter(): Int {
+        return customPrefs(App.getInstance(), APP_PREF)["setupSecurityCounter"] ?: 0
+    }
 
     fun accessToken(token: String?) {
-        customPrefs(App.getInstance(), TOKEN_PREF)["tokendetail"] = token
+        customPrefs(App.getInstance(), APP_PREF)["tokendetail"] = token
     }
 
     fun getAccessToken(): String? {
-        return customPrefs(App.getInstance(), TOKEN_PREF)["tokendetail"]
+        return customPrefs(App.getInstance(), APP_PREF)["tokendetail"]
     }
+
 }

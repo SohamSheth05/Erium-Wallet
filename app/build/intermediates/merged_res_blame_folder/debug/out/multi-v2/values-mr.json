@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mehul/Downloads/Arwa/Erium-wallet-source/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml",
+            "outputFile": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "/Users/mehul/.gradle/caches/transforms-2/files-2.1/4f67831fbb831378d457259c7b015910/preference-1.1.1/res/values-mr/values-mr.xml",
