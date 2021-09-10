@@ -87,9 +87,9 @@ object PreferenceHelper {
          return Gson().fromJson(jsonString, UserData::class.java)
      }*/
 
-    /* fun isUserLogin(): Boolean {
+     fun isUserLogin(): Boolean {
          return getUserDetails() != null
-     }*/
+     }
 
     /*  fun setFirstTimeOpen(open: Boolean?) {
           customPrefs(App.getInstance(), APP_PREF)["isFirstTime"] = open

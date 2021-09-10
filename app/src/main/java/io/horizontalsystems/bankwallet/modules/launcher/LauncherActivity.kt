@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import io.horizontalsystems.bankwallet.core.App
+import io.horizontalsystems.bankwallet.core.utils.PreferenceHelper
+import io.horizontalsystems.bankwallet.modules.authentication.AuthenticationActivity
 import io.horizontalsystems.bankwallet.modules.intro.IntroActivity
 import io.horizontalsystems.bankwallet.modules.keystore.KeyStoreActivity
 import io.horizontalsystems.bankwallet.modules.lockscreen.LockScreenActivity
@@ -29,43 +31,48 @@ class LauncherActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        viewModel = ViewModelProvider(this).get(LaunchViewModel::class.java)
-        viewModel.init()
+        if (PreferenceHelper.isUserLogin()) {
+            viewModel = ViewModelProvider(this).get(LaunchViewModel::class.java)
+            viewModel.init()
 
-        viewModel.openWelcomeModule.observe(this, Observer {
-            IntroActivity.start(this)
+            viewModel.openWelcomeModule.observe(this, Observer {
+                IntroActivity.start(this)
+                finish()
+            })
+
+            viewModel.openMainModule.observe(this, Observer {
+                MainModule.start(this)
+                if (App.localStorage.torEnabled) {
+                    val intent = Intent(this, TorConnectionActivity::class.java)
+                    startActivity(intent)
+                }
+                finish()
+            })
+
+            viewModel.openUnlockModule.observe(this, Observer {
+                val intent = Intent(this, LockScreenActivity::class.java)
+                unlockResultLauncher.launch(intent)
+            })
+
+            viewModel.openNoSystemLockModule.observe(this, Observer {
+                KeyStoreActivity.startForNoSystemLock(this)
+            })
+
+            viewModel.openKeyInvalidatedModule.observe(this, Observer {
+                KeyStoreActivity.startForInvalidKey(this)
+            })
+
+            viewModel.openUserAuthenticationModule.observe(this, Observer {
+                KeyStoreActivity.startForUserAuthentication(this)
+            })
+
+            viewModel.closeApplication.observe(this, Observer {
+                finishAffinity()
+            })
+        } else {
+            startActivity(Intent(this, AuthenticationActivity::class.java))
             finish()
-        })
-
-        viewModel.openMainModule.observe(this, Observer {
-            MainModule.start(this)
-            if (App.localStorage.torEnabled) {
-                val intent = Intent(this, TorConnectionActivity::class.java)
-                startActivity(intent)
-            }
-            finish()
-        })
-
-        viewModel.openUnlockModule.observe(this, Observer {
-            val intent = Intent(this, LockScreenActivity::class.java)
-            unlockResultLauncher.launch(intent)
-        })
-
-        viewModel.openNoSystemLockModule.observe(this, Observer {
-            KeyStoreActivity.startForNoSystemLock(this)
-        })
-
-        viewModel.openKeyInvalidatedModule.observe(this, Observer {
-            KeyStoreActivity.startForInvalidKey(this)
-        })
-
-        viewModel.openUserAuthenticationModule.observe(this, Observer {
-            KeyStoreActivity.startForUserAuthentication(this)
-        })
-
-        viewModel.closeApplication.observe(this, Observer {
-            finishAffinity()
-        })
+        }
     }
 
 }

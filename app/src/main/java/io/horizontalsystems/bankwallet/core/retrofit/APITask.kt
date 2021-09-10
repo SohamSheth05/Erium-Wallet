@@ -20,6 +20,17 @@ class APITask : BaseAPITask() {
     fun login(listener: OnResponseListener, params: HashMap<String, String>): Disposable? {
         return getRequest(apiCall.login(params), listener, 1)
     }
+
+    fun forgotPassword(listener: OnResponseListener, params: HashMap<String, String>): Disposable? {
+        return getRequest(apiCall.forgotPassword(params), listener, 1)
+    }
+
+    fun resetPassword(
+        listener: OnResponseListener,
+        paramMap: HashMap<String, String>
+    ): Disposable? {
+        return getRequest(apiCall.changePassword(paramMap), listener, 1)
+    }
     /* fun forgotPassword(listener: OnResponseListener, params: LoginModel): Disposable? {
          return getRequest(apiCall.forgotPassword(params), listener, 1)
      }

@@ -19,6 +19,12 @@ interface APICall {
 
     @POST(API.LOGIN)
     fun login(@Body param: HashMap<String, String>): Observable<Response<ResponseData<UserData>>>
+
+    @POST(API.FORGOT_PASSWORD)
+    fun forgotPassword(@Body param: HashMap<String, String>): Observable<Response<ResponseData<Any>>>
+
+    @POST(API.CHANGE_PASSWORD)
+    fun changePassword(@Body param: HashMap<String, String>): Observable<Response<ResponseData<Any>>>
     /*  @GET(API.CHALLENGE_DETAIL_MOBILE)
       fun getChallengeDetailById(
           @Query("id") id: Int,
