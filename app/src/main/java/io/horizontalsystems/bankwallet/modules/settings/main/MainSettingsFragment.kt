@@ -155,7 +155,7 @@ class MainSettingsFragment : BaseFragment() {
         }
 
         val presenterView = presenter.view as MainSettingsView
-        val mainSettingsAdapter = MainSettingsAdapter(
+        val mainSettingsAdapter = MainSettingsAdapter(requireActivity(),
             listOf(
                 manageKeys,
                 privacySettings,

@@ -12,11 +12,13 @@ import androidx.sqlite.db.SupportSQLiteStatement;
 import com.trustwallet.walletconnect.models.WCPeerMeta;
 import com.trustwallet.walletconnect.models.session.WCSession;
 import io.horizontalsystems.bankwallet.entities.WalletConnectSession;
+import java.lang.Class;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.StringBuilder;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
@@ -146,18 +148,38 @@ public final class WalletConnectSessionDao_Impl implements WalletConnectSessionD
         final int _tmpChainId;
         _tmpChainId = _cursor.getInt(_cursorIndexOfChainId);
         final String _tmpAccountId;
-        _tmpAccountId = _cursor.getString(_cursorIndexOfAccountId);
+        if (_cursor.isNull(_cursorIndexOfAccountId)) {
+          _tmpAccountId = null;
+        } else {
+          _tmpAccountId = _cursor.getString(_cursorIndexOfAccountId);
+        }
         final WCSession _tmpSession;
         final String _tmp;
-        _tmp = _cursor.getString(_cursorIndexOfSession);
+        if (_cursor.isNull(_cursorIndexOfSession)) {
+          _tmp = null;
+        } else {
+          _tmp = _cursor.getString(_cursorIndexOfSession);
+        }
         _tmpSession = __databaseConverters.toWCSession(_tmp);
         final String _tmpPeerId;
-        _tmpPeerId = _cursor.getString(_cursorIndexOfPeerId);
+        if (_cursor.isNull(_cursorIndexOfPeerId)) {
+          _tmpPeerId = null;
+        } else {
+          _tmpPeerId = _cursor.getString(_cursorIndexOfPeerId);
+        }
         final String _tmpRemotePeerId;
-        _tmpRemotePeerId = _cursor.getString(_cursorIndexOfRemotePeerId);
+        if (_cursor.isNull(_cursorIndexOfRemotePeerId)) {
+          _tmpRemotePeerId = null;
+        } else {
+          _tmpRemotePeerId = _cursor.getString(_cursorIndexOfRemotePeerId);
+        }
         final WCPeerMeta _tmpRemotePeerMeta;
         final String _tmp_1;
-        _tmp_1 = _cursor.getString(_cursorIndexOfRemotePeerMeta);
+        if (_cursor.isNull(_cursorIndexOfRemotePeerMeta)) {
+          _tmp_1 = null;
+        } else {
+          _tmp_1 = _cursor.getString(_cursorIndexOfRemotePeerMeta);
+        }
         _tmpRemotePeerMeta = __databaseConverters.toWCPeerMeta(_tmp_1);
         final boolean _tmpIsAutoSign;
         final int _tmp_2;
@@ -203,5 +225,9 @@ public final class WalletConnectSessionDao_Impl implements WalletConnectSessionD
     } finally {
       __db.endTransaction();
     }
+  }
+
+  public static List<Class<?>> getRequiredConverters() {
+    return Collections.emptyList();
   }
 }

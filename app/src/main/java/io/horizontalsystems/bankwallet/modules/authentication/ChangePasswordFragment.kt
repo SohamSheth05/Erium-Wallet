@@ -15,6 +15,8 @@ import io.horizontalsystems.bankwallet.modules.settings.theme.ThemeType
 import io.horizontalsystems.bankwallet.modules.swap.tradeoptions.Caution
 import io.horizontalsystems.core.helpers.HudHelper
 import kotlinx.android.synthetic.main.fragment_create_new_password.*
+import kotlinx.android.synthetic.main.fragment_create_new_password.registrationIcon
+import kotlinx.android.synthetic.main.fragment_forgot_password.*
 import kotlinx.android.synthetic.main.view_input.view.*
 import java.util.*
 
@@ -37,7 +39,7 @@ class ChangePasswordFragment : BaseFragment() {
     }
 
     private val authenticationViewModel
-            by lazy { ViewModelProvider(requireActivity()).get(AuthenticationViewModel::class.java) }
+            by lazy { ViewModelProvider(this).get(AuthenticationViewModel::class.java) }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -92,7 +94,11 @@ class ChangePasswordFragment : BaseFragment() {
         })
 
         authenticationViewModel.apiErrorMessage.observe(viewLifecycleOwner, {
-            HudHelper.showErrorMessage(this.requireView(), it.peekContent().toString())
+            password.input.text.clear()
+            oldPassword.input.text.clear()
+            it?.getContentIfNotHandled()?.let {
+                HudHelper.showErrorMessage(this.requireView(), it)
+            }
         })
     }
 

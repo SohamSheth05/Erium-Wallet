@@ -9,10 +9,12 @@ import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import io.horizontalsystems.bankwallet.entities.RestoreSettingRecord;
+import java.lang.Class;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @SuppressWarnings({"unchecked", "deprecation"})
@@ -123,13 +125,29 @@ public final class RestoreSettingDao_Impl implements RestoreSettingDao {
       while(_cursor.moveToNext()) {
         final RestoreSettingRecord _item;
         final String _tmpAccountId;
-        _tmpAccountId = _cursor.getString(_cursorIndexOfAccountId);
+        if (_cursor.isNull(_cursorIndexOfAccountId)) {
+          _tmpAccountId = null;
+        } else {
+          _tmpAccountId = _cursor.getString(_cursorIndexOfAccountId);
+        }
         final String _tmpCoinId;
-        _tmpCoinId = _cursor.getString(_cursorIndexOfCoinId);
+        if (_cursor.isNull(_cursorIndexOfCoinId)) {
+          _tmpCoinId = null;
+        } else {
+          _tmpCoinId = _cursor.getString(_cursorIndexOfCoinId);
+        }
         final String _tmpKey;
-        _tmpKey = _cursor.getString(_cursorIndexOfKey);
+        if (_cursor.isNull(_cursorIndexOfKey)) {
+          _tmpKey = null;
+        } else {
+          _tmpKey = _cursor.getString(_cursorIndexOfKey);
+        }
         final String _tmpValue;
-        _tmpValue = _cursor.getString(_cursorIndexOfValue);
+        if (_cursor.isNull(_cursorIndexOfValue)) {
+          _tmpValue = null;
+        } else {
+          _tmpValue = _cursor.getString(_cursorIndexOfValue);
+        }
         _item = new RestoreSettingRecord(_tmpAccountId,_tmpCoinId,_tmpKey,_tmpValue);
         _result.add(_item);
       }
@@ -161,13 +179,29 @@ public final class RestoreSettingDao_Impl implements RestoreSettingDao {
       while(_cursor.moveToNext()) {
         final RestoreSettingRecord _item;
         final String _tmpAccountId;
-        _tmpAccountId = _cursor.getString(_cursorIndexOfAccountId);
+        if (_cursor.isNull(_cursorIndexOfAccountId)) {
+          _tmpAccountId = null;
+        } else {
+          _tmpAccountId = _cursor.getString(_cursorIndexOfAccountId);
+        }
         final String _tmpCoinId;
-        _tmpCoinId = _cursor.getString(_cursorIndexOfCoinId);
+        if (_cursor.isNull(_cursorIndexOfCoinId)) {
+          _tmpCoinId = null;
+        } else {
+          _tmpCoinId = _cursor.getString(_cursorIndexOfCoinId);
+        }
         final String _tmpKey;
-        _tmpKey = _cursor.getString(_cursorIndexOfKey);
+        if (_cursor.isNull(_cursorIndexOfKey)) {
+          _tmpKey = null;
+        } else {
+          _tmpKey = _cursor.getString(_cursorIndexOfKey);
+        }
         final String _tmpValue;
-        _tmpValue = _cursor.getString(_cursorIndexOfValue);
+        if (_cursor.isNull(_cursorIndexOfValue)) {
+          _tmpValue = null;
+        } else {
+          _tmpValue = _cursor.getString(_cursorIndexOfValue);
+        }
         _item = new RestoreSettingRecord(_tmpAccountId,_tmpCoinId,_tmpKey,_tmpValue);
         _result.add(_item);
       }
@@ -176,5 +210,9 @@ public final class RestoreSettingDao_Impl implements RestoreSettingDao {
       _cursor.close();
       _statement.release();
     }
+  }
+
+  public static List<Class<?>> getRequiredConverters() {
+    return Collections.emptyList();
   }
 }

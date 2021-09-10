@@ -14,7 +14,11 @@ import io.horizontalsystems.bankwallet.entities.request.RegisterRequest
 import io.horizontalsystems.bankwallet.modules.settings.theme.ThemeType
 import io.horizontalsystems.bankwallet.modules.swap.tradeoptions.Caution
 import io.horizontalsystems.core.helpers.HudHelper
+import kotlinx.android.synthetic.main.fragment_login.*
 import kotlinx.android.synthetic.main.fragment_registration.*
+import kotlinx.android.synthetic.main.fragment_registration.email
+import kotlinx.android.synthetic.main.fragment_registration.password
+import kotlinx.android.synthetic.main.fragment_registration.registrationIcon
 import kotlinx.android.synthetic.main.view_input.view.*
 
 /**
@@ -36,7 +40,7 @@ class RegistrationFragment : BaseFragment() {
     }
 
     private val registerViewModel
-            by lazy { ViewModelProvider(requireActivity()).get(AuthenticationViewModel::class.java) }
+            by lazy { ViewModelProvider(this).get(AuthenticationViewModel::class.java) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -54,6 +58,7 @@ class RegistrationFragment : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
         email.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_email, 0, 0, 0)
         password.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_password, 0, 0, 0)
+        confirmPassword.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_password, 0, 0, 0)
         firstName.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_user_name, 0, 0, 0)
         lastName.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_user_name, 0, 0, 0)
         phone.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_phone, 0, 0, 0)
@@ -66,11 +71,16 @@ class RegistrationFragment : BaseFragment() {
             validateData()
         }
 
-        registerViewModel.registerObserver.observe(viewLifecycleOwner, {
-
-        })
         registerViewModel.apiErrorMessage.observe(viewLifecycleOwner, {
-            HudHelper.showErrorMessage(this.requireView(), it.peekContent())
+            email.input.text.clear()
+            password.input.text.clear()
+            confirmPassword.input.text.clear()
+            firstName.input.text.clear()
+            lastName.input.text.clear()
+            phone.input.text.clear()
+            it?.getContentIfNotHandled()?.let {
+                HudHelper.showErrorMessage(this.requireView(), it)
+            }
         })
 
     }

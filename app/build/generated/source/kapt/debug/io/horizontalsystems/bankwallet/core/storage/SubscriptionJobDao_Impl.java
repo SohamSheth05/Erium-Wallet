@@ -10,10 +10,12 @@ import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import io.horizontalsystems.bankwallet.entities.SubscriptionJob;
 import io.horizontalsystems.coinkit2.models.CoinType;
+import java.lang.Class;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @SuppressWarnings({"unchecked", "deprecation"})
@@ -130,17 +132,33 @@ public final class SubscriptionJobDao_Impl implements SubscriptionJobDao {
         final SubscriptionJob _item;
         final CoinType _tmpCoinType;
         final String _tmp;
-        _tmp = _cursor.getString(_cursorIndexOfCoinType);
+        if (_cursor.isNull(_cursorIndexOfCoinType)) {
+          _tmp = null;
+        } else {
+          _tmp = _cursor.getString(_cursorIndexOfCoinType);
+        }
         _tmpCoinType = __databaseConverters.toCoinType(_tmp);
         final String _tmpBody;
-        _tmpBody = _cursor.getString(_cursorIndexOfBody);
+        if (_cursor.isNull(_cursorIndexOfBody)) {
+          _tmpBody = null;
+        } else {
+          _tmpBody = _cursor.getString(_cursorIndexOfBody);
+        }
         final SubscriptionJob.StateType _tmpStateType;
         final String _tmp_1;
-        _tmp_1 = _cursor.getString(_cursorIndexOfStateType);
+        if (_cursor.isNull(_cursorIndexOfStateType)) {
+          _tmp_1 = null;
+        } else {
+          _tmp_1 = _cursor.getString(_cursorIndexOfStateType);
+        }
         _tmpStateType = __databaseConverters.toStateType(_tmp_1);
         final SubscriptionJob.JobType _tmpJobType;
         final String _tmp_2;
-        _tmp_2 = _cursor.getString(_cursorIndexOfJobType);
+        if (_cursor.isNull(_cursorIndexOfJobType)) {
+          _tmp_2 = null;
+        } else {
+          _tmp_2 = _cursor.getString(_cursorIndexOfJobType);
+        }
         _tmpJobType = __databaseConverters.toJobType(_tmp_2);
         _item = new SubscriptionJob(_tmpCoinType,_tmpBody,_tmpStateType,_tmpJobType);
         _result.add(_item);
@@ -150,5 +168,9 @@ public final class SubscriptionJobDao_Impl implements SubscriptionJobDao {
       _cursor.close();
       _statement.release();
     }
+  }
+
+  public static List<Class<?>> getRequiredConverters() {
+    return Collections.emptyList();
   }
 }

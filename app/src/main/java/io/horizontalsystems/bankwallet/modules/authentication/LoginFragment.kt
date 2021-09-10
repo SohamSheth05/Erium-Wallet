@@ -20,6 +20,7 @@ import io.horizontalsystems.core.helpers.HudHelper
 import kotlinx.android.synthetic.main.fragment_login.*
 import kotlinx.android.synthetic.main.fragment_registration.registrationIcon
 import kotlinx.android.synthetic.main.view_input.view.*
+import kotlinx.coroutines.*
 
 /**
  * A simple [Fragment] subclass.
@@ -45,7 +46,7 @@ class LoginFragment : BaseFragment() {
     }
 
     private val authenticationViewModel
-            by lazy { ViewModelProvider(requireActivity()).get(AuthenticationViewModel::class.java) }
+            by lazy { ViewModelProvider(this).get(AuthenticationViewModel::class.java) }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -93,7 +94,11 @@ class LoginFragment : BaseFragment() {
             startActivity(Intent(requireContext(), LauncherActivity::class.java))
         })
         authenticationViewModel.apiErrorMessage.observe(viewLifecycleOwner, {
-            HudHelper.showErrorMessage(this.requireView(), it.peekContent().toString())
+            email.input.text.clear()
+            password.input.text.clear()
+            it?.getContentIfNotHandled()?.let {
+                HudHelper.showErrorMessage(this.requireView(), it)
+            }
         })
     }
 

@@ -8,12 +8,12 @@
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable-xxhdpi/ic_onboarding_logo.png"
     },
     {
-        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/menu_send_confirm_menu.xml.flat",
-        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/menu/send_confirm_menu.xml"
-    },
-    {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_background.png.flat",
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/debug/res/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/menu_send_confirm_menu.xml.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/menu/send_confirm_menu.xml"
     },
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_fragment_market_favorites.xml.flat",
@@ -24,12 +24,12 @@
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/view_bottom_navigation_badge.xml"
     },
     {
-        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_fragment_main.xml.flat",
-        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/fragment_main.xml"
-    },
-    {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_fragment_no_wallet.xml.flat",
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/fragment_no_wallet.xml"
+    },
+    {
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_fragment_main.xml.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/fragment_main.xml"
     },
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_view_holder_market_loading.xml.flat",
@@ -40,16 +40,16 @@
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/view_confirmation_primary_item_view.xml"
     },
     {
-        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_view_transaction_info_item.xml.flat",
-        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/view_transaction_info_item.xml"
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_partial_transaction_info.xml.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/partial_transaction_info.xml"
     },
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_view_holder_manage_account_action.xml.flat",
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/view_holder_manage_account_action.xml"
     },
     {
-        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_partial_transaction_info.xml.flat",
-        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/partial_transaction_info.xml"
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_view_transaction_info_item.xml.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/view_transaction_info_item.xml"
     },
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable_seekbar_thumb.xml.flat",
@@ -240,12 +240,12 @@
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable-xxxhdpi/eriumlogo1.png"
     },
     {
-        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_bitcoin_launcher_round.png.flat",
-        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/debug/res/mipmap-xxxhdpi/bitcoin_launcher_round.png"
-    },
-    {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_view_holder_coin_investors_section_header.xml.flat",
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/view_holder_coin_investors_section_header.xml"
+    },
+    {
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_bitcoin_launcher_round.png.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/debug/res/mipmap-xxxhdpi/bitcoin_launcher_round.png"
     },
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_view_send_evm_transaction.xml.flat",
@@ -384,12 +384,12 @@
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable/ic_plus.xml"
     },
     {
-        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable-xhdpi_dgcwallet.png.flat",
-        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable-xhdpi/dgcwallet.png"
-    },
-    {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable_ic_user.xml.flat",
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable/ic_user.xml"
+    },
+    {
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable-xhdpi_dgcwallet.png.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable-xhdpi/dgcwallet.png"
     },
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable_ic_settings.xml.flat",
@@ -496,6 +496,10 @@
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable/ic_market_24.xml"
     },
     {
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable_ic_user_name.xml.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable/ic_user_name.xml"
+    },
+    {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/mipmap-xhdpi_bitcoin_launcher.png.flat",
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/debug/res/mipmap-xhdpi/bitcoin_launcher.png"
     },
@@ -514,6 +518,10 @@
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable-hdpi_oxylogo.png.flat",
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable-hdpi/oxylogo.png"
+    },
+    {
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable_ic_password.xml.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable/ic_password.xml"
     },
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_fragment_bottom_add_token.xml.flat",
@@ -600,6 +608,10 @@
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable-xhdpi/ic_independence.png"
     },
     {
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_fragment_auth_viewpager_layout.xml.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/fragment_auth_viewpager_layout.xml"
+    },
+    {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_fragment_dialog_zcash_bday_height.xml.flat",
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/fragment_dialog_zcash_bday_height.xml"
     },
@@ -634,6 +646,10 @@
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable_ic_price_range_marker.xml.flat",
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable/ic_price_range_marker.xml"
+    },
+    {
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable_ic_phone.xml.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable/ic_phone.xml"
     },
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable_animation_sending_progress_60.xml.flat",
@@ -680,12 +696,12 @@
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/fragment_balance_onboarding_container.xml"
     },
     {
-        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable_rounded_ripple_24dp.xml.flat",
-        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable/rounded_ripple_24dp.xml"
-    },
-    {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_fragment_wallet_connect_request.xml.flat",
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/fragment_wallet_connect_request.xml"
+    },
+    {
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable_rounded_ripple_24dp.xml.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable/rounded_ripple_24dp.xml"
     },
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_view_send_evm_space.xml.flat",
@@ -724,12 +740,12 @@
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/view_holder_transactions_structure.xml"
     },
     {
-        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable-hdpi_dgcwallet.png.flat",
-        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable-hdpi/dgcwallet.png"
-    },
-    {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_fragment_manage_account.xml.flat",
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/fragment_manage_account.xml"
+    },
+    {
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable-hdpi_dgcwallet.png.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable-hdpi/dgcwallet.png"
     },
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_fragment_confirmation_approve_swap.xml.flat",
@@ -1330,6 +1346,10 @@
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable-hdpi_eriumlogo.png.flat",
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable-hdpi/eriumlogo.png"
+    },
+    {
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/drawable_ic_email.xml.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/drawable/ic_email.xml"
     },
     {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_fragment_bottom_notification_menu.xml.flat",

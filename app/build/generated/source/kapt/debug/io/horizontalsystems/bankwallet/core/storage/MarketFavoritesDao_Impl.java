@@ -9,11 +9,13 @@ import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import io.horizontalsystems.coinkit2.models.CoinType;
+import java.lang.Class;
 import java.lang.Integer;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @SuppressWarnings({"unchecked", "deprecation"})
@@ -107,7 +109,11 @@ public final class MarketFavoritesDao_Impl implements MarketFavoritesDao {
         final FavoriteCoin _item;
         final CoinType _tmpCoinType;
         final String _tmp;
-        _tmp = _cursor.getString(_cursorIndexOfCoinType);
+        if (_cursor.isNull(_cursorIndexOfCoinType)) {
+          _tmp = null;
+        } else {
+          _tmp = _cursor.getString(_cursorIndexOfCoinType);
+        }
         _tmpCoinType = __databaseConverters.toCoinType(_tmp);
         _item = new FavoriteCoin(_tmpCoinType);
         final Integer _tmpId;
@@ -152,5 +158,9 @@ public final class MarketFavoritesDao_Impl implements MarketFavoritesDao {
       _cursor.close();
       _statement.release();
     }
+  }
+
+  public static List<Class<?>> getRequiredConverters() {
+    return Collections.emptyList();
   }
 }

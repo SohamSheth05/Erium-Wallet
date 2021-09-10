@@ -8,11 +8,13 @@ import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import io.horizontalsystems.bankwallet.entities.LogEntry;
+import java.lang.Class;
 import java.lang.Integer;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @SuppressWarnings({"unchecked", "deprecation"})
@@ -84,9 +86,17 @@ public final class LogsDao_Impl implements LogsDao {
         final int _tmpLevel;
         _tmpLevel = _cursor.getInt(_cursorIndexOfLevel);
         final String _tmpActionId;
-        _tmpActionId = _cursor.getString(_cursorIndexOfActionId);
+        if (_cursor.isNull(_cursorIndexOfActionId)) {
+          _tmpActionId = null;
+        } else {
+          _tmpActionId = _cursor.getString(_cursorIndexOfActionId);
+        }
         final String _tmpMessage;
-        _tmpMessage = _cursor.getString(_cursorIndexOfMessage);
+        if (_cursor.isNull(_cursorIndexOfMessage)) {
+          _tmpMessage = null;
+        } else {
+          _tmpMessage = _cursor.getString(_cursorIndexOfMessage);
+        }
         _item = new LogEntry(_tmpDate,_tmpLevel,_tmpActionId,_tmpMessage);
         final Integer _tmpId;
         if (_cursor.isNull(_cursorIndexOfId)) {
@@ -102,5 +112,9 @@ public final class LogsDao_Impl implements LogsDao {
       _cursor.close();
       _statement.release();
     }
+  }
+
+  public static List<Class<?>> getRequiredConverters() {
+    return Collections.emptyList();
   }
 }

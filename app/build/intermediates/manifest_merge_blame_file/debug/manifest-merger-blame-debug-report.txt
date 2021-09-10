@@ -11,88 +11,88 @@
 9-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-11-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:66:5-79
-11-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:66:22-76
+11-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:67:5-79
+11-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:67:22-76
 12    <uses-permission android:name="android.permission.VIBRATE" />
-12-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:67:5-66
-12-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:67:22-63
+12-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:68:5-66
+12-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:68:22-63
 13    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
-13-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:68:5-72
-13-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:68:22-69
+13-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:69:5-72
+13-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:69:22-69
 14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
-14-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:69:5-74
-14-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:69:22-71
+14-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:70:5-74
+14-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:70:22-71
 15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-15-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:70:5-81
-15-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:70:22-78
+15-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:71:5-81
+15-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:71:22-78
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:72:5-67
-16-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:72:22-64
+16-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:73:5-67
+16-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:73:22-64
 17    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
-17-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:22:5-65
-17-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:22:22-62
+17-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:22:5-65
+17-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:22:22-62
 18    <uses-feature
-18-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:25:5-27:36
+18-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:25:5-27:36
 19        android:name="android.hardware.camera"
-19-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:26:9-47
+19-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:26:9-47
 20        android:required="false" />
-20-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:27:9-33
+20-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:27:9-33
 21    <uses-feature
-21-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:28:5-30:36
+21-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:28:5-30:36
 22        android:name="android.hardware.camera.front"
-22-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:29:9-53
+22-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:29:9-53
 23        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-23-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:30:9-33
+23-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:30:9-33
 24    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
 25    <uses-feature
-25-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:33:5-35:36
+25-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:33:5-35:36
 26        android:name="android.hardware.camera.autofocus"
-26-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:34:9-57
+26-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:34:9-57
 27        android:required="false" />
-27-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:35:9-33
+27-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:35:9-33
 28    <uses-feature
-28-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:36:5-38:36
+28-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:36:5-38:36
 29        android:name="android.hardware.camera.flash"
-29-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:37:9-53
+29-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:37:9-53
 30        android:required="false" />
-30-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:38:9-33
+30-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:38:9-33
 31    <uses-feature
-31-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:39:5-41:36
+31-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:39:5-41:36
 32        android:name="android.hardware.screen.landscape"
-32-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:40:9-57
+32-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:40:9-57
 33        android:required="false" />
-33-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:41:9-33
+33-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:41:9-33
 34    <uses-feature
-34-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:42:5-44:36
+34-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:42:5-44:36
 35        android:name="android.hardware.wifi"
-35-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:43:9-45
+35-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:43:9-45
 36        android:required="false" />
-36-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:44:9-33
+36-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:44:9-33
 37
 38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-38-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:11:5-77
-38-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:11:22-74
+38-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/47ff52e5c32211c514e8f0f7954d3ff5/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:11:5-77
+38-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/47ff52e5c32211c514e8f0f7954d3ff5/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:11:22-74
 39    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- To store the heap dumps and leak analysis results. -->
-39-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:25:5-68
-39-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:25:22-65
+39-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:25:5-68
+39-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:25:22-65
 40    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-40-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:23:5-80
-40-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:23:22-77
+40-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:23:5-80
+40-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:23:22-77
 41    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-41-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:24:5-81
-41-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:24:22-78
+41-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:24:5-81
+41-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:24:22-78
 42
 43    <application
-43-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:6:5-64:19
+43-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:6:5-65:19
 44        android:name="io.horizontalsystems.bankwallet.core.App"
 44-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:7:9-33
 45        android:allowBackup="false"
 45-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:8:9-36
 46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-46-->[androidx.core:core:1.5.0-beta01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/426a26aa2d17d96af3652b472b184977/core-1.5.0-beta01/AndroidManifest.xml:24:18-86
+46-->[androidx.core:core:1.7.0-alpha01] /Users/mehul/.gradle/caches/transforms-2/files-2.1/37c074a5d6cde12e9ce7d8365031a7df/core-1.7.0-alpha01/AndroidManifest.xml:24:18-86
 47        android:debuggable="true"
 48        android:extractNativeLibs="true"
-48-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:13:18-50
+48-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/47ff52e5c32211c514e8f0f7954d3ff5/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:13:18-50
 49        android:icon="@mipmap/ic_launcher_round"
 49-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:9:9-49
 50        android:label="@string/App_Name"
@@ -107,7 +107,7 @@
 55        android:theme="@style/Theme.AppTheme.DayNight" >
 55-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:14:9-55
 56        <activity
-56-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:16:9-20:20
+56-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:16:9-21:20
 57            android:name="io.horizontalsystems.bankwallet.modules.authentication.AuthenticationActivity"
 57-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:17:13-74
 58            android:screenOrientation="portrait"
@@ -116,456 +116,461 @@
 59-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:19:13-73
 60        </activity>
 61        <activity
-61-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:21:9-23:47
+61-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:22:9-24:47
 62            android:name="io.horizontalsystems.bankwallet.modules.tor.TorConnectionActivity"
-62-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:22:13-62
+62-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:23:13-62
 63            android:launchMode="singleTask" />
-63-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:23:13-44
+63-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:24:13-44
 64        <activity
-64-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:24:9-33:20
+64-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:25:9-34:20
 65            android:name="io.horizontalsystems.bankwallet.modules.launcher.LauncherActivity"
-65-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:25:13-62
+65-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:26:13-62
 66            android:screenOrientation="portrait"
-66-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:26:13-49
+66-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:27:13-49
 67            android:theme="@style/LauncherTheme" >
-67-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:27:13-49
+67-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:28:13-49
 68            <intent-filter>
-68-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:28:13-32:29
+68-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:29:13-33:29
 69                <action android:name="android.intent.action.MAIN" />
-69-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:29:17-69
-69-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:29:25-66
+69-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:30:17-69
+69-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:30:25-66
 70
 71                <category android:name="android.intent.category.LAUNCHER" />
-71-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:31:17-77
-71-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:31:27-74
+71-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:32:17-77
+71-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:32:27-74
 72            </intent-filter>
 73        </activity>
 74        <activity
-74-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:34:9-37:76
+74-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:35:9-38:76
 75            android:name="io.horizontalsystems.bankwallet.modules.main.MainActivity"
-75-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:35:13-54
+75-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:36:13-54
 76            android:screenOrientation="portrait"
-76-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:36:13-49
+76-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:37:13-49
 77            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-77-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:37:13-73
+77-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:38:13-73
 78        <activity
-78-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:38:9-41:71
+78-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:39:9-42:71
 79            android:name="io.horizontalsystems.bankwallet.modules.send.SendActivity"
-79-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:39:13-54
+79-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:40:13-54
 80            android:screenOrientation="portrait"
-80-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:40:13-49
+80-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:41:13-49
 81            android:windowSoftInputMode="stateVisible|adjustResize" />
-81-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:41:13-68
+81-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:42:13-68
 82        <activity
-82-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:42:9-44:52
+82-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:43:9-45:52
 83            android:name="io.horizontalsystems.bankwallet.modules.qrscanner.QRScannerActivity"
-83-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:43:13-64
+83-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:44:13-64
 84            android:screenOrientation="portrait" />
-84-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:44:13-49
+84-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:45:13-49
 85        <activity
-85-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:45:9-47:52
+85-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:46:9-48:52
 86            android:name="io.horizontalsystems.bankwallet.modules.lockscreen.LockScreenActivity"
-86-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:46:13-66
+86-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:47:13-66
 87            android:screenOrientation="portrait" />
-87-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:47:13-49
+87-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:48:13-49
 88        <activity
-88-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:48:9-51:54
+88-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:49:9-52:54
 89            android:name="io.horizontalsystems.bankwallet.modules.intro.IntroActivity"
-89-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:49:13-56
+89-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:50:13-56
 90            android:screenOrientation="portrait"
-90-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:50:13-49
+90-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:51:13-49
 91            android:theme="@style/OnboardingTheme" />
-91-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:51:13-51
+91-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:52:13-51
 92        <activity
-92-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:52:9-54:52
+92-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:53:9-55:52
 93            android:name="io.horizontalsystems.bankwallet.modules.keystore.KeyStoreActivity"
-93-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:53:13-62
+93-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:54:13-62
 94            android:screenOrientation="portrait" />
-94-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:54:13-49
+94-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:55:13-49
 95        <activity
-95-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:55:9-57:52
+95-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:56:9-58:52
 96            android:name="io.horizontalsystems.bankwallet.modules.rooteddevice.RootedDeviceActivity"
-96-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:56:13-70
+96-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:57:13-70
 97            android:screenOrientation="portrait" />
-97-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:57:13-49
+97-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:58:13-49
 98
 99        <receiver android:name="io.horizontalsystems.bankwallet.core.receiver.BootCompletionReceiver" >
-99-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:59:9-63:20
-99-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:59:19-71
+99-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:60:9-64:20
+99-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:60:19-71
 100            <intent-filter>
-100-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:60:13-62:29
+100-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:61:13-63:29
 101                <action android:name="android.intent.action.BOOT_COMPLETED" />
-101-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:61:17-79
-101-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:61:25-76
+101-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:62:17-79
+101-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:62:25-76
 102            </intent-filter>
 103        </receiver>
 104
 105        <activity
-105-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:47:9-53:63
+105-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:47:9-53:63
 106            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-106-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:48:13-74
+106-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:48:13-74
 107            android:clearTaskOnLaunch="true"
-107-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:49:13-45
+107-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:49:13-45
 108            android:screenOrientation="sensorLandscape"
-108-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:50:13-56
+108-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:50:13-56
 109            android:stateNotNeeded="true"
-109-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:51:13-42
+109-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:51:13-42
 110            android:theme="@style/zxing_CaptureTheme"
-110-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:52:13-54
+110-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:52:13-54
 111            android:windowSoftInputMode="stateAlwaysHidden" />
-111-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/a86f5bb4ac5f2dfbeff347ff359b0b94/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:53:13-60
+111-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/1f7cb79c49e63fbb35a54e12edfc0e22/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:53:13-60
 112
 113        <service
-113-->[com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/46bd3ad12a8df3472d9749fc7ef420a3/jetified-leakcanary-android-2.5/AndroidManifest.xml:23:9-25:40
+113-->[com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/aed3022b7d61faa204728ca5b324a778/jetified-leakcanary-android-2.5/AndroidManifest.xml:23:9-25:40
 114            android:name="leakcanary.internal.HeapAnalyzerService"
-114-->[com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/46bd3ad12a8df3472d9749fc7ef420a3/jetified-leakcanary-android-2.5/AndroidManifest.xml:24:13-67
+114-->[com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/aed3022b7d61faa204728ca5b324a778/jetified-leakcanary-android-2.5/AndroidManifest.xml:24:13-67
 115            android:exported="false" />
-115-->[com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/46bd3ad12a8df3472d9749fc7ef420a3/jetified-leakcanary-android-2.5/AndroidManifest.xml:25:13-37
+115-->[com.squareup.leakcanary:leakcanary-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/aed3022b7d61faa204728ca5b324a778/jetified-leakcanary-android-2.5/AndroidManifest.xml:25:13-37
 116
 117        <activity
-117-->[pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+117-->[pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8c64c8c116cf2f030e8669d2787de784/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
 118            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
-118-->[pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
+118-->[pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8c64c8c116cf2f030e8669d2787de784/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
 119            android:exported="false"
-119-->[pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+119-->[pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8c64c8c116cf2f030e8669d2787de784/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
 120            android:label=""
-120-->[pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+120-->[pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8c64c8c116cf2f030e8669d2787de784/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
 121            android:theme="@style/EasyPermissions.Transparent" />
-121-->[pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/2c121103daa237742b7929648df61a8c/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+121-->[pub.devrel:easypermissions:3.0.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8c64c8c116cf2f030e8669d2787de784/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
 122
 123        <service
-123-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:14:9-17:44
+123-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/47ff52e5c32211c514e8f0f7954d3ff5/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:14:9-17:44
 124            android:name="io.horizontalsystems.tor.TorService"
-124-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:15:13-63
+124-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/47ff52e5c32211c514e8f0f7954d3ff5/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:15:13-63
 125            android:exported="false"
-125-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:16:13-37
+125-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/47ff52e5c32211c514e8f0f7954d3ff5/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:16:13-37
 126            android:stopWithTask="false" />
-126-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f5b0bbfd28d5c5f584cdf58f622d8ee1/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:17:13-41
+126-->[com.github.horizontalsystems:tor-kit-android:2f1bdeb] /Users/mehul/.gradle/caches/transforms-2/files-2.1/47ff52e5c32211c514e8f0f7954d3ff5/jetified-tor-kit-android-2f1bdeb/AndroidManifest.xml:17:13-41
 127
 128        <provider
-128-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
-129            android:name="androidx.work.impl.WorkManagerInitializer"
-129-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:32:13-69
-130            android:authorities="com.dgc.wallet.dev.workmanager-init"
-130-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:33:13-68
-131            android:directBootAware="false"
-131-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:34:13-44
-132            android:exported="false"
-132-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:35:13-37
-133            android:multiprocess="true" />
-133-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:36:13-40
-134
-135        <service
-135-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
-136            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-136-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
-137            android:directBootAware="false"
-137-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
-138            android:enabled="@bool/enable_system_alarm_service_default"
-138-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
-139            android:exported="false" />
-139-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
-140        <service
-140-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
-141            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-141-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
-142            android:directBootAware="false"
-142-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
-143            android:enabled="@bool/enable_system_job_service_default"
-143-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
-144            android:exported="true"
-144-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
-145            android:permission="android.permission.BIND_JOB_SERVICE" />
-145-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
-146        <service
-146-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
-147            android:name="androidx.work.impl.foreground.SystemForegroundService"
-147-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
-148            android:directBootAware="false"
-148-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
-149            android:enabled="@bool/enable_system_foreground_service_default"
-149-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
-150            android:exported="false" />
-150-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
-151
-152        <receiver
-152-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
-153            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-153-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
-154            android:directBootAware="false"
-154-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
-155            android:enabled="true"
-155-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
-156            android:exported="false" />
-156-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
-157        <receiver
-157-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
-158            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-158-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
-159            android:directBootAware="false"
-159-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
-160            android:enabled="false"
-160-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
-161            android:exported="false" >
-161-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
-162            <intent-filter>
-162-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
-163                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-163-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
-163-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
-164                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-164-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
-164-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
-165            </intent-filter>
-166        </receiver>
-167        <receiver
-167-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
-168            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-168-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
-169            android:directBootAware="false"
-169-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
-170            android:enabled="false"
-170-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
-171            android:exported="false" >
-171-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
-172            <intent-filter>
-172-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
-173                <action android:name="android.intent.action.BATTERY_OKAY" />
-173-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
-173-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
-174                <action android:name="android.intent.action.BATTERY_LOW" />
-174-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
-174-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
-175            </intent-filter>
-176        </receiver>
-177        <receiver
-177-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
-178            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-178-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
-179            android:directBootAware="false"
-179-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
-180            android:enabled="false"
-180-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
-181            android:exported="false" >
-181-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
-182            <intent-filter>
-182-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
-183                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-183-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
-183-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
-184                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-184-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
-184-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
-185            </intent-filter>
-186        </receiver>
-187        <receiver
-187-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
-188            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-188-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
-189            android:directBootAware="false"
-189-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
-190            android:enabled="false"
-190-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
-191            android:exported="false" >
-191-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
-192            <intent-filter>
-192-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
-193                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-193-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
-193-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
-194            </intent-filter>
-195        </receiver>
-196        <receiver
-196-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
-197            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-197-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
-198            android:directBootAware="false"
-198-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
-199            android:enabled="false"
-199-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
-200            android:exported="false" >
-200-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
-201            <intent-filter>
-201-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
-202                <action android:name="android.intent.action.BOOT_COMPLETED" />
-202-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:61:17-79
-202-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:61:25-76
-203                <action android:name="android.intent.action.TIME_SET" />
-203-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
-203-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
-204                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-204-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
-204-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
-205            </intent-filter>
-206        </receiver>
-207        <receiver
-207-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
-208            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-208-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
-209            android:directBootAware="false"
-209-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
-210            android:enabled="@bool/enable_system_alarm_service_default"
-210-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
-211            android:exported="false" >
-211-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
-212            <intent-filter>
-212-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
-213                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-213-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
-213-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
-214            </intent-filter>
-215        </receiver>
-216        <receiver
-216-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
-217            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-217-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
-218            android:directBootAware="false"
-218-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
-219            android:enabled="true"
-219-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
-220            android:exported="true"
-220-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
-221            android:permission="android.permission.DUMP" >
-221-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
-222            <intent-filter>
-222-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
-223                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-223-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
-223-->[androidx.work:work-runtime:2.5.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/0e655494dbbcb3f998b2019352e49a09/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
-224            </intent-filter>
-225        </receiver>
-226
-227        <provider
-227-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
-228            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-228-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
-229            android:authorities="com.dgc.wallet.dev.lifecycle-process"
-229-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
-230            android:exported="false"
-230-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
-231            android:multiprocess="true" />
-231-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3d2e5f788cb6e44617cac852fa7422b9/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
-232        <provider
-232-->[com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b2f5944930439c116d1861c3627d85b2/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-233            android:name="com.squareup.picasso.PicassoProvider"
-233-->[com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b2f5944930439c116d1861c3627d85b2/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-234            android:authorities="com.dgc.wallet.dev.com.squareup.picasso"
-234-->[com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b2f5944930439c116d1861c3627d85b2/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-235            android:exported="false" />
-235-->[com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/b2f5944930439c116d1861c3627d85b2/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-236        <provider
-236-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:29:9-37:20
-237            android:name="leakcanary.internal.LeakCanaryFileProvider"
-237-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:30:13-70
-238            android:authorities="com.squareup.leakcanary.fileprovider.com.dgc.wallet.dev"
-238-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:31:13-88
-239            android:exported="false"
-239-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:32:13-37
-240            android:grantUriPermissions="true" >
-240-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:33:13-47
-241            <meta-data
-241-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:34:13-36:66
-242                android:name="android.support.FILE_PROVIDER_PATHS"
-242-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:35:17-67
-243                android:resource="@xml/leak_canary_file_paths" />
-243-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:36:17-63
-244        </provider>
-245
-246        <activity
-246-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:39:9-44:66
-247            android:name="leakcanary.internal.activity.LeakActivity"
-247-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:40:13-69
-248            android:icon="@mipmap/leak_canary_icon"
-248-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:41:13-52
-249            android:label="@string/leak_canary_display_activity_label"
-249-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:42:13-71
-250            android:taskAffinity="com.squareup.leakcanary.com.dgc.wallet.dev"
-250-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:43:13-76
-251            android:theme="@style/leak_canary_LeakCanary.Base" />
-251-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:44:13-63
-252
-253        <activity-alias
-253-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:46:9-62:26
-254            android:name="leakcanary.internal.activity.LeakLauncherActivity"
-254-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:47:13-77
-255            android:banner="@drawable/leak_canary_tv_icon"
-255-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:48:13-59
-256            android:enabled="@bool/leak_canary_add_launcher_icon"
-256-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:49:13-66
-257            android:icon="@mipmap/leak_canary_icon"
-257-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:50:13-52
-258            android:label="@string/leak_canary_display_activity_label"
-258-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:51:13-71
-259            android:targetActivity="leakcanary.internal.activity.LeakActivity"
-259-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:52:13-79
-260            android:taskAffinity="com.squareup.leakcanary.com.dgc.wallet.dev"
-260-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:53:13-76
-261            android:theme="@style/leak_canary_LeakCanary.Base" >
-261-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:54:13-63
-262            <intent-filter>
-262-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:55:13-61:29
-263                <action android:name="android.intent.action.MAIN" />
-263-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:29:17-69
-263-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:29:25-66
-264
-265                <category android:name="android.intent.category.LAUNCHER" />
-265-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:31:17-77
-265-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:31:27-74
-266                <!-- Android TV launcher intent -->
-267                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
-267-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:60:17-86
-267-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:60:27-83
-268            </intent-filter>
-269        </activity-alias>
-270
-271        <activity
-271-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:64:9-70:68
-272            android:name="leakcanary.internal.RequestStoragePermissionActivity"
-272-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:65:13-80
-273            android:excludeFromRecents="true"
-273-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:66:13-46
-274            android:icon="@mipmap/leak_canary_icon"
-274-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:67:13-52
-275            android:label="@string/leak_canary_storage_permission_activity_label"
-275-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:68:13-82
-276            android:taskAffinity="com.squareup.leakcanary.com.dgc.wallet.dev"
-276-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:69:13-76
-277            android:theme="@style/leak_canary_Theme.Transparent" />
-277-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:70:13-65
-278
-279        <receiver android:name="leakcanary.internal.NotificationReceiver" />
-279-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:72:9-77
-279-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/d6b1655ce5f6ae0f39e5af555be7f5e3/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:72:19-74
-280
-281        <provider
-281-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:8:9-12:40
-282            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
-282-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:9:13-79
-283            android:authorities="com.dgc.wallet.dev.leakcanary-installer"
-283-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:10:13-72
-284            android:enabled="@bool/leak_canary_watcher_auto_install"
-284-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:11:13-69
-285            android:exported="false" />
-285-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/3fa9954bdadd42bfb33c76163424fcad/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:12:13-37
-286        <provider
-286-->[com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:8:9-12:40
-287            android:name="leakcanary.internal.PlumberInstaller"
-287-->[com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:9:13-64
-288            android:authorities="com.dgc.wallet.dev.plumber-installer"
-288-->[com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:10:13-69
-289            android:enabled="@bool/leak_canary_plumber_auto_install"
-289-->[com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:11:13-69
-290            android:exported="false" />
-290-->[com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/6bd161bcaa9abc1321a00380d12860a9/jetified-plumber-android-2.5/AndroidManifest.xml:12:13-37
-291
-292        <service
-292-->[androidx.room:room-runtime:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f413e85d06dae20b1b77061a7b723fd4/room-runtime-2.2.6/AndroidManifest.xml:25:9-28:40
-293            android:name="androidx.room.MultiInstanceInvalidationService"
-293-->[androidx.room:room-runtime:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f413e85d06dae20b1b77061a7b723fd4/room-runtime-2.2.6/AndroidManifest.xml:26:13-74
-294            android:directBootAware="true"
-294-->[androidx.room:room-runtime:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f413e85d06dae20b1b77061a7b723fd4/room-runtime-2.2.6/AndroidManifest.xml:27:13-43
-295            android:exported="false" />
-295-->[androidx.room:room-runtime:2.2.6] /Users/mehul/.gradle/caches/transforms-2/files-2.1/f413e85d06dae20b1b77061a7b723fd4/room-runtime-2.2.6/AndroidManifest.xml:28:13-37
-296    </application>
-297
-298</manifest>
+128-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:31:9-39:20
+129            android:name="androidx.startup.InitializationProvider"
+129-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:32:13-67
+130            android:authorities="com.dgc.wallet.dev.androidx-startup"
+130-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:33:13-68
+131            android:exported="false" >
+131-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:34:13-37
+132            <meta-data
+132-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:36:13-38:52
+133                android:name="androidx.work.WorkManagerInitializer"
+133-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:37:17-68
+134                android:value="androidx.startup" />
+134-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:38:17-49
+135            <meta-data
+135-->[androidx.emoji2:emoji2:1.0.0-alpha03] /Users/mehul/.gradle/caches/transforms-2/files-2.1/06270637285481310727ab22ff7bbe4e/jetified-emoji2-1.0.0-alpha03/AndroidManifest.xml:31:13-33:52
+136                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+136-->[androidx.emoji2:emoji2:1.0.0-alpha03] /Users/mehul/.gradle/caches/transforms-2/files-2.1/06270637285481310727ab22ff7bbe4e/jetified-emoji2-1.0.0-alpha03/AndroidManifest.xml:32:17-75
+137                android:value="androidx.startup" />
+137-->[androidx.emoji2:emoji2:1.0.0-alpha03] /Users/mehul/.gradle/caches/transforms-2/files-2.1/06270637285481310727ab22ff7bbe4e/jetified-emoji2-1.0.0-alpha03/AndroidManifest.xml:33:17-49
+138            <meta-data
+138-->[androidx.lifecycle:lifecycle-process:2.4.0-alpha02] /Users/mehul/.gradle/caches/transforms-2/files-2.1/48ed6c67285a354bb05da40c4b744bf1/jetified-lifecycle-process-2.4.0-alpha02/AndroidManifest.xml:31:13-33:52
+139                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+139-->[androidx.lifecycle:lifecycle-process:2.4.0-alpha02] /Users/mehul/.gradle/caches/transforms-2/files-2.1/48ed6c67285a354bb05da40c4b744bf1/jetified-lifecycle-process-2.4.0-alpha02/AndroidManifest.xml:32:17-78
+140                android:value="androidx.startup" />
+140-->[androidx.lifecycle:lifecycle-process:2.4.0-alpha02] /Users/mehul/.gradle/caches/transforms-2/files-2.1/48ed6c67285a354bb05da40c4b744bf1/jetified-lifecycle-process-2.4.0-alpha02/AndroidManifest.xml:33:17-49
+141        </provider>
+142
+143        <service
+143-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:41:9-46:35
+144            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+144-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:42:13-88
+145            android:directBootAware="false"
+145-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:43:13-44
+146            android:enabled="@bool/enable_system_alarm_service_default"
+146-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:44:13-72
+147            android:exported="false" />
+147-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:45:13-37
+148        <service
+148-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:47:9-53:35
+149            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+149-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:48:13-84
+150            android:directBootAware="false"
+150-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:49:13-44
+151            android:enabled="@bool/enable_system_job_service_default"
+151-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:50:13-70
+152            android:exported="true"
+152-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:51:13-36
+153            android:permission="android.permission.BIND_JOB_SERVICE" />
+153-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:52:13-69
+154        <service
+154-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:54:9-59:35
+155            android:name="androidx.work.impl.foreground.SystemForegroundService"
+155-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:55:13-81
+156            android:directBootAware="false"
+156-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:56:13-44
+157            android:enabled="@bool/enable_system_foreground_service_default"
+157-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:57:13-77
+158            android:exported="false" />
+158-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:58:13-37
+159
+160        <receiver
+160-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:61:9-66:35
+161            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+161-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:62:13-88
+162            android:directBootAware="false"
+162-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:63:13-44
+163            android:enabled="true"
+163-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:64:13-35
+164            android:exported="false" />
+164-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:65:13-37
+165        <receiver
+165-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:67:9-77:20
+166            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+166-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:68:13-106
+167            android:directBootAware="false"
+167-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:69:13-44
+168            android:enabled="false"
+168-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:70:13-36
+169            android:exported="false" >
+169-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:71:13-37
+170            <intent-filter>
+170-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:73:13-76:29
+171                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+171-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:74:17-87
+171-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:74:25-84
+172                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+172-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:75:17-90
+172-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:75:25-87
+173            </intent-filter>
+174        </receiver>
+175        <receiver
+175-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:78:9-88:20
+176            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+176-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:79:13-104
+177            android:directBootAware="false"
+177-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:80:13-44
+178            android:enabled="false"
+178-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:81:13-36
+179            android:exported="false" >
+179-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:82:13-37
+180            <intent-filter>
+180-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:84:13-87:29
+181                <action android:name="android.intent.action.BATTERY_OKAY" />
+181-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:85:17-77
+181-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:85:25-74
+182                <action android:name="android.intent.action.BATTERY_LOW" />
+182-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:86:17-76
+182-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:86:25-73
+183            </intent-filter>
+184        </receiver>
+185        <receiver
+185-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:89:9-99:20
+186            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+186-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:90:13-104
+187            android:directBootAware="false"
+187-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:91:13-44
+188            android:enabled="false"
+188-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:92:13-36
+189            android:exported="false" >
+189-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:93:13-37
+190            <intent-filter>
+190-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:95:13-98:29
+191                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+191-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:96:17-83
+191-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:96:25-80
+192                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+192-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:97:17-82
+192-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:97:25-79
+193            </intent-filter>
+194        </receiver>
+195        <receiver
+195-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:100:9-109:20
+196            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+196-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:101:13-103
+197            android:directBootAware="false"
+197-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:102:13-44
+198            android:enabled="false"
+198-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:103:13-36
+199            android:exported="false" >
+199-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:104:13-37
+200            <intent-filter>
+200-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:106:13-108:29
+201                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+201-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:107:17-79
+201-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:107:25-76
+202            </intent-filter>
+203        </receiver>
+204        <receiver
+204-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:110:9-121:20
+205            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+205-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:111:13-88
+206            android:directBootAware="false"
+206-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:112:13-44
+207            android:enabled="false"
+207-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:113:13-36
+208            android:exported="false" >
+208-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:114:13-37
+209            <intent-filter>
+209-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:116:13-120:29
+210                <action android:name="android.intent.action.BOOT_COMPLETED" />
+210-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:62:17-79
+210-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:62:25-76
+211                <action android:name="android.intent.action.TIME_SET" />
+211-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:118:17-73
+211-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:118:25-70
+212                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+212-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:119:17-81
+212-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:119:25-78
+213            </intent-filter>
+214        </receiver>
+215        <receiver
+215-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:122:9-131:20
+216            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+216-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:123:13-99
+217            android:directBootAware="false"
+217-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:124:13-44
+218            android:enabled="@bool/enable_system_alarm_service_default"
+218-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:125:13-72
+219            android:exported="false" >
+219-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:126:13-37
+220            <intent-filter>
+220-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:128:13-130:29
+221                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+221-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:129:17-98
+221-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:129:25-95
+222            </intent-filter>
+223        </receiver>
+224        <receiver
+224-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:132:9-142:20
+225            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+225-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:133:13-78
+226            android:directBootAware="false"
+226-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:134:13-44
+227            android:enabled="true"
+227-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:135:13-35
+228            android:exported="true"
+228-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:136:13-36
+229            android:permission="android.permission.DUMP" >
+229-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:137:13-57
+230            <intent-filter>
+230-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:139:13-141:29
+231                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+231-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:140:17-88
+231-->[androidx.work:work-runtime:2.6.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/adf32a35afd596b188673e63f3a2a224/work-runtime-2.6.0/AndroidManifest.xml:140:25-85
+232            </intent-filter>
+233        </receiver>
+234
+235        <provider
+235-->[com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/c34bb6e55c2ecea4c296bbd3395cf7ae/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+236            android:name="com.squareup.picasso.PicassoProvider"
+236-->[com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/c34bb6e55c2ecea4c296bbd3395cf7ae/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+237            android:authorities="com.dgc.wallet.dev.com.squareup.picasso"
+237-->[com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/c34bb6e55c2ecea4c296bbd3395cf7ae/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+238            android:exported="false" />
+238-->[com.squareup.picasso:picasso:2.71828] /Users/mehul/.gradle/caches/transforms-2/files-2.1/c34bb6e55c2ecea4c296bbd3395cf7ae/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+239        <provider
+239-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:29:9-37:20
+240            android:name="leakcanary.internal.LeakCanaryFileProvider"
+240-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:30:13-70
+241            android:authorities="com.squareup.leakcanary.fileprovider.com.dgc.wallet.dev"
+241-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:31:13-88
+242            android:exported="false"
+242-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:32:13-37
+243            android:grantUriPermissions="true" >
+243-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:33:13-47
+244            <meta-data
+244-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:34:13-36:66
+245                android:name="android.support.FILE_PROVIDER_PATHS"
+245-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:35:17-67
+246                android:resource="@xml/leak_canary_file_paths" />
+246-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:36:17-63
+247        </provider>
+248
+249        <activity
+249-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:39:9-44:66
+250            android:name="leakcanary.internal.activity.LeakActivity"
+250-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:40:13-69
+251            android:icon="@mipmap/leak_canary_icon"
+251-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:41:13-52
+252            android:label="@string/leak_canary_display_activity_label"
+252-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:42:13-71
+253            android:taskAffinity="com.squareup.leakcanary.com.dgc.wallet.dev"
+253-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:43:13-76
+254            android:theme="@style/leak_canary_LeakCanary.Base" />
+254-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:44:13-63
+255
+256        <activity-alias
+256-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:46:9-62:26
+257            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+257-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:47:13-77
+258            android:banner="@drawable/leak_canary_tv_icon"
+258-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:48:13-59
+259            android:enabled="@bool/leak_canary_add_launcher_icon"
+259-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:49:13-66
+260            android:icon="@mipmap/leak_canary_icon"
+260-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:50:13-52
+261            android:label="@string/leak_canary_display_activity_label"
+261-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:51:13-71
+262            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+262-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:52:13-79
+263            android:taskAffinity="com.squareup.leakcanary.com.dgc.wallet.dev"
+263-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:53:13-76
+264            android:theme="@style/leak_canary_LeakCanary.Base" >
+264-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:54:13-63
+265            <intent-filter>
+265-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:55:13-61:29
+266                <action android:name="android.intent.action.MAIN" />
+266-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:30:17-69
+266-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:30:25-66
+267
+268                <category android:name="android.intent.category.LAUNCHER" />
+268-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:32:17-77
+268-->/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/AndroidManifest.xml:32:27-74
+269                <!-- Android TV launcher intent -->
+270                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+270-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:60:17-86
+270-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:60:27-83
+271            </intent-filter>
+272        </activity-alias>
+273
+274        <activity
+274-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:64:9-70:68
+275            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+275-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:65:13-80
+276            android:excludeFromRecents="true"
+276-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:66:13-46
+277            android:icon="@mipmap/leak_canary_icon"
+277-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:67:13-52
+278            android:label="@string/leak_canary_storage_permission_activity_label"
+278-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:68:13-82
+279            android:taskAffinity="com.squareup.leakcanary.com.dgc.wallet.dev"
+279-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:69:13-76
+280            android:theme="@style/leak_canary_Theme.Transparent" />
+280-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:70:13-65
+281
+282        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+282-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:72:9-77
+282-->[com.squareup.leakcanary:leakcanary-android-core:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/8890f21281ace4fec32787f2b4a1b91a/jetified-leakcanary-android-core-2.5/AndroidManifest.xml:72:19-74
+283
+284        <provider
+284-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cdeed9befa3b400986b056efc74021d3/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:8:9-12:40
+285            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+285-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cdeed9befa3b400986b056efc74021d3/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:9:13-79
+286            android:authorities="com.dgc.wallet.dev.leakcanary-installer"
+286-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cdeed9befa3b400986b056efc74021d3/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:10:13-72
+287            android:enabled="@bool/leak_canary_watcher_auto_install"
+287-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cdeed9befa3b400986b056efc74021d3/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:11:13-69
+288            android:exported="false" />
+288-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cdeed9befa3b400986b056efc74021d3/jetified-leakcanary-object-watcher-android-2.5/AndroidManifest.xml:12:13-37
+289        <provider
+289-->[com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/c4f34f2a937783ff0027171c8ba44d7b/jetified-plumber-android-2.5/AndroidManifest.xml:8:9-12:40
+290            android:name="leakcanary.internal.PlumberInstaller"
+290-->[com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/c4f34f2a937783ff0027171c8ba44d7b/jetified-plumber-android-2.5/AndroidManifest.xml:9:13-64
+291            android:authorities="com.dgc.wallet.dev.plumber-installer"
+291-->[com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/c4f34f2a937783ff0027171c8ba44d7b/jetified-plumber-android-2.5/AndroidManifest.xml:10:13-69
+292            android:enabled="@bool/leak_canary_plumber_auto_install"
+292-->[com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/c4f34f2a937783ff0027171c8ba44d7b/jetified-plumber-android-2.5/AndroidManifest.xml:11:13-69
+293            android:exported="false" />
+293-->[com.squareup.leakcanary:plumber-android:2.5] /Users/mehul/.gradle/caches/transforms-2/files-2.1/c4f34f2a937783ff0027171c8ba44d7b/jetified-plumber-android-2.5/AndroidManifest.xml:12:13-37
+294
+295        <service
+295-->[androidx.room:room-runtime:2.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cf351f3f84ffb1c4984cd4a972798e07/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+296            android:name="androidx.room.MultiInstanceInvalidationService"
+296-->[androidx.room:room-runtime:2.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cf351f3f84ffb1c4984cd4a972798e07/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+297            android:directBootAware="true"
+297-->[androidx.room:room-runtime:2.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cf351f3f84ffb1c4984cd4a972798e07/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+298            android:exported="false" />
+298-->[androidx.room:room-runtime:2.3.0] /Users/mehul/.gradle/caches/transforms-2/files-2.1/cf351f3f84ffb1c4984cd4a972798e07/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+299    </application>
+300
+301</manifest>

@@ -12,12 +12,14 @@ import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import io.horizontalsystems.bankwallet.entities.ActiveAccount;
 import io.reactivex.Flowable;
+import java.lang.Class;
 import java.lang.Exception;
 import java.lang.Integer;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
 
@@ -330,28 +332,56 @@ public final class AccountsDao_Impl implements AccountsDao {
       while(_cursor.moveToNext()) {
         final AccountRecord _item;
         final String _tmpId;
-        _tmpId = _cursor.getString(_cursorIndexOfId);
+        if (_cursor.isNull(_cursorIndexOfId)) {
+          _tmpId = null;
+        } else {
+          _tmpId = _cursor.getString(_cursorIndexOfId);
+        }
         final String _tmpName;
-        _tmpName = _cursor.getString(_cursorIndexOfName);
+        if (_cursor.isNull(_cursorIndexOfName)) {
+          _tmpName = null;
+        } else {
+          _tmpName = _cursor.getString(_cursorIndexOfName);
+        }
         final String _tmpType;
-        _tmpType = _cursor.getString(_cursorIndexOfType);
+        if (_cursor.isNull(_cursorIndexOfType)) {
+          _tmpType = null;
+        } else {
+          _tmpType = _cursor.getString(_cursorIndexOfType);
+        }
         final String _tmpOrigin;
-        _tmpOrigin = _cursor.getString(_cursorIndexOfOrigin);
+        if (_cursor.isNull(_cursorIndexOfOrigin)) {
+          _tmpOrigin = null;
+        } else {
+          _tmpOrigin = _cursor.getString(_cursorIndexOfOrigin);
+        }
         final boolean _tmpIsBackedUp;
         final int _tmp;
         _tmp = _cursor.getInt(_cursorIndexOfIsBackedUp);
         _tmpIsBackedUp = _tmp != 0;
         final SecretList _tmpWords;
         final String _tmp_1;
-        _tmp_1 = _cursor.getString(_cursorIndexOfWords);
+        if (_cursor.isNull(_cursorIndexOfWords)) {
+          _tmp_1 = null;
+        } else {
+          _tmp_1 = _cursor.getString(_cursorIndexOfWords);
+        }
         _tmpWords = __databaseConverters.decryptSecretList(_tmp_1);
         final SecretString _tmpPassphrase;
         final String _tmp_2;
-        _tmp_2 = _cursor.getString(_cursorIndexOfPassphrase);
+        if (_cursor.isNull(_cursorIndexOfPassphrase)) {
+          _tmp_2 = null;
+        } else {
+          _tmp_2 = _cursor.getString(_cursorIndexOfPassphrase);
+        }
         _tmpPassphrase = __databaseConverters.decryptSecretString(_tmp_2);
         final SecretString _tmpKey;
         final String _tmp_3;
-        _tmp_3 = _cursor.getString(_cursorIndexOfKey);
+        if (_cursor.isNull(_cursorIndexOfKey)) {
+          _tmp_3 = null;
+        } else {
+          _tmp_3 = _cursor.getString(_cursorIndexOfKey);
+        }
         _tmpKey = __databaseConverters.decryptSecretString(_tmp_3);
         _item = new AccountRecord(_tmpId,_tmpName,_tmpType,_tmpOrigin,_tmpIsBackedUp,_tmpWords,_tmpPassphrase,_tmpKey);
         final boolean _tmpDeleted;
@@ -378,7 +408,11 @@ public final class AccountsDao_Impl implements AccountsDao {
       final List<String> _result = new ArrayList<String>(_cursor.getCount());
       while(_cursor.moveToNext()) {
         final String _item;
-        _item = _cursor.getString(0);
+        if (_cursor.isNull(0)) {
+          _item = null;
+        } else {
+          _item = _cursor.getString(0);
+        }
         _result.add(_item);
       }
       return _result;
@@ -454,9 +488,17 @@ public final class AccountsDao_Impl implements AccountsDao {
       final ActiveAccount _result;
       if(_cursor.moveToFirst()) {
         final String _tmpAccountId;
-        _tmpAccountId = _cursor.getString(_cursorIndexOfAccountId);
+        if (_cursor.isNull(_cursorIndexOfAccountId)) {
+          _tmpAccountId = null;
+        } else {
+          _tmpAccountId = _cursor.getString(_cursorIndexOfAccountId);
+        }
         final String _tmpPrimaryKey;
-        _tmpPrimaryKey = _cursor.getString(_cursorIndexOfPrimaryKey);
+        if (_cursor.isNull(_cursorIndexOfPrimaryKey)) {
+          _tmpPrimaryKey = null;
+        } else {
+          _tmpPrimaryKey = _cursor.getString(_cursorIndexOfPrimaryKey);
+        }
         _result = new ActiveAccount(_tmpAccountId,_tmpPrimaryKey);
       } else {
         _result = null;
@@ -466,5 +508,9 @@ public final class AccountsDao_Impl implements AccountsDao {
       _cursor.close();
       _statement.release();
     }
+  }
+
+  public static List<Class<?>> getRequiredConverters() {
+    return Collections.emptyList();
   }
 }

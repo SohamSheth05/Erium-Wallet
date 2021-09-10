@@ -11,10 +11,12 @@ import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import io.horizontalsystems.bankwallet.entities.PriceAlert;
 import io.horizontalsystems.coinkit2.models.CoinType;
+import java.lang.Class;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @SuppressWarnings({"unchecked", "deprecation"})
@@ -147,17 +149,33 @@ public final class PriceAlertsDao_Impl implements PriceAlertsDao {
         final PriceAlert _item;
         final CoinType _tmpCoinType;
         final String _tmp;
-        _tmp = _cursor.getString(_cursorIndexOfCoinType);
+        if (_cursor.isNull(_cursorIndexOfCoinType)) {
+          _tmp = null;
+        } else {
+          _tmp = _cursor.getString(_cursorIndexOfCoinType);
+        }
         _tmpCoinType = __databaseConverters.toCoinType(_tmp);
         final String _tmpCoinName;
-        _tmpCoinName = _cursor.getString(_cursorIndexOfCoinName);
+        if (_cursor.isNull(_cursorIndexOfCoinName)) {
+          _tmpCoinName = null;
+        } else {
+          _tmpCoinName = _cursor.getString(_cursorIndexOfCoinName);
+        }
         final PriceAlert.ChangeState _tmpChangeState;
         final String _tmp_1;
-        _tmp_1 = _cursor.getString(_cursorIndexOfChangeState);
+        if (_cursor.isNull(_cursorIndexOfChangeState)) {
+          _tmp_1 = null;
+        } else {
+          _tmp_1 = _cursor.getString(_cursorIndexOfChangeState);
+        }
         _tmpChangeState = __databaseConverters.toChangeState(_tmp_1);
         final PriceAlert.TrendState _tmpTrendState;
         final String _tmp_2;
-        _tmp_2 = _cursor.getString(_cursorIndexOfTrendState);
+        if (_cursor.isNull(_cursorIndexOfTrendState)) {
+          _tmp_2 = null;
+        } else {
+          _tmp_2 = _cursor.getString(_cursorIndexOfTrendState);
+        }
         _tmpTrendState = __databaseConverters.toTrendState(_tmp_2);
         _item = new PriceAlert(_tmpCoinType,_tmpCoinName,_tmpChangeState,_tmpTrendState);
         _result.add(_item);
@@ -192,17 +210,33 @@ public final class PriceAlertsDao_Impl implements PriceAlertsDao {
       if(_cursor.moveToFirst()) {
         final CoinType _tmpCoinType;
         final String _tmp_1;
-        _tmp_1 = _cursor.getString(_cursorIndexOfCoinType);
+        if (_cursor.isNull(_cursorIndexOfCoinType)) {
+          _tmp_1 = null;
+        } else {
+          _tmp_1 = _cursor.getString(_cursorIndexOfCoinType);
+        }
         _tmpCoinType = __databaseConverters.toCoinType(_tmp_1);
         final String _tmpCoinName;
-        _tmpCoinName = _cursor.getString(_cursorIndexOfCoinName);
+        if (_cursor.isNull(_cursorIndexOfCoinName)) {
+          _tmpCoinName = null;
+        } else {
+          _tmpCoinName = _cursor.getString(_cursorIndexOfCoinName);
+        }
         final PriceAlert.ChangeState _tmpChangeState;
         final String _tmp_2;
-        _tmp_2 = _cursor.getString(_cursorIndexOfChangeState);
+        if (_cursor.isNull(_cursorIndexOfChangeState)) {
+          _tmp_2 = null;
+        } else {
+          _tmp_2 = _cursor.getString(_cursorIndexOfChangeState);
+        }
         _tmpChangeState = __databaseConverters.toChangeState(_tmp_2);
         final PriceAlert.TrendState _tmpTrendState;
         final String _tmp_3;
-        _tmp_3 = _cursor.getString(_cursorIndexOfTrendState);
+        if (_cursor.isNull(_cursorIndexOfTrendState)) {
+          _tmp_3 = null;
+        } else {
+          _tmp_3 = _cursor.getString(_cursorIndexOfTrendState);
+        }
         _tmpTrendState = __databaseConverters.toTrendState(_tmp_3);
         _result = new PriceAlert(_tmpCoinType,_tmpCoinName,_tmpChangeState,_tmpTrendState);
       } else {
@@ -233,5 +267,9 @@ public final class PriceAlertsDao_Impl implements PriceAlertsDao {
       _cursor.close();
       _statement.release();
     }
+  }
+
+  public static List<Class<?>> getRequiredConverters() {
+    return Collections.emptyList();
   }
 }

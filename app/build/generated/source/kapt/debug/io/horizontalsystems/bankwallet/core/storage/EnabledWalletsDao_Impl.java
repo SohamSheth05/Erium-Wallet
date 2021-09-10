@@ -9,11 +9,13 @@ import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import io.horizontalsystems.bankwallet.entities.EnabledWallet;
+import java.lang.Class;
 import java.lang.Integer;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @SuppressWarnings({"unchecked", "deprecation"})
@@ -169,11 +171,23 @@ public final class EnabledWalletsDao_Impl implements EnabledWalletsDao {
       while(_cursor.moveToNext()) {
         final EnabledWallet _item;
         final String _tmpCoinId;
-        _tmpCoinId = _cursor.getString(_cursorIndexOfCoinId);
+        if (_cursor.isNull(_cursorIndexOfCoinId)) {
+          _tmpCoinId = null;
+        } else {
+          _tmpCoinId = _cursor.getString(_cursorIndexOfCoinId);
+        }
         final String _tmpCoinSettingsId;
-        _tmpCoinSettingsId = _cursor.getString(_cursorIndexOfCoinSettingsId);
+        if (_cursor.isNull(_cursorIndexOfCoinSettingsId)) {
+          _tmpCoinSettingsId = null;
+        } else {
+          _tmpCoinSettingsId = _cursor.getString(_cursorIndexOfCoinSettingsId);
+        }
         final String _tmpAccountId;
-        _tmpAccountId = _cursor.getString(_cursorIndexOfAccountId);
+        if (_cursor.isNull(_cursorIndexOfAccountId)) {
+          _tmpAccountId = null;
+        } else {
+          _tmpAccountId = _cursor.getString(_cursorIndexOfAccountId);
+        }
         final Integer _tmpWalletOrder;
         if (_cursor.isNull(_cursorIndexOfWalletOrder)) {
           _tmpWalletOrder = null;
@@ -211,11 +225,23 @@ public final class EnabledWalletsDao_Impl implements EnabledWalletsDao {
       while(_cursor.moveToNext()) {
         final EnabledWallet _item;
         final String _tmpCoinId;
-        _tmpCoinId = _cursor.getString(_cursorIndexOfCoinId);
+        if (_cursor.isNull(_cursorIndexOfCoinId)) {
+          _tmpCoinId = null;
+        } else {
+          _tmpCoinId = _cursor.getString(_cursorIndexOfCoinId);
+        }
         final String _tmpCoinSettingsId;
-        _tmpCoinSettingsId = _cursor.getString(_cursorIndexOfCoinSettingsId);
+        if (_cursor.isNull(_cursorIndexOfCoinSettingsId)) {
+          _tmpCoinSettingsId = null;
+        } else {
+          _tmpCoinSettingsId = _cursor.getString(_cursorIndexOfCoinSettingsId);
+        }
         final String _tmpAccountId;
-        _tmpAccountId = _cursor.getString(_cursorIndexOfAccountId);
+        if (_cursor.isNull(_cursorIndexOfAccountId)) {
+          _tmpAccountId = null;
+        } else {
+          _tmpAccountId = _cursor.getString(_cursorIndexOfAccountId);
+        }
         final Integer _tmpWalletOrder;
         if (_cursor.isNull(_cursorIndexOfWalletOrder)) {
           _tmpWalletOrder = null;
@@ -230,5 +256,9 @@ public final class EnabledWalletsDao_Impl implements EnabledWalletsDao {
       _cursor.close();
       _statement.release();
     }
+  }
+
+  public static List<Class<?>> getRequiredConverters() {
+    return Collections.emptyList();
   }
 }

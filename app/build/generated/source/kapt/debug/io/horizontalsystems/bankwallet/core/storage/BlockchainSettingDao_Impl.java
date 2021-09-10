@@ -10,10 +10,12 @@ import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import io.horizontalsystems.bankwallet.entities.BlockchainSetting;
 import io.horizontalsystems.coinkit2.models.CoinType;
+import java.lang.Class;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @SuppressWarnings({"unchecked", "deprecation"})
@@ -111,12 +113,24 @@ public final class BlockchainSettingDao_Impl implements BlockchainSettingDao {
         final BlockchainSetting _item;
         final CoinType _tmpCoinType;
         final String _tmp;
-        _tmp = _cursor.getString(_cursorIndexOfCoinType);
+        if (_cursor.isNull(_cursorIndexOfCoinType)) {
+          _tmp = null;
+        } else {
+          _tmp = _cursor.getString(_cursorIndexOfCoinType);
+        }
         _tmpCoinType = __databaseConverters.toCoinType(_tmp);
         final String _tmpKey;
-        _tmpKey = _cursor.getString(_cursorIndexOfKey);
+        if (_cursor.isNull(_cursorIndexOfKey)) {
+          _tmpKey = null;
+        } else {
+          _tmpKey = _cursor.getString(_cursorIndexOfKey);
+        }
         final String _tmpValue;
-        _tmpValue = _cursor.getString(_cursorIndexOfValue);
+        if (_cursor.isNull(_cursorIndexOfValue)) {
+          _tmpValue = null;
+        } else {
+          _tmpValue = _cursor.getString(_cursorIndexOfValue);
+        }
         _item = new BlockchainSetting(_tmpCoinType,_tmpKey,_tmpValue);
         _result.add(_item);
       }
@@ -155,12 +169,24 @@ public final class BlockchainSettingDao_Impl implements BlockchainSettingDao {
       if(_cursor.moveToFirst()) {
         final CoinType _tmpCoinType;
         final String _tmp_1;
-        _tmp_1 = _cursor.getString(_cursorIndexOfCoinType);
+        if (_cursor.isNull(_cursorIndexOfCoinType)) {
+          _tmp_1 = null;
+        } else {
+          _tmp_1 = _cursor.getString(_cursorIndexOfCoinType);
+        }
         _tmpCoinType = __databaseConverters.toCoinType(_tmp_1);
         final String _tmpKey;
-        _tmpKey = _cursor.getString(_cursorIndexOfKey);
+        if (_cursor.isNull(_cursorIndexOfKey)) {
+          _tmpKey = null;
+        } else {
+          _tmpKey = _cursor.getString(_cursorIndexOfKey);
+        }
         final String _tmpValue;
-        _tmpValue = _cursor.getString(_cursorIndexOfValue);
+        if (_cursor.isNull(_cursorIndexOfValue)) {
+          _tmpValue = null;
+        } else {
+          _tmpValue = _cursor.getString(_cursorIndexOfValue);
+        }
         _result = new BlockchainSetting(_tmpCoinType,_tmpKey,_tmpValue);
       } else {
         _result = null;
@@ -170,5 +196,9 @@ public final class BlockchainSettingDao_Impl implements BlockchainSettingDao {
       _cursor.close();
       _statement.release();
     }
+  }
+
+  public static List<Class<?>> getRequiredConverters() {
+    return Collections.emptyList();
   }
 }

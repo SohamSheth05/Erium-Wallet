@@ -13,9 +13,6 @@ import io.horizontalsystems.bankwallet.entities.response.UserData
 import io.horizontalsystems.bankwallet.modules.base.BaseViewModel
 
 class AuthenticationViewModel(val context: Application) : BaseViewModel(context) {
-
-    var email = ObservableField("")
-    var password = ObservableField("")
     val loginObserver = MutableLiveData<UserData?>()
     val registerObserver = MutableLiveData<RegisterResponse>()
     val forgotPasswordObserver = MutableLiveData<Int>()

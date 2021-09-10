@@ -16,8 +16,10 @@ io/horizontalsystems/bankwallet/core/storage/EnabledWalletsDao_Impl.java
  io.horizontalsystems.bankwallet.core.storage.EnabledWalletsDao_Impl$1
  io.horizontalsystems.bankwallet.core.storage.EnabledWalletsDao_Impl$2
  io.horizontalsystems.bankwallet.core.storage.EnabledWalletsDao_Impl$3
-io/horizontalsystems/bankwallet/databinding/FragmentLoginBinding.java
- io.horizontalsystems.bankwallet.databinding.FragmentLoginBinding
+io/horizontalsystems/bankwallet/core/storage/SubscriptionJobDao_Impl.java
+ io.horizontalsystems.bankwallet.core.storage.SubscriptionJobDao_Impl
+ io.horizontalsystems.bankwallet.core.storage.SubscriptionJobDao_Impl$1
+ io.horizontalsystems.bankwallet.core.storage.SubscriptionJobDao_Impl$2
 androidx/databinding/DataBinderMapperImpl.java
  androidx.databinding.DataBinderMapperImpl
 io/horizontalsystems/bankwallet/BuildConfig.java
@@ -26,8 +28,8 @@ androidx/databinding/library/baseAdapters/BR.java
  androidx.databinding.library.baseAdapters.BR
 io/horizontalsystems/bankwallet/core/retrofit/BaseArrayResponse.java
  io.horizontalsystems.bankwallet.core.retrofit.BaseArrayResponse
-io/horizontalsystems/bankwallet/databinding/FragmentLoginBindingImpl.java
- io.horizontalsystems.bankwallet.databinding.FragmentLoginBindingImpl
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
 io/horizontalsystems/bankwallet/core/storage/BlockchainSettingDao_Impl.java
  io.horizontalsystems.bankwallet.core.storage.BlockchainSettingDao_Impl
  io.horizontalsystems.bankwallet.core.storage.BlockchainSettingDao_Impl$1
@@ -62,9 +64,7 @@ io/horizontalsystems/bankwallet/core/storage/MarketFavoritesDao_Impl.java
  io.horizontalsystems.bankwallet.core.storage.MarketFavoritesDao_Impl
  io.horizontalsystems.bankwallet.core.storage.MarketFavoritesDao_Impl$1
  io.horizontalsystems.bankwallet.core.storage.MarketFavoritesDao_Impl$2
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
-io/horizontalsystems/bankwallet/core/storage/SubscriptionJobDao_Impl.java
- io.horizontalsystems.bankwallet.core.storage.SubscriptionJobDao_Impl
- io.horizontalsystems.bankwallet.core.storage.SubscriptionJobDao_Impl$1
- io.horizontalsystems.bankwallet.core.storage.SubscriptionJobDao_Impl$2
+io/horizontalsystems/bankwallet/databinding/FragmentLoginBinding.java
+ io.horizontalsystems.bankwallet.databinding.FragmentLoginBinding
+io/horizontalsystems/bankwallet/databinding/FragmentLoginBindingImpl.java
+ io.horizontalsystems.bankwallet.databinding.FragmentLoginBindingImpl

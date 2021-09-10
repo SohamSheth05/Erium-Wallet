@@ -126,11 +126,19 @@
             android:stopWithTask="false" />
 
         <provider
-            android:name="androidx.work.impl.WorkManagerInitializer"
-            android:authorities="com.dgc.wallet.dev.workmanager-init"
-            android:directBootAware="false"
-            android:exported="false"
-            android:multiprocess="true" />
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.dgc.wallet.dev.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
 
         <service
             android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
@@ -224,11 +232,6 @@
             </intent-filter>
         </receiver>
 
-        <provider
-            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.dgc.wallet.dev.lifecycle-process"
-            android:exported="false"
-            android:multiprocess="true" />
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
             android:authorities="com.dgc.wallet.dev.com.squareup.picasso"

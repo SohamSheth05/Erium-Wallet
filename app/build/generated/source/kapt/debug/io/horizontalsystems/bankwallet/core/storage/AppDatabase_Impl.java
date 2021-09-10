@@ -14,12 +14,15 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import androidx.sqlite.db.SupportSQLiteOpenHelper;
 import androidx.sqlite.db.SupportSQLiteOpenHelper.Callback;
 import androidx.sqlite.db.SupportSQLiteOpenHelper.Configuration;
+import java.lang.Class;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 @SuppressWarnings({"unchecked", "deprecation"})
@@ -312,6 +315,21 @@ public final class AppDatabase_Impl extends AppDatabase {
         _db.execSQL("VACUUM");
       }
     }
+  }
+
+  @Override
+  protected Map<Class<?>, List<Class<?>>> getRequiredTypeConverters() {
+    final HashMap<Class<?>, List<Class<?>>> _typeConvertersMap = new HashMap<Class<?>, List<Class<?>>>();
+    _typeConvertersMap.put(EnabledWalletsDao.class, EnabledWalletsDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(AccountsDao.class, AccountsDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(PriceAlertsDao.class, PriceAlertsDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(BlockchainSettingDao.class, BlockchainSettingDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(RestoreSettingDao.class, RestoreSettingDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(SubscriptionJobDao.class, SubscriptionJobDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(LogsDao.class, LogsDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(MarketFavoritesDao.class, MarketFavoritesDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(WalletConnectSessionDao.class, WalletConnectSessionDao_Impl.getRequiredConverters());
+    return _typeConvertersMap;
   }
 
   @Override

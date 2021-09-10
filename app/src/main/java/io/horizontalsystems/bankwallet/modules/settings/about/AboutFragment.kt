@@ -112,7 +112,7 @@ class AboutFragment : BaseFragment() {
             sendEmail(viewModel.reportEmail)
         }
 
-        val menuItemsAdapter = MainSettingsAdapter(
+        val menuItemsAdapter = MainSettingsAdapter(requireActivity(),
             listOf(
                 whatsNewItem,
                 null,
