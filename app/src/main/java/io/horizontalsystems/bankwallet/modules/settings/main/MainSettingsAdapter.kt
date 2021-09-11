@@ -98,6 +98,7 @@ class MainSettingsAdapter(private val activity : Activity, private val items: Li
         private val companyLogo = containerView.findViewById<ImageView>(R.id.companyLogo)
         private val appName = containerView.findViewById<TextView>(R.id.appName)
         private val tvLogout = containerView.findViewById<TextView>(R.id.tvLogout)
+        private val tvChangePassword = containerView.findViewById<TextView>(R.id.tvChangePassword)
 
         fun bind(context : Activity, item: SettingsMenuBottom) {
             appName.text = item.appName
@@ -110,6 +111,11 @@ class MainSettingsAdapter(private val activity : Activity, private val items: Li
 
             companyLogo.setOnClickListener {
                 item.onClick()
+            }
+
+            tvChangePassword.setOnClickListener {
+                PreferenceHelper.setIsFromChangePassword(true)
+                context.startActivity(Intent(context,AuthenticationActivity::class.java))
             }
 
             tvLogout.setOnClickListener {

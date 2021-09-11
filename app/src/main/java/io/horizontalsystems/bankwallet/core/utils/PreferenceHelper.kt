@@ -107,4 +107,12 @@ object PreferenceHelper {
         return customPrefs(App.getInstance(), APP_PREF)["tokendetail"]
     }
 
+    fun setIsFromChangePassword(token: Boolean?) {
+        customPrefs(App.getInstance(), APP_PREF)["isFromChangePassword"] = token
+    }
+
+    fun isFromChangePassword(): Boolean {
+        return customPrefs(App.getInstance(), APP_PREF)["isFromChangePassword"] ?: false
+    }
+
 }

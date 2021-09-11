@@ -30,6 +30,9 @@
         <action
             android:id="@+id/action_authViewPagerFragment_to_setupSecurityFragment"
             app:destination="@id/setupSecurityFragment" />
+        <action
+            android:id="@+id/action_authViewPagerFragment_to_createPasswordFragment"
+            app:destination="@id/createPasswordFragment" />
     </fragment>
     <fragment
         android:id="@+id/setupSecurityFragment"

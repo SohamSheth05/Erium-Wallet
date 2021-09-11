@@ -56,6 +56,13 @@ class LoginFragment : BaseFragment() {
         return inflater.inflate(R.layout.fragment_login, container, false)
     }
 
+    override fun onResume() {
+        super.onResume()
+        if(PreferenceHelper.isFromChangePassword()) {
+            findNavController().navigate(AuthViewPagerFragmentDirections.actionAuthViewPagerFragmentToCreatePasswordFragment())
+        }
+    }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -95,6 +102,8 @@ class LoginFragment : BaseFragment() {
         }
 
         authenticationViewModel.loginObserver.observe(viewLifecycleOwner, {
+            email.input.text.clear()
+            password.input.text.clear()
             it?.let { it1 -> PreferenceHelper.setUserDetails(it1) }
             /*if(PreferenceHelper.getSetupSecurityCounter()>=3){
                 startActivity(Intent(requireActivity(), LauncherActivity::class.java))
@@ -104,8 +113,6 @@ class LoginFragment : BaseFragment() {
             //}
         })
         authenticationViewModel.apiErrorMessage.observe(viewLifecycleOwner, {
-            email.input.text.clear()
-            password.input.text.clear()
             it?.getContentIfNotHandled()?.let {
                 HudHelper.showErrorMessage(this.requireView(), it)
             }

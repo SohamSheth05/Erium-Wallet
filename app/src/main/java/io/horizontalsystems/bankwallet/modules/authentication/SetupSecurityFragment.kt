@@ -7,11 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import io.horizontalsystems.bankwallet.R
 import io.horizontalsystems.bankwallet.core.App
 import io.horizontalsystems.bankwallet.core.BaseFragment
 import io.horizontalsystems.bankwallet.core.utils.PreferenceHelper
 import io.horizontalsystems.bankwallet.modules.launcher.LauncherActivity
+import io.horizontalsystems.bankwallet.modules.settings.main.MainSettingsModule
+import io.horizontalsystems.bankwallet.modules.settings.main.MainSettingsPresenter
 import io.horizontalsystems.bankwallet.modules.settings.theme.ThemeType
 import kotlinx.android.synthetic.main.fragment_setup_security.*
 import kotlinx.android.synthetic.main.fragment_setup_security.introLayout
@@ -22,6 +26,8 @@ import kotlinx.android.synthetic.main.fragment_setup_security.introLayout
  * create an instance of this fragment.
  */
 class SetupSecurityFragment : BaseFragment() {
+
+    private val presenter by viewModels<MainSettingsPresenter> { MainSettingsModule.Factory() }
 
     companion object {
         var setupSecurityFragment: SetupSecurityFragment? = null

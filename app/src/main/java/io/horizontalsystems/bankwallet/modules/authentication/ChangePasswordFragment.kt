@@ -10,13 +10,16 @@ import androidx.lifecycle.ViewModelProvider
 import io.horizontalsystems.bankwallet.R
 import io.horizontalsystems.bankwallet.core.App
 import io.horizontalsystems.bankwallet.core.BaseFragment
+import io.horizontalsystems.bankwallet.core.utils.PreferenceHelper
 import io.horizontalsystems.bankwallet.modules.launcher.LauncherActivity
 import io.horizontalsystems.bankwallet.modules.settings.theme.ThemeType
 import io.horizontalsystems.bankwallet.modules.swap.tradeoptions.Caution
+import io.horizontalsystems.core.findNavController
 import io.horizontalsystems.core.helpers.HudHelper
 import kotlinx.android.synthetic.main.fragment_create_new_password.*
 import kotlinx.android.synthetic.main.fragment_create_new_password.registrationIcon
 import kotlinx.android.synthetic.main.fragment_forgot_password.*
+import kotlinx.android.synthetic.main.raw_toolbar_with_back_arrow_and_text.*
 import kotlinx.android.synthetic.main.view_input.view.*
 import java.util.*
 
@@ -51,6 +54,12 @@ class ChangePasswordFragment : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        txtScreenName.text = "Change password"
+        ivBackArrow.setOnClickListener {
+            PreferenceHelper.setIsFromChangePassword(false)
+            requireActivity().finish()
+        }
 
         if (App.localStorage.currentTheme == ThemeType.Dark) {
             registrationIcon.setBackgroundResource(R.drawable.dark_logo)
@@ -88,14 +97,14 @@ class ChangePasswordFragment : BaseFragment() {
             }
         }
         authenticationViewModel.changePasswordObserver.observe(viewLifecycleOwner, {
+            password.input.text.clear()
+            oldPassword.input.text.clear()
             if (it == 200) {
                 startActivity(Intent(requireContext(), LauncherActivity::class.java))
             }
         })
 
         authenticationViewModel.apiErrorMessage.observe(viewLifecycleOwner, {
-            password.input.text.clear()
-            oldPassword.input.text.clear()
             it?.getContentIfNotHandled()?.let {
                 HudHelper.showErrorMessage(this.requireView(), it)
             }

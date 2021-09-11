@@ -3463,6 +3463,7 @@ id actionButtonTextView
 id actionDown
 id actionDownUp
 id actionUp
+id action_authViewPagerFragment_to_createPasswordFragment
 id action_authViewPagerFragment_to_forgotPasswordFragment
 id action_authViewPagerFragment_to_setupSecurityFragment
 id action_bar
@@ -4601,6 +4602,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id transparentSquare
 id triangle
+id tvChangePassword
 id tvForgotPassword
 id tvLogout
 id tvlLayout

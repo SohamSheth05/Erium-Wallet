@@ -6,6 +6,7 @@ import androidx.navigation.fragment.NavHostFragment
 import io.horizontalsystems.bankwallet.R
 import io.horizontalsystems.bankwallet.core.App
 import io.horizontalsystems.bankwallet.core.BaseActivity
+import io.horizontalsystems.bankwallet.core.utils.PreferenceHelper
 import io.horizontalsystems.bankwallet.modules.settings.theme.ThemeType
 
 class AuthenticationActivity : BaseActivity() {

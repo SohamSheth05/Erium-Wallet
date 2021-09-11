@@ -83,13 +83,13 @@ class ForgotPasswordFragment : BaseFragment() {
             }
         }
         authenticationViewModel.forgotPasswordObserver.observe(viewLifecycleOwner, {
+            email.input.text.clear()
             if (it == 200) {
                 //activity?.onBackPressed()
                 HudHelper.showErrorMessage(this.requireView(), "Password reset link sent.")
             }
         })
         authenticationViewModel.apiErrorMessage.observe(viewLifecycleOwner, {
-            email.input.text.clear()
             it?.getContentIfNotHandled()?.let {
                 HudHelper.showErrorMessage(this.requireView(), it)
             }
