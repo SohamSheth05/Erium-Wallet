@@ -65,8 +65,8 @@ class SetupSecurityFragment : BaseFragment() {
         }
 
         btnNotNow.setOnClickListener {
-            val counter = PreferenceHelper.getSetupSecurityCounter() + 1
-            PreferenceHelper.setSetupSecurityCounter(counter)
+            //val counter = PreferenceHelper.getSetupSecurityCounter() + 1
+            //PreferenceHelper.setSetupSecurityCounter(counter)
             startActivity(Intent(requireActivity(), LauncherActivity::class.java))
             requireActivity().finish()
         }

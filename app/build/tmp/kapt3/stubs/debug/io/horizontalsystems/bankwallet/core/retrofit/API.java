@@ -15,7 +15,7 @@ public final class API {
     @org.jetbrains.annotations.NotNull()
     public static final java.lang.String UPDATE_PROFILE = "profile/3";
     @org.jetbrains.annotations.NotNull()
-    public static final java.lang.String ADD_WALLET_ADDRESS = "wallet/2";
+    public static final java.lang.String ADD_WALLET_ADDRESS = "wallet";
     @org.jetbrains.annotations.NotNull()
     public static final java.lang.String CHANGE_PASSWORD = "change-password";
     @org.jetbrains.annotations.NotNull()

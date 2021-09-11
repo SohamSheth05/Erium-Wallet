@@ -3464,6 +3464,7 @@ id actionDown
 id actionDownUp
 id actionUp
 id action_authViewPagerFragment_to_forgotPasswordFragment
+id action_authViewPagerFragment_to_setupSecurityFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -3711,7 +3712,6 @@ id coinSubtitle
 id coinTitle
 id coinTypeLabel
 id collapseActionView
-id collapsedBottom
 id commonError
 id companyLogo
 id companyName
@@ -3976,6 +3976,8 @@ id itemTitle
 id itemTxHash
 id itemWithCheckmark
 id item_touch_helper_previous_elevation
+id ivBackArrow
+id ivIcon
 id jumpToEnd
 id jumpToStart
 id kind
@@ -4040,6 +4042,7 @@ id linksLayout
 id listItemMarker
 id listMode
 id list_item
+id llMain
 id loadingShade
 id lockIcon
 id lockImage
@@ -4353,6 +4356,7 @@ id row_index_key
 id rvBlocks
 id rvDetails
 id rvItems
+id rvMain
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -4412,6 +4416,7 @@ id settingsRecyclerView
 id settingsSubtitle
 id settingsTitle
 id settingsValueRight
+id setupSecurityFragment
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -4479,6 +4484,7 @@ id subtitle
 id subtitleText
 id subtitleTextView
 id supportScrollUp
+id svMain
 id swapApproveConfirmationFragment
 id swapApproveConfirmationFragment_to_feeSpeedInfo
 id swapApproveFragment
@@ -4638,6 +4644,7 @@ id txtNumPadNumber
 id txtNumPadText
 id txtPrefix
 id txtPrivacySettingsInfoDetails
+id txtScreenName
 id txtSmallError
 id txtSubtitle
 id txtTitle
@@ -4990,6 +4997,7 @@ layout preference_widget_seekbar
 layout preference_widget_seekbar_material
 layout preference_widget_switch
 layout preference_widget_switch_compat
+layout raw_toolbar_with_back_arrow_and_text
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

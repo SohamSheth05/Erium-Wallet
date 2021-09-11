@@ -220,15 +220,6 @@
                 tools:text="Until Dec 17. 2018" />
         </FrameLayout>
 
-        <View
-            android:id="@+id/collapsedBottom"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginTop="8dp"
-            android:background="@color/red_d"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/balanceWrapper" />
-
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/buttonsWrapper"
             android:layout_width="0dp"
@@ -239,7 +230,7 @@
             android:paddingBottom="8dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/collapsedBottom">
+            app:layout_constraintTop_toBottomOf="@id/balanceWrapper">
 
             <FrameLayout
                 android:id="@+id/lockedBalanceWrapper"
@@ -307,7 +298,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/buttonSend"
                 app:layout_constraintTop_toTopOf="@+id/buttonSend">
-
                 <Button
                     android:id="@+id/buttonSwap"
                     style="@style/ButtonPrimarySteel"

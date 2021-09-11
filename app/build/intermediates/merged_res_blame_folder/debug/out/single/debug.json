@@ -1156,6 +1156,10 @@
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/view_holder_markdown_paragraph.xml"
     },
     {
+        "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_raw_toolbar_with_back_arrow_and_text.xml.flat",
+        "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/raw_toolbar_with_back_arrow_and_text.xml"
+    },
+    {
         "merged": "/Users/mehul/Desktop/Work/Erium-Wallet/app/build/intermediates/res/merged/debug/layout_fragment_bottom_delete.xml.flat",
         "source": "/Users/mehul/Desktop/Work/Erium-Wallet/app/src/main/res/layout/fragment_bottom_delete.xml"
     },

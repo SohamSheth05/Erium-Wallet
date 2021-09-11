@@ -25,6 +25,10 @@ interface APICall {
 
     @POST(API.CHANGE_PASSWORD)
     fun changePassword(@Body param: HashMap<String, String>): Observable<Response<ResponseData<Any>>>
+
+    @POST(API.ADD_WALLET_ADDRESS)
+    fun updatePublicAddress(@Body param: HashMap<String, String>): Observable<Response<ResponseData<Any>>>
+
     /*  @GET(API.CHALLENGE_DETAIL_MOBILE)
       fun getChallengeDetailById(
           @Query("id") id: Int,

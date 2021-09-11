@@ -31,6 +31,13 @@ class APITask : BaseAPITask() {
     ): Disposable? {
         return getRequest(apiCall.changePassword(paramMap), listener, 1)
     }
+
+    fun updatePublicAddress(
+        listener: OnResponseListener,
+        paramMap: HashMap<String, String>
+    ): Disposable? {
+        return getRequest(apiCall.updatePublicAddress(paramMap), listener, 1)
+    }
     /* fun forgotPassword(listener: OnResponseListener, params: LoginModel): Disposable? {
          return getRequest(apiCall.forgotPassword(params), listener, 1)
      }

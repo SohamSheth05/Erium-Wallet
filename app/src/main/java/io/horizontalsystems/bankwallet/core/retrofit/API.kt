@@ -7,7 +7,7 @@ class API {
         const val LOGIN = "login"
         const val GET_PROFILE = "profile"
         const val UPDATE_PROFILE = "profile/3"
-        const val ADD_WALLET_ADDRESS = "wallet/2"
+        const val ADD_WALLET_ADDRESS = "wallet"
         const val CHANGE_PASSWORD = "change-password"
         const val FORGOT_PASSWORD = "forgot-password"
         const val ADD_MPIN = "mpin"

@@ -81,6 +81,11 @@ class IntroActivity : BaseActivity() {
         btnNext.setOnClickListener {
             if (viewPager.currentItem < pagesCount - 1) {
                 viewPager.currentItem = viewPager.currentItem + 1
+                if(viewPager.currentItem==3){
+                    btnNext.setTextColor(getColor(R.color.white))
+                }else {
+                    btnNext.setTextColor(getColor(R.color.dark))
+                }
             } else {
                 viewModel.onClickStart()
             }
@@ -101,7 +106,7 @@ class IntroActivity : BaseActivity() {
     }
 
     private fun updateButton(lastSlide: Boolean) {
-        btnNext.setBackgroundResource(if (lastSlide) R.drawable.button_yellow_background else R.drawable.button_steel_background)
+        btnNext.setBackgroundResource(if (lastSlide) R.drawable.dark_round_corner_button else R.drawable.white_round_corner_button)
         btnNext.setText(if (lastSlide) R.string.Button_Start else R.string.Button_Next)
     }
 

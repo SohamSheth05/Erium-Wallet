@@ -62,7 +62,7 @@ class LoginFragment : BaseFragment() {
         if (App.localStorage.currentTheme == ThemeType.Dark) {
             Log.e("MEHULLL : ", "dark")
             ivIcon.setBackgroundResource(R.drawable.dark_logo)
-        }else{
+        } else {
             Log.e("MEHULLL : ", "light")
             ivIcon.setBackgroundResource(R.drawable.white_logo)
         }
@@ -96,12 +96,12 @@ class LoginFragment : BaseFragment() {
 
         authenticationViewModel.loginObserver.observe(viewLifecycleOwner, {
             it?.let { it1 -> PreferenceHelper.setUserDetails(it1) }
-            if(PreferenceHelper.getSetupSecurityCounter()>=3){
+            /*if(PreferenceHelper.getSetupSecurityCounter()>=3){
                 startActivity(Intent(requireActivity(), LauncherActivity::class.java))
                 requireActivity().finish()
-            }else {
-                findNavController().navigate(AuthViewPagerFragmentDirections.actionAuthViewPagerFragmentToSetupSecurityFragment())
-            }
+            }else {*/
+            findNavController().navigate(AuthViewPagerFragmentDirections.actionAuthViewPagerFragmentToSetupSecurityFragment())
+            //}
         })
         authenticationViewModel.apiErrorMessage.observe(viewLifecycleOwner, {
             email.input.text.clear()

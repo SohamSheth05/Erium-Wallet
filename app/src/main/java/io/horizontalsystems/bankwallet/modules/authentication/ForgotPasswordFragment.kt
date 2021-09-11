@@ -66,10 +66,8 @@ class ForgotPasswordFragment : BaseFragment() {
 
         if (App.localStorage.currentTheme == ThemeType.Dark) {
             registrationIcon.setBackgroundResource(R.drawable.dark_logo)
-            svBackground.setBackgroundColor(requireContext().getColor(R.color.white))
         }else{
             registrationIcon.setBackgroundResource(R.drawable.white_logo)
-            svBackground.setBackgroundColor(requireContext().getColor(R.color.dark))
         }
 
         email.input.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_email, 0, 0, 0)
@@ -86,7 +84,8 @@ class ForgotPasswordFragment : BaseFragment() {
         }
         authenticationViewModel.forgotPasswordObserver.observe(viewLifecycleOwner, {
             if (it == 200) {
-                activity?.onBackPressed()
+                //activity?.onBackPressed()
+                HudHelper.showErrorMessage(this.requireView(), "Password reset link sent.")
             }
         })
         authenticationViewModel.apiErrorMessage.observe(viewLifecycleOwner, {
