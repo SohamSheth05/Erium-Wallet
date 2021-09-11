@@ -94,6 +94,16 @@ class ForgotPasswordFragment : BaseFragment() {
                 HudHelper.showErrorMessage(this.requireView(), it)
             }
         })
+
+        authenticationViewModel.showProgress.observe(viewLifecycleOwner, {
+            it?.getContentIfNotHandled()?.let {
+                if(it){
+                    showProgressBar()
+                }else{
+                    hideProgressBar()
+                }
+            }
+        })
     }
 
     private fun getParam(): HashMap<String, String> {

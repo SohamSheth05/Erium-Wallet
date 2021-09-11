@@ -2325,6 +2325,7 @@ drawable bep2_twt_8c2
 drawable bep2_wicc_01d
 drawable bep2_wrx_ed1
 drawable bep2_xrp_bf2
+drawable bg_white_round_corner_16dp
 drawable binancesmartchain
 drawable bitcoin
 drawable bitcoincash
@@ -4999,6 +5000,7 @@ layout preference_widget_seekbar
 layout preference_widget_seekbar_material
 layout preference_widget_switch
 layout preference_widget_switch_compat
+layout progress_dialog
 layout raw_toolbar_with_back_arrow_and_text
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -5965,6 +5967,7 @@ string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string bscscanKey
+string button_continue
 string button_not_now
 string button_setup
 string character_counter_content_description

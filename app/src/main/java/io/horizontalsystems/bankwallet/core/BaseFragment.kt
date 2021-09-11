@@ -85,4 +85,11 @@ abstract class BaseFragment : Fragment() {
                 }
             }).show(parentFragmentManager, "custom_keyboard_alert")
     }
+
+    fun showProgressBar(){
+        (activity as BaseActivity).showProgressBar()
+    }
+    fun hideProgressBar(){
+        (activity as BaseActivity).hideProgressBar()
+    }
 }

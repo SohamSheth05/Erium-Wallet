@@ -99,6 +99,8 @@ class ChangePasswordFragment : BaseFragment() {
         authenticationViewModel.changePasswordObserver.observe(viewLifecycleOwner, {
             password.input.text.clear()
             oldPassword.input.text.clear()
+            confirmPassword.input.text.clear()
+            PreferenceHelper.setIsFromChangePassword(false)
             if (it == 200) {
                 startActivity(Intent(requireContext(), LauncherActivity::class.java))
             }
@@ -107,6 +109,16 @@ class ChangePasswordFragment : BaseFragment() {
         authenticationViewModel.apiErrorMessage.observe(viewLifecycleOwner, {
             it?.getContentIfNotHandled()?.let {
                 HudHelper.showErrorMessage(this.requireView(), it)
+            }
+        })
+
+        authenticationViewModel.showProgress.observe(viewLifecycleOwner, {
+            it?.getContentIfNotHandled()?.let {
+                if(it){
+                    showProgressBar()
+                }else{
+                    hideProgressBar()
+                }
             }
         })
     }

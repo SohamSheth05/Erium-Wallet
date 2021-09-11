@@ -59,8 +59,6 @@ object PreferenceHelper {
        }*/
 
     fun logout() {
-//        FirebaseAuth.getInstance().signOut()
-//        LoginManager.getInstance().logOut()
         defaultPrefs(App.getInstance()).edit().clear().apply()
     }
 

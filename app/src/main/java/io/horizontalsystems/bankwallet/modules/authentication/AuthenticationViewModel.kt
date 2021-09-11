@@ -69,6 +69,7 @@ class AuthenticationViewModel(val context: Application) : BaseViewModel(context)
     }
 
     fun callForgotPassword(param: HashMap<String, String>) {
+        showProgress.value = Event(true)
         APITask.getInstance().forgotPassword(object : OnResponseListener {
             override fun <T> onResponseReceived(response: T, requestCode: Int) {
                 showProgress.value = Event(false)
@@ -90,6 +91,7 @@ class AuthenticationViewModel(val context: Application) : BaseViewModel(context)
     }
 
     fun callChangePassword(param: HashMap<String, String>) {
+        showProgress.value = Event(true)
         APITask.getInstance().resetPassword(object : OnResponseListener {
             override fun <T> onResponseReceived(response: T, requestCode: Int) {
                 showProgress.value = Event(false)

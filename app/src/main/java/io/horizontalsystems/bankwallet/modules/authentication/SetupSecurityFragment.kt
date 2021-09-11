@@ -67,7 +67,8 @@ class SetupSecurityFragment : BaseFragment() {
         }
 
         btnSetup.setOnClickListener {
-
+            startActivity(Intent(requireActivity(), LauncherActivity::class.java))
+            requireActivity().finish()
         }
 
         btnNotNow.setOnClickListener {

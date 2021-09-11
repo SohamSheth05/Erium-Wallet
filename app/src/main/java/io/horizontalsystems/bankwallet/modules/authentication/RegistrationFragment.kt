@@ -100,6 +100,16 @@ class RegistrationFragment : BaseFragment() {
             }
         })
 
+        registerViewModel.showProgress.observe(viewLifecycleOwner, {
+            it?.getContentIfNotHandled()?.let {
+                if(it){
+                    showProgressBar()
+                }else{
+                    hideProgressBar()
+                }
+            }
+        })
+
     }
 
     private fun validateData() {
